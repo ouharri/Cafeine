@@ -1,0 +1,1 @@
+import{n as r}from"./_plugin-vue2_normalizer.61652a7c.js";const o={};var e=function(){var n=this,t=n._self._c;return t("portal-target",{attrs:{name:"aioseo-modal-portal",multiple:""}})},a=[],s=r(o,e,a,!1,null,null,null,null);const _=s.exports;export{_ as P};

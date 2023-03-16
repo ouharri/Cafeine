@@ -1,0 +1,38 @@
+# Translation of Plugins - WPCode &#8211; Insert Headers and Footers + Custom Code Snippets &#8211; WordPress Code Manager - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WPCode &#8211; Insert Headers and Footers + Custom Code Snippets &#8211; WordPress Code Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-11-23 20:32:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WPCode &#8211; Insert Headers and Footers + Custom Code Snippets &#8211; WordPress Code Manager - Stable (latest release)\n"
+
+#. translators: %s: The `<head>` tag
+#: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:137
+msgid "These scripts will be printed in the %s section."
+msgstr "Ces scripts seront imprimés dans la section %s."
+
+#. translators: %s: The `</body>` tag
+#: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:147
+msgid "These scripts will be printed above the closing %s tag."
+msgstr "Ces scripts seront imprimés au-dessus de la balise de fermeture %s."
+
+#. translators: %s: The `<head>` tag
+#: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:142
+msgid "These scripts will be printed just below the opening %s tag."
+msgstr "Ces scripts seront imprimés juste au-dessous de la balise d’ouverture %s."
+
+#: includes/admin/class-wpcode-admin-page-loader.php:193
+#: includes/admin/pages/class-wpcode-admin-page-settings.php:38
+#: includes/admin/pages/class-wpcode-admin-page-settings.php:163
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:276
+#: includes/admin/pages/class-wpcode-admin-page-settings.php:206
+msgid "Settings Saved."
+msgstr "Réglages enregistrés."

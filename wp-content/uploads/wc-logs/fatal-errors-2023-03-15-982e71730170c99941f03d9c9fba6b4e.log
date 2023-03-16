@@ -1,0 +1,8 @@
+2023-03-15T16:20:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\server\Cafeine\wp-content\themes\astra\inc\blog\blog.php à la ligne 8
+
+2023-03-15T16:20:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\server\Cafeine\wp-content\themes\astra\inc\compatibility\lifterlms\class-astra-lifterlms.php à la ligne 10
+
+2023-03-15T16:20:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\server\Cafeine\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php à la ligne 65
+
+2023-03-15T19:30:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\server\Cafeine\wp-content\plugins\woocommerce-payments\includes\subscriptions\class-wc-payments-subscriptions.php à la ligne 8
+

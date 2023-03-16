@@ -1,0 +1,988 @@
+# Copyright (C) 2017 Remy B
+# This file is distributed under the same license as the Weglot Translate package.
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2017
+# Franck <franckgervais@hotmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Weglot Translate 1.4.3\n"
+"Report-Msgid-Bugs-To: https://wp-translations.pro/\n"
+"POT-Creation-Date: 2020-07-29 08:51+0000\n"
+"PO-Revision-Date: 2020-07-29 08:58+0000\n"
+"Last-Translator: Weglot\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Version: 2.3.3; wp-5.4.2"
+
+#: weglot.php:162
+#, php-format
+msgid "%s Update Rollback"
+msgstr "Mode Debug WordPress"
+
+#: src/helpers/class-helper-excluded-type.php:38
+msgid "URL starts with"
+msgstr "L'URL commence par"
+
+#: src/helpers/class-helper-excluded-type.php:40
+msgid "URL ends with"
+msgstr "L'URL finit par"
+
+#: src/helpers/class-helper-excluded-type.php:42
+msgid "URL contains substring"
+msgstr "L'URL contient la chaîne"
+
+#: src/helpers/class-helper-excluded-type.php:44
+msgid "URL is exactly"
+msgstr "L'URL est exactement"
+
+#: src/helpers/class-helper-excluded-type.php:46
+msgid "URL matches regex"
+msgstr "L'URL valide la regex"
+
+#: src/helpers/class-helper-menu-options-weglot.php:36
+msgid "Hide the current language"
+msgstr "Cacher la langue courrente"
+
+#: src/helpers/class-helper-menu-options-weglot.php:40
+msgid "Show as dropdown (By default it's a list)"
+msgstr "Afficher comme liste déroulante (liste par défaut)"
+
+#: src/helpers/class-helper-tabs-admin-weglot.php:64
+#: src/actions/admin/class-plugin-links-weglot.php:38
+msgid "Settings"
+msgstr "Réglages"
+
+#: src/helpers/class-helper-tabs-admin-weglot.php:68
+#: templates/admin/pages/tabs/status.php:11
+msgid "Status"
+msgstr "Statut"
+
+#: src/helpers/class-helper-tabs-admin-weglot.php:72
+#: templates/admin/pages/tabs/custom-urls.php:10
+msgid "Custom URLs"
+msgstr "URL personnalisées"
+
+#. Plugin Name of the plugin/theme
+#: src/widgets/class-widget-selector-weglot.php:18
+msgid "Weglot Translate"
+msgstr "Weglot Translate"
+
+#: src/widgets/class-widget-selector-weglot.php:20
+msgid "Display Weglot selector in widget"
+msgstr "Afficher le sélecteur Weglot dans le widget"
+
+#: src/widgets/class-widget-selector-weglot.php:62
+msgid "Title:"
+msgstr "Titre :"
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/notices/no-configuration.php:17
+#, php-format
+msgid ""
+"Weglot Translate is installed but not yet configured, you need to configure "
+"Weglot here : %1$sWeglot configuration page%2$s. The configuration takes "
+"only 1 minute! "
+msgstr ""
+"Weglot est installé mais n'est pas encore configuré, Vous devez de "
+"configurer ici : %1$sPage de configuration Weglot%2$s. Cela ne prends qu'une "
+"minute !"
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/notices/json-function.php:12
+msgid ""
+"Weglot Translate: You need to activate package php-json. If you need help, "
+"please contact your host or just ask us directly at support@weglot.com."
+msgstr ""
+"Weglot : Vous devez activer le package php-json. Si vous avez besoin d'aide, "
+"veuillez contacter votre hôte ou simplement nous demander directement à "
+"support@weglot.com."
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/notices/no-curl.php:12
+msgid ""
+"Weglot Translate: You need to activate cURL. If you need help, just ask us "
+"directly at support@weglot.com."
+msgstr ""
+"Weglot : Vous devez activer cURL. Si vous avez besoin d'aide, demandez-nous "
+"directement à support@weglot.com."
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/notices/rewrite-module.php:12
+#, php-format
+msgid ""
+"Weglot Translate: You need to activate the mod_rewrite module. You can find "
+"more information here : %1$sUsing Permalinks%2$s. If you need help, just ask "
+"us directly at support@weglot.com."
+msgstr ""
+"Weglot : Vous devez activer le module mod_rewrite. Vous pouvez trouver plus "
+"d'informations ici: %1$sUtilisation des permaliens%2$s. Si vous avez besoin "
+"d'aide, demandez directement à support@weglot.com."
+
+#. 1 is a plugin name, 2 is Weglot version, 3 is current php version.
+#: templates/admin/notices/php-min.php:12
+#, php-format
+msgid ""
+"%1$s  requires PHP %2$s minimum, your website is actually running version "
+"%3$s."
+msgstr ""
+"%1$s nécessite PHP %2$s minimum, votre site utilise actuellement la version "
+"%3$s."
+
+#: templates/admin/notices/php-min.php:17
+msgid ""
+"If you are not able to upgrade, you can rollback to the previous version by "
+"using the button below."
+msgstr ""
+"Si vous ne parvenez pas à effectuer la mise à jour, vous pouvez revenir à la "
+"version précédente en utilisant le bouton ci-dessous."
+
+#: templates/admin/notices/php-min.php:22
+msgid "Re-install version 1.13.1"
+msgstr "Re-installer la version 1.13.1"
+
+#: templates/admin/pages/settings.php:59
+msgid "Love Weglot? Give us 5 stars on WordPress.org"
+msgstr "Vous aimez Weglot ? Donnez-nous 5 étoiles sur WordPress.org"
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/pages/settings.php:64
+#, php-format
+msgid ""
+"If you need any help, you can contact us via email us at %1$ssupport@weglot."
+"com%2$s."
+msgstr ""
+"Si vous avez besoin d'aide, vous pouvez nous contacter par e-mail à "
+"%1$ssupport@weglot.com%2$s."
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/pages/settings.php:67
+#, php-format
+msgid "You can also check our %1$sFAQ%2$s."
+msgstr "Vous pouvez aussi regarder notre %1$sFAQ%2$s."
+
+#: templates/admin/pages/settings.php:76
+msgid "Where are my translations?"
+msgstr "Où trouver mes traductions ?"
+
+#: templates/admin/pages/settings.php:78
+msgid "You can find all your translations in your Weglot account:"
+msgstr "Vous pouvez trouver toutes vos traductions dans votre compte Weglot :"
+
+#: templates/admin/pages/settings.php:80
+msgid "Edit my translations"
+msgstr "Modifier mes traductions"
+
+#: templates/admin/metaboxes/url-translate.php:13
+msgid ""
+"You must first create the page a first time before you can benefit from "
+"custom URLs"
+msgstr ""
+"Vous devez créer la page dans un premier temps pour bénéficier des URLs "
+"personnalisées"
+
+#: templates/admin/metaboxes/url-translate.php:68
+msgid "Edit"
+msgstr "Éditer "
+
+#: templates/admin/metaboxes/url-translate.php:70
+msgid "Ok"
+msgstr "OK"
+
+#: templates/admin/metaboxes/url-translate.php:72
+msgid "The permalink is not available."
+msgstr "Le permalien n'est pas valide"
+
+#: templates/admin/metaboxes/url-translate.php:74
+msgid "Reset custom url"
+msgstr "Réinitialiser l'URL personnalisée"
+
+#: src/actions/admin/class-customize-menu-weglot.php:114
+msgid "Weglot switcher"
+msgstr "Sélecteur Weglot"
+
+#: src/actions/admin/class-customize-menu-weglot.php:129
+msgid "Weglot Switcher"
+msgstr "Sélecteur Weglot"
+
+#: src/actions/admin/class-customize-menu-weglot.php:140
+msgid "Add to menu"
+msgstr "Ajouter au menu"
+
+#: src/actions/admin/class-metabox-url-translate-weglot.php:246
+msgid "Weglot URL Translate"
+msgstr "URL Weglot traduite"
+
+#: src/actions/admin/class-pages-weglot.php:71
+msgid "Plugin settings"
+msgstr "Paramètres de l'extension"
+
+#: src/actions/admin/class-pages-weglot.php:80
+msgid "Weglot dashboard"
+msgstr "Tableau de bord Weglot"
+
+#: src/actions/admin/class-pages-weglot.php:92
+msgid "Edit with visual editor"
+msgstr "Éditer avec l'éditeur visuel"
+
+#: src/actions/front/class-front-menu-weglot.php:112
+msgid "Choose your language"
+msgstr "Choisissez votre langue"
+
+#: templates/admin/pages/tabs/support.php:10
+#: templates/admin/pages/tabs/advanced.php:51
+msgid "[WooCommerce] : Prevent reload cart"
+msgstr "[WooCommerce] : Empêcher le rechargement du panier"
+
+#: templates/admin/pages/tabs/support.php:11
+#: templates/admin/pages/tabs/advanced.php:52
+msgid ""
+"You should only enable this option if you have translation errors on your "
+"cart widget."
+msgstr ""
+"Vous ne devez activer cette option que si vous rencontrez des erreurs de "
+"traduction sur votre widget panier."
+
+#: templates/admin/pages/tabs/support.php:18
+msgid "Options for support"
+msgstr "Options d'assistance"
+
+#: templates/admin/pages/tabs/settings.php:11
+msgid "API Key"
+msgstr "Clé API"
+
+#: templates/admin/pages/tabs/settings.php:12
+#, php-format
+msgid "Log in to %1$sWeglot%2$s to get your API key."
+msgstr "Connectez-vous à %1$sWeglot%2$s Pour obtenir votre clé API."
+
+#: templates/admin/pages/tabs/settings.php:16
+msgid "Original language"
+msgstr "Langue d’origine"
+
+#: templates/admin/pages/tabs/settings.php:21
+msgid "Destination languages"
+msgstr "Langues de destination"
+
+#: templates/admin/pages/tabs/settings.php:22
+#, php-format
+msgid ""
+"Choose languages you want to translate into. Supported languages can be "
+"found %1$shere%2$s."
+msgstr ""
+"Choisissez les langues dans lesquelles vous souhaitez traduire. Les langues "
+"prises en charge peuvent être trouvées %1$ici%2$s."
+
+#: templates/admin/pages/tabs/settings.php:34
+msgid "Main configuration"
+msgstr "Configuration principale"
+
+#: templates/admin/pages/tabs/settings.php:57
+msgid "If you don't have an account, you can create one in 20 seconds !"
+msgstr "Si vous n'avez pas de compte, vous pouvez en créer un en 20 secondes!"
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/pages/tabs/settings.php:133
+#, php-format
+msgid ""
+"On the free plan, you can choose one language and use a maximum of 2000 "
+"words. If you need more, please %1$supgrade your plan%2$s."
+msgstr ""
+"Avec le plan gratuit, vous pouvez choisir une langue et utiliser un maximum "
+"de 2000 mots. Si vous avez besoin de plus, veuillez %1$smettre à niveau "
+"votre plan%2$s."
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/pages/tabs/settings.php:140
+#, php-format
+msgid ""
+"On the Starter plan, you can choose one language. If you need more, please "
+"%1$supgrade your plan%2$s."
+msgstr ""
+"Avec le plan Starter, vous pouvez choisir une langue. Si vous avez besoin de "
+"plus, veuillez %1$smettre à niveau votre plan%2$s."
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/pages/tabs/settings.php:147
+#, php-format
+msgid ""
+"On the Business plan, you can choose 3 languages. If you need more, "
+"please %1$supgrade your plan%2$s."
+msgstr ""
+"Avec le plan Business, vous pouvez choisir trois langues. Si vous avez besoin "
+"de plus, veuillez %1$smettre à niveau votre plan%2$s."
+
+#: templates/admin/pages/tabs/settings.php:162
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/admin/pages/tabs/settings.php:163
+msgid "Well done! Your website is now multilingual."
+msgstr "Bien joué ! Votre site Web est maintenant multilingue."
+
+#: templates/admin/pages/tabs/settings.php:164
+msgid ""
+"Go on your website, there is a language switcher bottom right. Try it :)"
+msgstr ""
+"Rendez-vous sur votre site, il y a un sélecteur de langue en bas à droite. "
+"Essayez-le :)"
+
+#: templates/admin/pages/tabs/settings.php:166
+msgid "Go on my front page."
+msgstr "Aller sur ma page d'accueil"
+
+#: templates/admin/pages/tabs/settings.php:168
+msgid ""
+"Next step, customize the language button as you want and manually edit your "
+"translations directly in your Weglot account."
+msgstr ""
+"Prochaine étape, personnalisez le bouton de langue comme vous le souhaitez "
+"et modifiez manuellement vos traductions directement dans votre compte "
+"Weglot."
+
+#: templates/admin/pages/tabs/status.php:42
+msgid "Home URL"
+msgstr "URL de la page d'accueil"
+
+#: templates/admin/pages/tabs/status.php:46
+msgid "Site URL"
+msgstr "URL du site"
+
+#: templates/admin/pages/tabs/status.php:50
+msgid "Weglot version"
+msgstr "Version de Weglot"
+
+#: templates/admin/pages/tabs/status.php:54
+msgid "WordPress version"
+msgstr "Version de WordPress"
+
+#: templates/admin/pages/tabs/status.php:58
+msgid "Is multisite"
+msgstr "Est un multisite"
+
+#: templates/admin/pages/tabs/status.php:64
+msgid "WordPress Debug mode"
+msgstr "Mode Debug WordPress"
+
+#: templates/admin/pages/tabs/status.php:72
+msgid "Permalink Structure"
+msgstr "Structure des permaliens"
+
+#: templates/admin/pages/tabs/status.php:76
+msgid "Language"
+msgstr "Langue"
+
+#: templates/admin/pages/tabs/status.php:85
+msgid "Server environment"
+msgstr "Environnement serveur"
+
+#: templates/admin/pages/tabs/status.php:90
+msgid "Server info"
+msgstr "Informations serveur"
+
+#: templates/admin/pages/tabs/status.php:94
+msgid "PHP Version"
+msgstr "Version PHP"
+
+#: templates/admin/pages/tabs/status.php:100
+msgid "We need a minimum PHP version : 5.4."
+msgstr "Nous avons besoin d'une version minimum de PHP 5.4."
+
+#: templates/admin/pages/tabs/status.php:106
+msgid "Module mod_rewrite"
+msgstr "Module mod_rewrite"
+
+#: templates/admin/pages/tabs/status.php:117
+msgid "Weglot environment"
+msgstr "Environnement Weglot"
+
+#: templates/admin/pages/tabs/status.php:122
+msgid "Original Language"
+msgstr "Langue d’origine"
+
+#: templates/admin/pages/tabs/status.php:126
+msgid "Destination Language"
+msgstr "Langue de destination"
+
+#: templates/admin/pages/tabs/status.php:134
+msgid "Exclude URLs"
+msgstr "URLs exclues"
+
+#: templates/admin/pages/tabs/status.php:146
+msgid "Empty"
+msgstr "Vide"
+
+#: templates/admin/pages/tabs/status.php:152
+msgid "Exclude Blocks"
+msgstr "Blocs exclus"
+
+#: templates/admin/pages/tabs/status.php:159
+msgid "Custom URLS"
+msgstr "URLs perssonnalisées"
+
+#: templates/admin/pages/tabs/advanced.php:16
+msgid "Exclusion URL"
+msgstr "Exclusion d'URL"
+
+#: templates/admin/pages/tabs/advanced.php:17
+msgid ""
+"Add URL that you want to exclude from translations. You can use regular "
+"expression to match multiple URLs. "
+msgstr ""
+"Ajoutez l'URL que vous souhaitez exclure des traductions. Vous pouvez "
+"utiliser une expression régulière pour faire correspondre plusieurs URL."
+
+#: templates/admin/pages/tabs/advanced.php:21
+msgid "Exclusion Blocks"
+msgstr "Exclusion de blocs"
+
+#: templates/admin/pages/tabs/advanced.php:22
+msgid ""
+"Enter the CSS selector of blocks you don't want to translate (like a sidebar,"
+" a menu, a paragraph, etc...)"
+msgstr ""
+"Entrez les sélecteurs CSS des blocs que vous ne voulez pas traduire (comme "
+"une barre latérale, un menu, un paragraphe, etc.)"
+
+#: templates/admin/pages/tabs/advanced.php:26
+msgid "Auto redirection"
+msgstr "Redirection automatique"
+
+#: templates/admin/pages/tabs/advanced.php:27
+msgid "Check if you want to redirect users based on their browser language."
+msgstr ""
+"Cochez si vous souhaitez rediriger les utilisateurs en fonction de la langue "
+"de leur navigateur."
+
+#: templates/admin/pages/tabs/advanced.php:31
+msgid "Translate email"
+msgstr "Traduction d'email"
+
+#: templates/admin/pages/tabs/advanced.php:32
+msgid "Check to translate all emails who use function wp_mail"
+msgstr "Cochez pour traduire tous les emails qui utilisent la fonction wp_mail"
+
+#: templates/admin/pages/tabs/advanced.php:36
+msgid "Translate AMP"
+msgstr "Traduction AMP"
+
+#: templates/admin/pages/tabs/advanced.php:37
+msgid "Translate AMP page"
+msgstr "Traduire les pages AMP"
+
+#: templates/admin/pages/tabs/advanced.php:41
+msgid "Search WordPress"
+msgstr "Recherche WordPress"
+
+#: templates/admin/pages/tabs/advanced.php:42
+msgid "Allow your users to search in the language they use."
+msgstr ""
+"Permettre à vos utilisateurs de faire des recherches dans la langue qu'ils "
+"utilisent."
+
+#: templates/admin/pages/tabs/advanced.php:46
+msgid "Private mode"
+msgstr "Mode privé"
+
+#: templates/admin/pages/tabs/advanced.php:47
+msgid "Check if your only want admin users to see the translations"
+msgstr ""
+"Cochez si vous souhaitez uniquement que les utilisateurs administrateurs "
+"voient les traductions"
+
+#: templates/admin/pages/tabs/advanced.php:67
+msgid "Translation Exclusion (Optional)"
+msgstr "Exclusion de traduction (facultatif)"
+
+#: templates/admin/pages/tabs/advanced.php:69
+msgid ""
+"By default, every page is translated. You can exclude parts of a page or a "
+"full page here."
+msgstr ""
+"Par défaut, chaque page est traduite. Vous pouvez exclure des parties d'une "
+"page ou une page complète ici."
+
+#: templates/admin/pages/tabs/advanced.php:80
+msgid "Manage URL to exclude"
+msgstr "Gérer les URLs à exclure"
+
+#: templates/admin/pages/tabs/advanced.php:112
+msgid "Add a block to exclude"
+msgstr "Ajouter un bloc à exclure"
+
+#: templates/admin/pages/tabs/advanced.php:118
+msgid "Other options (Optional)"
+msgstr "Autres options (facultatif)"
+
+#. 1 Local name language
+#: templates/admin/pages/tabs/advanced.php:225
+#, php-format
+msgid "Make \"%s\" a private language"
+msgstr "Rendre la langue \"%s\" privée"
+
+#: templates/admin/pages/tabs/custom-urls.php:21
+msgid "All customs URLs was reseted."
+msgstr "Toutes les URL personnalisées ont été réinitialisées."
+
+#: templates/admin/pages/tabs/custom-urls.php:37
+msgid "Lang : "
+msgstr "Langue"
+
+#: templates/admin/pages/tabs/custom-urls.php:41
+msgid "Base URL :"
+msgstr "Base de l'URL :"
+
+#: templates/admin/pages/tabs/custom-urls.php:44
+msgid "Custom URL :"
+msgstr "URL personnalisées :"
+
+#: templates/admin/pages/tabs/custom-urls.php:101
+msgid "Reset all Weglot custom URLs"
+msgstr "Réinitialiser toutes les URLs personnalisées Weglot"
+
+#: templates/admin/pages/tabs/custom-urls.php:105
+msgid "No custom URL found."
+msgstr "Aucune URL personnalisée trouvée."
+
+#: templates/admin/pages/tabs/custom-urls.php:115
+msgid "Are you sure to reset all custom URLs?"
+msgstr "Êtes-vous sûr de réinitialiser toutes les URLs personnalisées ?"
+
+#: templates/admin/pages/tabs/appearance.php:12
+msgid "Type of flags"
+msgstr "Type de drapeaux"
+
+#: templates/admin/pages/tabs/appearance.php:17
+msgid "Is fullname"
+msgstr "Nom complet"
+
+#: templates/admin/pages/tabs/appearance.php:18
+msgid ""
+"Check if you want the name of the language. Don't check if you want the "
+"language code."
+msgstr ""
+"Cochez si vous voulez le nom du language. Sinon ce sera le code du language."
+
+#: templates/admin/pages/tabs/appearance.php:22
+msgid "With name"
+msgstr "Avec le nom"
+
+#: templates/admin/pages/tabs/appearance.php:23
+msgid "Check if you want to display the name of languages."
+msgstr "Cochez si vous souhaitez afficher le nom des langues."
+
+#: templates/admin/pages/tabs/appearance.php:27
+msgid "Is dropdown"
+msgstr "Est une liste déroulante"
+
+#: templates/admin/pages/tabs/appearance.php:28
+msgid "Check if you want the button to be a dropdown box."
+msgstr "Cochez si vous voulez que le bouton soit une liste déroulante."
+
+#: templates/admin/pages/tabs/appearance.php:32
+msgid "With flags"
+msgstr "Avec les drapeaux"
+
+#: templates/admin/pages/tabs/appearance.php:33
+msgid "Check if you want flags in the language button."
+msgstr ""
+"Cochez si vous souhaitez avoir des drapeaux dans votre bouton de choix de "
+"langue"
+
+#: templates/admin/pages/tabs/appearance.php:37
+msgid "Override CSS"
+msgstr "Remplacer le CSS"
+
+#: templates/admin/pages/tabs/appearance.php:38
+msgid "Don't change it unless you want a specific style for your button."
+msgstr "Ne changez rien sauf si vous voulez un style de bouton spécifique."
+
+#: templates/admin/pages/tabs/appearance.php:51
+msgid "Language button design"
+msgstr "Design du bouton de langues"
+
+#: templates/admin/pages/tabs/appearance.php:51
+#: templates/admin/pages/tabs/appearance.php:279
+msgid "(Optional)"
+msgstr "(facultatif)"
+
+#: templates/admin/pages/tabs/appearance.php:59
+msgid "Button preview"
+msgstr "Aperçu du bouton"
+
+#: templates/admin/pages/tabs/appearance.php:115
+msgid "Rectangle mat"
+msgstr "Rectangle mat"
+
+#: templates/admin/pages/tabs/appearance.php:122
+msgid "Rectangle shiny"
+msgstr "Rectangle brillant"
+
+#: templates/admin/pages/tabs/appearance.php:129
+msgid "Square"
+msgstr "Carré"
+
+#: templates/admin/pages/tabs/appearance.php:136
+msgid "Circle"
+msgstr "Cercle"
+
+#: templates/admin/pages/tabs/appearance.php:139
+msgid "Change country flags"
+msgstr "Changer les drapeaux de pays"
+
+#: templates/admin/pages/tabs/appearance.php:142
+msgid "Choose English flag:"
+msgstr "Choisissez le drapeau pour l'anglais :"
+
+#: templates/admin/pages/tabs/appearance.php:143
+msgid "United Kingdom (default)"
+msgstr "Royaume-Uni (par défaut)"
+
+#: templates/admin/pages/tabs/appearance.php:144
+msgid "United States"
+msgstr "Etats-Unis"
+
+#: templates/admin/pages/tabs/appearance.php:145
+msgid "Australia"
+msgstr "Australie"
+
+#: templates/admin/pages/tabs/appearance.php:146
+#: templates/admin/pages/tabs/appearance.php:183
+msgid "Canada"
+msgstr "Canada"
+
+#: templates/admin/pages/tabs/appearance.php:147
+msgid "New Zealand"
+msgstr "Nouvelle-Zélande"
+
+#: templates/admin/pages/tabs/appearance.php:148
+msgid "Jamaica"
+msgstr "Jamaïque"
+
+#: templates/admin/pages/tabs/appearance.php:149
+msgid "Ireland"
+msgstr "Irlande"
+
+#: templates/admin/pages/tabs/appearance.php:152
+msgid "Choose Spanish flag:"
+msgstr "Choisissez le drapeau pour l'espagnol :"
+
+#: templates/admin/pages/tabs/appearance.php:153
+msgid "Spain (default)"
+msgstr "Espagne (par défaut)"
+
+#: templates/admin/pages/tabs/appearance.php:154
+msgid "Mexico"
+msgstr "Mexique"
+
+#: templates/admin/pages/tabs/appearance.php:155
+msgid "Argentina"
+msgstr "Argentine"
+
+#: templates/admin/pages/tabs/appearance.php:156
+msgid "Colombia"
+msgstr "Colombie"
+
+#: templates/admin/pages/tabs/appearance.php:157
+msgid "Peru"
+msgstr "Pérou"
+
+#: templates/admin/pages/tabs/appearance.php:158
+msgid "Bolivia"
+msgstr "Bolivie"
+
+#: templates/admin/pages/tabs/appearance.php:159
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: templates/admin/pages/tabs/appearance.php:160
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: templates/admin/pages/tabs/appearance.php:161
+msgid "Chile"
+msgstr "Chili"
+
+#: templates/admin/pages/tabs/appearance.php:162
+msgid "Ecuador"
+msgstr "Équateur"
+
+#: templates/admin/pages/tabs/appearance.php:163
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: templates/admin/pages/tabs/appearance.php:164
+msgid "Cuba"
+msgstr "Cuba"
+
+#: templates/admin/pages/tabs/appearance.php:165
+msgid "Dominican Republic"
+msgstr "République Dominicaine"
+
+#: templates/admin/pages/tabs/appearance.php:166
+msgid "Honduras"
+msgstr "Honduras"
+
+#: templates/admin/pages/tabs/appearance.php:167
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: templates/admin/pages/tabs/appearance.php:168
+msgid "El Salvador"
+msgstr "Salvador"
+
+#: templates/admin/pages/tabs/appearance.php:169
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: templates/admin/pages/tabs/appearance.php:170
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: templates/admin/pages/tabs/appearance.php:171
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: templates/admin/pages/tabs/appearance.php:172
+msgid "Panama"
+msgstr "Panama"
+
+#: templates/admin/pages/tabs/appearance.php:175
+msgid "Choose Portuguese flag:"
+msgstr "Choisissez le drapeau pour le portugais :"
+
+#: templates/admin/pages/tabs/appearance.php:176
+msgid "Brazil (default)"
+msgstr "Brésil (par défaut)"
+
+#: templates/admin/pages/tabs/appearance.php:177
+msgid "Portugal"
+msgstr "Portugal"
+
+#: templates/admin/pages/tabs/appearance.php:180
+msgid "Choose French flag:"
+msgstr "Choisissez le drapeau pour le français :"
+
+#: templates/admin/pages/tabs/appearance.php:181
+msgid "France (default)"
+msgstr "France (par défaut)"
+
+#: templates/admin/pages/tabs/appearance.php:182
+msgid "Belgium"
+msgstr "Belgique"
+
+#: templates/admin/pages/tabs/appearance.php:184
+msgid "Switzerland"
+msgstr "Suisse"
+
+#: templates/admin/pages/tabs/appearance.php:185
+msgid "Luxemburg"
+msgstr "Luxemburg"
+
+#: templates/admin/pages/tabs/appearance.php:188
+msgid "Choose Arabic flag:"
+msgstr "Choisissez le drapeau pour l'arabe :"
+
+#: templates/admin/pages/tabs/appearance.php:189
+msgid "Saudi Arabia (default)"
+msgstr "Arabie saoudite (par défaut)"
+
+#: templates/admin/pages/tabs/appearance.php:190
+msgid "Algeria"
+msgstr "Algérie"
+
+#: templates/admin/pages/tabs/appearance.php:191
+msgid "Egypt"
+msgstr "Egypte"
+
+#: templates/admin/pages/tabs/appearance.php:192
+msgid "Iraq"
+msgstr "Irak"
+
+#: templates/admin/pages/tabs/appearance.php:193
+msgid "Jordan"
+msgstr "Jordanie"
+
+#: templates/admin/pages/tabs/appearance.php:194
+msgid "Kuwait"
+msgstr "Koweit"
+
+#: templates/admin/pages/tabs/appearance.php:195
+msgid "Lebanon"
+msgstr "Liban"
+
+#: templates/admin/pages/tabs/appearance.php:196
+msgid "Libya"
+msgstr "Libye"
+
+#: templates/admin/pages/tabs/appearance.php:197
+msgid "Morocco"
+msgstr "Maroc"
+
+#: templates/admin/pages/tabs/appearance.php:198
+msgid "Oman"
+msgstr "Oman"
+
+#: templates/admin/pages/tabs/appearance.php:199
+msgid "Qatar"
+msgstr "Qatar"
+
+#: templates/admin/pages/tabs/appearance.php:200
+msgid "Syria"
+msgstr "Syrie"
+
+#: templates/admin/pages/tabs/appearance.php:201
+msgid "Tunisia"
+msgstr "Tunisie"
+
+#: templates/admin/pages/tabs/appearance.php:202
+msgid "United Arab Emirates"
+msgstr "Emirats Arabes Unis"
+
+#: templates/admin/pages/tabs/appearance.php:203
+msgid "Yemen"
+msgstr "Yémen"
+
+#: templates/admin/pages/tabs/appearance.php:206
+msgid "Choose Simplified Chinese flag:"
+msgstr "Choisissez le drapeau pour le chinois :"
+
+#: templates/admin/pages/tabs/appearance.php:207
+msgid "Taiwan (default)"
+msgstr "Taïwan (par défaut)"
+
+#: templates/admin/pages/tabs/appearance.php:208
+msgid "China"
+msgstr "Chine"
+
+#: templates/admin/pages/tabs/appearance.php:209
+#: templates/admin/pages/tabs/appearance.php:215
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: templates/admin/pages/tabs/appearance.php:212
+msgid "Choose Traditional Chinese flag:"
+msgstr "Choisissez le drapeau pour le chinois traditionnel :"
+
+#: templates/admin/pages/tabs/appearance.php:213
+msgid "China (default)"
+msgstr "Chine (par défaut)"
+
+#: templates/admin/pages/tabs/appearance.php:214
+msgid "Taiwan"
+msgstr "Taïwan"
+
+#: templates/admin/pages/tabs/appearance.php:218
+msgid "If you want to use a different flag, just ask us."
+msgstr "Si vous souhaitez utiliser d'autres drapeaux, contactez-nous."
+
+#: templates/admin/pages/tabs/appearance.php:279
+msgid "Language button position"
+msgstr "Position du bouton de langue"
+
+#: templates/admin/pages/tabs/appearance.php:283
+msgid ""
+"Where will the language button be on my website? By default, bottom right."
+msgstr ""
+"Où sera le bouton de langue sur mon site ? Par défaut, en bas à droite."
+
+#: templates/admin/pages/tabs/appearance.php:290
+msgid "In menu (Weglot translate V1) ?"
+msgstr "Dans le menu (Weglot translate V1) ?"
+
+#. 1 HTML Tag, 2 HTML Tag
+#: templates/admin/pages/tabs/appearance.php:305
+msgid ""
+"Warning, this feature will be depreciated. We strongly advise you to uncheck "
+"the option and use and use the functionality: \"In menu\"."
+msgstr ""
+"Attention, cette fonctionnalité sera dépréciée. Nous vous conseillons "
+"vivement de décocher l'option et d'utiliser et d'utiliser la fonctionnalité: "
+"\"Dans le menu\"."
+
+#: templates/admin/pages/tabs/appearance.php:313
+msgid "In menu?"
+msgstr "Dans le menu ?"
+
+#: templates/admin/pages/tabs/appearance.php:315
+#, php-format
+msgid ""
+"You can place the button in a menu area. Go to %1$sAppearance → Menus%2$s "
+"and drag and drop the Weglot Translate Custom link where you want."
+msgstr ""
+"Vous pouvez placer le bouton dans une zone de menu. Rendez-vous dans "
+"%1$sApparence → Menus%2$s et faites glisser le lien personnalisé Weglot où "
+"vous le souhaitez."
+
+#: templates/admin/pages/tabs/appearance.php:319
+msgid "As a widget?"
+msgstr "Comme Widget ?"
+
+#: templates/admin/pages/tabs/appearance.php:321
+#, php-format
+msgid ""
+"You can place the button in a widget area. Go to %1$sAppearance → "
+"Widgets%2$s and drag and drop the Weglot Translate widget where you want."
+msgstr ""
+"Vous pouvez placer le bouton dans une zone de widget. Rendez-vous dans "
+"%1$sApparence → Widgets%2$s et faites glisser le widget Weglot où vous le "
+"souhaitez."
+
+#: templates/admin/pages/tabs/appearance.php:325
+msgid "With a shortcode?"
+msgstr "Avec un code court ?"
+
+#: templates/admin/pages/tabs/appearance.php:327
+msgid ""
+"You can use the Weglot shortcode [weglot_switcher] wherever you want to "
+"place the button."
+msgstr ""
+"Vous pouvez utiliser le shortcode Weglot [weglot_switcher] partout où vous "
+"voulez placer le bouton."
+
+#: templates/admin/pages/tabs/appearance.php:331
+msgid "In the source code?"
+msgstr "Dans le code sourcce ?"
+
+#: templates/admin/pages/tabs/appearance.php:333
+msgid ""
+"You can add the code &lt;div id=&quot;weglot_here&quot;&gt;&lt;/div&gt; "
+"wherever you want in the source code of your HTML page. The button will "
+"appear at this place."
+msgstr ""
+"Vous pouvez ajouter le code &lt;div id=&quot;weglot_here&quot;&gt;&lt;"
+"/div&gt; là où vous voulez dans le code source de votre page HTML. Le bouton "
+"apparaîtra à cet endroit."
+
+#. Description of the plugin/theme
+msgid ""
+"Translate your website into multiple languages in minutes without doing any "
+"coding. Fully SEO compatible."
+msgstr ""
+"Traduisez votre site Web en plusieurs langues en quelques minutes sans code. "
+"Entièrement compatible SEO."
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/weglot/"
+msgstr "https://fr.wordpress.org/plugins/weglot/"
+
+#. Author of the plugin
+msgid "Weglot Translate team"
+msgstr "L'équipe Weglot"
+
+#. Author URI of the plugin
+msgid "https://weglot.com/"
+msgstr "https://weglot.com/fr/"

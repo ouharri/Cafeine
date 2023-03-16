@@ -1,0 +1,627 @@
+/*
+Theme Name: Blossom Recipe
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+.sticky-t-bar span.close {
+    right: auto;
+    left: 30px;
+}
+
+.sticky-bar-content .blossomthemes-email-newsletter-wrapper .text-holder {
+    text-align: right;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.sticky-bar-content .blossomthemes-email-newsletter-wrapper form {
+    text-align: right;
+}
+
+.sticky-bar-content .blossomthemes-email-newsletter-wrapper form input[type="text"] {
+    float: right;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.sticky-bar-content .blossomthemes-email-newsletter-wrapper form input[type="submit"] {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.social-icon-list li:first-child a {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.search-wrap .header-search, 
+.search-wrap .shopping-cart {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.search-wrap .header-search + .shopping-cart {
+    border-left: none;
+    border-right: 1px solid #e5e5e5;
+}
+
+.shopping-cart .cart-count {
+    right: auto;
+    left: 0;
+}
+
+.header-search > .search-btn::after {
+    padding-right: 0;
+    padding-left: 10px;
+    left: 100%;
+    right: auto;
+}
+
+.header-search > .search-btn:hover::after {
+	padding-left: 0;
+}
+
+article figure.post-thumbnail .post-share {
+    left: auto;
+    right: 20px;
+}
+
+article figure.post-thumbnail .share-icon {
+    float: right;
+}
+
+article figure.post-thumbnail .post-share.active .share-icon {
+    border-radius: 0 5px 5px 0px;
+}
+
+article figure.post-thumbnail .share-icon .share-icon-holder {
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+    padding-left: 10px;
+    border-right: none;
+    border-left: 1px solid rgba(255,255,255,0.1);
+}
+
+article figure.post-thumbnail .social-icon-list {
+    border-radius: 5px 0 0 5px;
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    transform-origin: right;
+}
+
+.entry-meta > span:last-child {
+    margin-right: 20px;
+}
+
+.entry-meta span:first-child {
+	margin-right: 0;
+}
+
+.entry-meta .brp_ajax_like .fav-count, 
+.entry-meta .brp_single_ajax_like .fav-count {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+span.post-view svg {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+#load-posts a svg {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.widget-area .widget .widget-title, 
+.site-footer .widget .widget-title {
+	text-align: right;
+}
+
+.widget-area .widget .widget-title span, 
+.site-footer .widget .widget-title span {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.widget-area .widget .widget-title span::after, 
+.site-footer .widget .widget-title span::after {
+	right: auto;
+	left: 0;
+}
+
+.widget_archive ul li, 
+.widget_categories ul li, 
+.widget_pages ul li, 
+.widget_meta ul li, 
+.widget_recent_comments ul li, 
+.widget_recent_entries ul li, 
+.widget_nav_menu ul li {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.widget_archive ul li::before, 
+.widget_categories ul li::before, 
+.widget_pages ul li::before, 
+.widget_meta ul li::before, 
+.widget_recent_comments ul li::before, 
+.widget_recent_entries ul li::before, 
+.widget_nav_menu ul li::before {
+	left: auto;
+	right: 0;
+}
+
+.widget_bttk_contact_social_links .contact-list li {
+    padding-left: 0;
+    padding-right: 45px;
+}
+
+.widget_bttk_contact_social_links .contact-list li svg {
+    left: auto;
+    right: 0;
+}
+
+.widget_bttk_custom_categories ul li .post-count {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.widget_bttk_icon_text_widget .rtc-itw-inner-holder .widget-title {
+	text-align: center;
+}
+
+.widget_bttk_popular_post ul li .post-thumbnail, 
+.widget_bttk_pro_recent_post ul li .post-thumbnail {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.widget_bttk_social_links ul li {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.widget_blossomthemes_stat_counter_widget .blossomthemes-sc-holder {
+    padding-left: 0;
+    padding-right: 70px;
+}
+
+.widget_blossomthemes_stat_counter_widget .blossomthemes-sc-holder .widget-title span {
+	padding-left: 0;
+}
+
+.widget_blossomthemes_stat_counter_widget .blossomthemes-sc-holder .icon-holder {
+    left: auto;
+    right: 0;
+}
+
+.search-form input.search-field, 
+.woocommerce .woocommerce-product-search input[type="search"] {
+    float: right;
+}
+
+.newsletter-section .widget_blossomthemes_email_newsletter_widget .blossomthemes-email-newsletter-wrapper form label .subscribe-inner-wrap .text {
+    text-align: right;
+}
+
+.instagram-section ul li .instagram-meta span svg {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.top-footer .grid:not(.column-1) .col:last-child {
+	margin-right: 3%;
+}
+
+.top-footer .grid:not(.column-1) .col:first-child {
+	margin-right: 0;
+}
+
+.tags span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+#br-recipe-category-links > div {
+    margin-right: 0;
+    margin-left: 20px;
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+#br-recipe-category-links svg {
+    left: auto;
+    right: 0;
+}
+
+span.separator {
+    margin-top: -2px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+span.category a {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+span.category a:last-child {
+    margin-left: 0;
+}
+
+span.category a::after {
+    right: auto;
+    left: -20px;
+}
+
+.single .entry-meta span.byline {
+    margin-right: 0;
+}
+
+.single .article-wrap .article-share {
+    margin-right: 20px;
+}
+
+.single .article-wrap .article-share ul li {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.single .article-wrap .article-share ul li:last-child {
+    padding-left: 0;
+}
+
+.single .article-wrap .entry-footer .article-share {
+    margin-right: 0;
+}
+
+.edit-link {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.single .author-profile .author-img {
+    float: right;
+}
+
+.single .author-profile .author-content-wrap {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.single .author-profile .author-social a {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.single .author-profile .author-social a svg {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.search-no-results .no-results .page-header {
+	text-align: right;
+}
+
+.blossomthemes-email-newsletter-wrapper form label {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.sticky-bar-content .blossomthemes-email-newsletter-wrapper form label {
+    text-align: right;
+    float: left;
+}
+
+.widget_blossomthemes_email_newsletter_widget .blossomthemes-email-newsletter-wrapper form label {
+	text-align: right;
+}
+
+.check-mark {
+    left: auto;
+    right: 0;
+}
+
+.newsletter-section .widget_blossomthemes_email_newsletter_widget .img-holder {
+    left: auto;
+    right: 60px;
+}
+
+.newsletter-section .widget_blossomthemes_email_newsletter_widget .text-holder, 
+.newsletter-section .widget_blossomthemes_email_newsletter_widget .blossomthemes-email-newsletter-wrapper form {
+    padding-left: 0;
+    padding-right: 80px;
+    margin-left: 0;
+    margin-right: 180px;
+}
+
+.newsletter-section .widget .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"], 
+.newsletter-section .widget .blossomthemes-email-newsletter-wrapper form input[name="subscribe-email"] {
+    text-align: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+#br-recipe-details > span {
+    padding-left: 0;
+    padding-right: 45px;
+}
+
+#br-recipe-details > span:last-child {
+    margin-right: 30px;
+}
+
+#br-recipe-details > span:first-child {
+    margin-right: 0;
+}
+
+#br-recipe-details > span.br_recipe_servings {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+#br-recipe-details > span.br_recipe_difficulty {
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+#br-recipe-details > span svg {
+    left: auto;
+    right: 0;
+}
+
+input[type="checkbox"] + label {
+    padding-left: 0;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-right: 40px;
+    border-left: none;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+input[type="checkbox"] + label::before {
+    left: auto;
+    right: -40px;
+}
+
+.br-instructions-list-wrap ul li {
+    padding-left: 0;
+    padding-right: 70px;
+}
+
+.br-instructions-list-wrap ul li::before {
+    left: auto;
+    right: 25px;
+}
+
+.br-instructions-list-wrap input[type="checkbox"] + label {
+    padding-right: 0;
+    border-right: none;
+    margin-right: 0;
+}
+
+.br-instructions-list-wrap input[type="checkbox"] + label::before {
+    right: 0;
+}
+
+.header-four .main-header .site-branding {
+    text-align: right;
+}
+
+.header-three .header-t .main-navigation {
+    float: left;
+}
+
+.header-three .main-navigation .toggle-button .toggle-bar {
+    right: auto;
+    left: 0;
+}
+
+.main-navigation .toggle-button::before {
+    left: auto;
+    right: 2%;
+}
+
+.site-banner.slider-four .banner-caption {
+	text-align: right;
+}
+	
+.site-banner.slider-three .banner-caption.left {
+    left: auto;
+    right: 150px;
+}
+
+.site-banner.slider-three .banner-caption.right {
+    right: auto;
+    left: 150px;
+}
+
+.list-view article .post-thumbnail + .article-content-wrap {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.list-view article .article-content-wrap .entry-header {
+    text-align: right;
+}
+
+#secondary .widget_shopping_cart ul.product_list_widget li img {
+	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+#secondary .widget_shopping_cart ul li {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+#secondary .widget_shopping_cart .buttons .button {
+	margin-left: 0;
+}
+
+.woocommerce.widget_product_categories ul li a, 
+.widget.widget_layered_nav_filters ul li a {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.woocommerce.widget_product_categories ul li a::before, 
+.widget.widget_layered_nav_filters ul li a::before {
+	left: auto;
+	right: 0;
+}
+
+.woocommerce.widget_product_categories ul li .count, 
+.woocommerce #secondary .widget_price_filter .price_slider_amount .price_label {
+	float: left;
+}
+
+.widget.woocommerce ul li.cat-parent .cat-toggle {
+	right: auto;
+	left: 0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+#secondary .widget_product_tag_cloud .tagcloud a {
+	float: right;
+	margin-right: 0;
+	margin-left: 6px;
+}
+
+.woocommerce ul.products li.product .onsale, 
+.single-product .product .onsale {
+	left: auto;
+	right: 15px;
+}
+
+.woocommerce ul.order_details li {
+	margin-left: 0;
+	border-left: none;
+}
+
+.woocommerce-order-received .woocommerce ul.order_details li strong {
+	margin-left: 0;
+	margin-right: 20px;
+	left: auto;
+	right: 140px;
+}
+
+.woocommerce nav.woocommerce-pagination ul li .next {
+    right: auto;
+    left: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.woocommerce nav.woocommerce-pagination ul li .prev {
+    left: auto;
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1210px) {
+	article figure.post-thumbnail .post-share {
+		right: 10px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.sticky-bar-content .blossomthemes-email-newsletter-wrapper .text-holder {
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.main-navigation .close {
+	    left: auto;
+	    right: 0;
+	}
+
+	.main-navigation.menu-toggled .close {
+	    left: auto;
+	    right: 20px;
+	}
+
+	.site-header:not(.header-three) .main-navigation .toggle-button .toggle-bar {
+	    right: auto;
+	    left: 2%;
+	}
+
+	.main-navigation .nav-menu {
+	    left: auto;
+	    right: 0;
+	    text-align: right;
+	    box-shadow: 0px 30px 40px 15px rgba(0,0,0,0.3);
+	    -webkit-transform: translateX(100%);
+	    -moz-transform: translateX(100%);
+	    transform: translateX(100%);
+	}
+
+	.main-navigation ul li .submenu-toggle, 
+	.main-navigation ul ul li .submenu-toggle {
+	    right: auto;
+	    left: 10px;
+	}
+
+	.main-navigation ul ul {
+		text-align: right;
+	}
+
+	.newsletter-section .widget_blossomthemes_email_newsletter_widget .text-holder, 
+	.newsletter-section .widget_blossomthemes_email_newsletter_widget .blossomthemes-email-newsletter-wrapper form {
+		padding-right: 0;
+		margin-right: 0;
+	}
+
+	.site-banner.slider-three .banner-caption.left {
+		right: 80px;
+	}
+
+	.site-banner.slider-three .banner-caption.right {
+		left: 80px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.sticky-bar-content .blossomthemes-email-newsletter-wrapper form input[type="text"] {
+		float: none;
+		margin-right: 0;
+	}
+
+	.newsletter-section .widget .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"], 
+	.newsletter-section .widget .blossomthemes-email-newsletter-wrapper form input[name="subscribe-email"] {
+		margin-left: 0;
+	}
+
+	.sticky-bar-content .blossomthemes-email-newsletter-wrapper form input[type="submit"] {
+		-webkit-transform: none;
+		-moz-transform: none;
+		transform: none;
+	}
+
+	.top-footer .grid:not(.column-1) .col:last-child {
+		margin-right: 0;
+	}
+
+	.list-view article .post-thumbnail + .article-content-wrap {
+		padding-right: 0;
+	}
+
+}

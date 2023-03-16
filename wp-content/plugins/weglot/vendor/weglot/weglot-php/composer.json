@@ -1,0 +1,67 @@
+{
+  "name": "weglot/weglot-php",
+  "description": "PHP library for the Weglot API",
+  "homepage": "https://weglot.com/",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Baptiste Leduc",
+      "email": "baptiste@weglot.com",
+      "homepage": "https://baptiste-leduc.now.sh/",
+      "role": "Developer"
+    },
+    {
+      "name": "Thomas Deneulin",
+      "email": "thomas@weglot.com",
+      "role": "Review"
+    },
+    {
+      "name": "Edson Galina Fortes",
+      "email": "edson@weglot.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@weglot.com",
+    "source": "https://github.com/weglot/weglot-php",
+    "docs": "https://weglot.github.io/weglot-documentation/"
+  },
+  "keywords": [
+    "php",
+    "weglot",
+    "weglot-library",
+    "translate",
+    "translation",
+    "translator",
+    "localization",
+    "languages",
+    "i18n"
+  ],
+  "repositories": [
+    {
+    "type": "vcs",
+    "url": "https://github.com/weglot/weglot-translation-definitions"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/weglot/simple_html_dom"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "weglot/simplehtmldom": "^0.7",
+    "psr/cache": "^1.0",
+    "weglot/translation-definitions": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Weglot\\": "src/",
+      "Languages\\": "node_modules/@weglot/languages/dist/"
+    }
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "^2.4",
+    "codeception/codeception": "^2.4"
+  }
+}

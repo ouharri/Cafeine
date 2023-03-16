@@ -1,0 +1,22 @@
+{
+    "necessary": {
+        "name": "Nécessaire",
+        "description": "<p>Les cookies nécessaires sont cruciaux pour les fonctions de base du site Web et celui-ci ne fonctionnera pas comme prévu sans eux. Ces cookies ne stockent aucune donnée personnellement identifiable.</p>"
+    },
+    "functional": {
+        "name": "Fonctionnelle",
+        "description": "<p>Les cookies fonctionnels permettent d'exécuter certaines fonctionnalités telles que le partage du contenu du site Web sur des plateformes de médias sociaux, la collecte de commentaires et d'autres fonctionnalités tierces.</p>"
+    },
+    "analytics": {
+        "name": "Analytique",
+        "description": "<p>Les cookies analytiques sont utilisés pour comprendre comment les visiteurs interagissent avec le site Web. Ces cookies aident à fournir des informations sur le nombre de visiteurs, le taux de rebond, la source de trafic, etc.</p>"
+    },
+    "performance": {
+        "name": "Performance",
+        "description": "<p>Les cookies de performance sont utilisés pour comprendre et analyser les indices de performance clés du site Web, ce qui permet de fournir une meilleure expérience utilisateur aux visiteurs.</p>"
+    },
+    "advertisement": {
+        "name": "Publicité",
+        "description": "<p>Les cookies de publicité sont utilisés pour fournir aux visiteurs des publicités personnalisées basées sur les pages visitées précédemment et analyser l'efficacité de la campagne publicitaire.</p>"
+    }
+}

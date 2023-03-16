@@ -1,0 +1,246 @@
+@import "_colors.scss";
+$heightSelector: 37px;
+$lineHeight: 36px;
+
+.country-selector {
+	z-index: 9999;
+	text-align: left;
+	position: relative;
+	display: inline-block;
+	width: auto;
+
+	a {
+		padding: 0 10px;
+		outline: none;
+		text-decoration: none;
+		float: none;
+		white-space: nowrap;
+		font-weight: normal;
+		cursor: pointer;
+		color: black;
+		-webkit-touch-callout: none; /* iOS Safari */
+		user-select: none;
+		&:focus {
+			outline: none;
+		}
+	}
+
+	ul {
+		padding: 0px;
+		z-index: 1010;
+		list-style: none;
+		margin: 0;
+	}
+
+	li {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	&.weglot-dropdown {
+		background-color: white;
+
+		a,
+		span {
+			display: block;
+			height: $heightSelector;
+			line-height: $lineHeight;
+			font-size: 13px;
+			padding: 0 10px;
+			width: 100%;
+			box-sizing: border-box;
+			font-weight: normal;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+		.wgcurrent {
+			border: 1px solid #e0e0e0;
+			list-style: none;
+			display: block;
+			margin: 0;
+			a,
+			span {
+				padding-right: 60px;
+			}
+
+			&:after {
+				display: inline-block;
+				position: absolute;
+				top: 17px;
+				right: 8px;
+				width: 13px;
+				height: 7px;
+				image-rendering: pixelated;
+				background: url("../images/wgarrowdown.png") no-repeat;
+				content: "";
+				transition: all 200ms;
+				transform: rotate(-90deg);
+			}
+		}
+
+		ul {
+			position: absolute;
+			min-width: 100%;
+			border: 1px solid #ebeef0;
+			background: white;
+			left: 0;
+			top: initial;
+			box-sizing: border-box;
+			display: none;
+			padding: 0;
+		}
+
+		input:checked ~ ul {
+			display: block;
+		}
+
+		input:checked ~ .wgcurrent:after {
+			transform: rotate(0deg);
+		}
+
+		li {
+			width: 100%;
+		}
+
+		&.weglot-invert {
+			ul {
+				bottom: 38px;
+			}
+			input:checked ~ .wgcurrent:after {
+				transform: rotate(-180deg);
+			}
+		}
+	}
+
+	&.weglot-default {
+		position: fixed;
+		bottom: 0px;
+		right: 40px;
+	}
+
+	&.weglot-inline {
+		a {
+			&:hover {
+				text-decoration: underline;
+				color: #00a0d2;
+			}
+		}
+
+		.wgcurrent {
+			a {
+				text-decoration: underline;
+			}
+		}
+
+		label {
+			margin-bottom: 0;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		ul {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		li {
+			line-height: 1;
+			display: inline-block;
+			margin: 2px 0px;
+			vertical-align: middle;
+		}
+
+		&.weglot-default {
+			bottom: 5px;
+		}
+	}
+
+	input {
+		display: none;
+	}
+}
+
+.navbar {
+	.navbar-nav {
+		li.weglot-flags {
+			a.weglot-lang {
+				&:before {
+					position: static;
+					transform: none;
+					transition: none;
+				}
+			}
+		}
+	}
+}
+
+html[dir="rtl"] {
+	.weglot-flags a:before,
+	.weglot-flags span:before {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+}
+
+.weglot-flags {
+	a,
+	span.wglanguage-name {
+		&:before {
+			background-image: url("../images/rect_mate.png");
+			background-size: auto 20px;
+			border-radius: 0px;
+			width: 30px;
+			height: 20px;
+			content: "";
+			vertical-align: middle;
+			margin-right: 10px;
+			display: inline-block;
+			overflow: hidden;
+		}
+	}
+	&.flag-1 {
+		a,
+		span {
+			&:before {
+				background-image: url("../images/rect_bright.png");
+			}
+		}
+	}
+	&.flag-2 {
+		a,
+		span {
+			&:before {
+				background-image: url("../images/square_flag.png");
+				width: 24px;
+				height: 24px;
+				background-size: auto 24px;
+			}
+		}
+	}
+	&.flag-3 {
+		a,
+		span {
+			&:before {
+				background-image: url("../images/circular_flag.png");
+				width: 24px;
+				height: 24px;
+				background-size: auto 24px;
+			}
+		}
+	}
+
+	a {
+		span:before {
+			background-image: none;
+			display: none;
+		}
+	}
+	span {
+		a:before {
+			background-image: none;
+			display: none;
+		}
+	}
+}

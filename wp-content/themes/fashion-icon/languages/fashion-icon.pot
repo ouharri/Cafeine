@@ -1,0 +1,228 @@
+# <!=Copyright (C) 2022 Blossom Themes
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Fashion Icon 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/fashion-icon\n"
+"POT-Creation-Date: 2022-07-14 06:00:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:90
+msgid "Demo & Documentation"
+msgstr ""
+
+#: functions.php:105
+msgid "%1$sDemo Link:%2$s %3$sClick here.%4$s"
+msgstr ""
+
+#: functions.php:107
+msgid "%1$sDocumentation Link:%2$s %3$sClick here.%4$s"
+msgstr ""
+
+#: functions.php:136
+msgid "Site Title Font"
+msgstr ""
+
+#: functions.php:137
+msgid "Site title and tagline font."
+msgstr ""
+
+#: functions.php:159
+msgid "Site Title Font Size"
+msgstr ""
+
+#: functions.php:160
+msgid "Change the font size of your site title."
+msgstr ""
+
+#: functions.php:175
+msgid "Typography"
+msgstr ""
+
+#: functions.php:195
+msgid "Primary Font"
+msgstr ""
+
+#: functions.php:196
+msgid "Primary font of the site."
+msgstr ""
+
+#: functions.php:217
+msgid "Secondary Font"
+msgstr ""
+
+#: functions.php:218
+msgid "Secondary font of the site."
+msgstr ""
+
+#: functions.php:240
+msgid "Font Size"
+msgstr ""
+
+#: functions.php:241
+msgid "Change the font size of your site."
+msgstr ""
+
+#: functions.php:265
+msgid "Load Google Fonts Locally"
+msgstr ""
+
+#: functions.php:266
+msgid ""
+"Enable to load google fonts from your own server instead from google's CDN. "
+"This solves privacy concerns with Google's CDN and their sometimes "
+"less-than-transparent policies."
+msgstr ""
+
+#: functions.php:285
+msgid "Preload Local Fonts"
+msgstr ""
+
+#: functions.php:286
+msgid "Preloading Google fonts will speed up your website speed."
+msgstr ""
+
+#: functions.php:294
+msgid "Click the button to reset the local fonts cache"
+msgstr ""
+
+#: functions.php:296
+msgid "Flush Local Font Files"
+msgstr ""
+
+#: functions.php:310
+msgid "Flush Local Fonts Cache"
+msgstr ""
+
+#: functions.php:331
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:332
+msgid "Primary color of the theme."
+msgstr ""
+
+#: functions.php:352
+msgid "Header Layout"
+msgstr ""
+
+#: functions.php:373
+msgid "Header Layouts"
+msgstr ""
+
+#: functions.php:374
+msgid "This is the header layouts for your blog."
+msgstr ""
+
+#: functions.php:387
+msgid "Home Page Layout"
+msgstr ""
+
+#: functions.php:408
+msgid "Home Page Layouts"
+msgstr ""
+
+#: functions.php:409
+msgid "This is the home page layouts for your blog."
+msgstr ""
+
+#: functions.php:553
+msgid "primary menu toggle"
+msgstr ""
+
+#: functions.php:563
+msgid "Mobile"
+msgstr ""
+
+#: functions.php:1042
+msgid " Fashion Icon | Developed By "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Blossom Themes"
+msgstr ""
+
+#: functions.php:1044
+msgid " Powered by %s"
+msgstr ""
+
+#: functions.php:1044
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Fashion Icon"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://blossomthemes.com/downloads/fashion-icon-free-wordpress-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fashion Icon is a child theme of Blossom Fashion for fashion enthusiasts. "
+"The theme is built for creating an attractive blogging website for personal "
+"or professional use. The theme focuses on making your blog outstanding "
+"among users and search engines with responsive design, speed optimized "
+"code, and SEO friendly markup. The theme can be used to create fashion, "
+"lifestyle, beauty, makeup, gossip, food, or a journal blog without writing "
+"a single line of code. If you are looking for an impressive and UX "
+"optimized design for making money online, Fashion Icon Free WordPress theme "
+"might be the right choice. The theme features advanced, easy-to-use feature "
+"that allows you to create a blog as a DIY project-- without hiring a "
+"developer. The theme is Schema.org ready and rocks features of a premium "
+"theme. The theme is social media ready. You can flaunt your Instagram "
+"profile on the home page. The theme also has built-in options to integrate "
+"Facebook, Snapchat, Twitter, Instagram, Pinterest, and other major social "
+"platforms. Fashion Icon comes with 20 custom widgets that help you increase "
+"the functionality of website all by yourself. The theme is also highly "
+"customizable. You can quickly change color, fonts, and layouts. Fashion "
+"Icon is fully compatible with the WooCommerce plugin -- you can create your "
+"online shop with the theme. On top of that, you can maximize the revenue "
+"from your blog with advertisement widget. The theme is translation ready "
+"and supports RTL scripts also. If you run into any problem or need "
+"guidance, Fashion Icon is backed with extensive documentation and friendly, "
+"human support. Check demo: "
+"https://blossomthemes.com/theme-demo/?theme=fashion-icon, read "
+"documentation: https://docs.blossomthemes.com/docs/fashion-icon/ and get "
+"support: https://blossomthemes.com/support-ticket/."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://blossomthemes.com/"
+msgstr ""
+
+#: functions.php:663
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:664
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:665
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr ""

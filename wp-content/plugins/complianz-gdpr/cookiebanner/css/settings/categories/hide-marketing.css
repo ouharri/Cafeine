@@ -1,0 +1,5 @@
+.cmplz-cookiebanner .cmplz-marketing:not(.cmplz-tcf),
+.cmplz-manage-consent-container .cmplz-marketing:not(.cmplz-tcf) {
+  display: none;
+}
+/*# sourceMappingURL=hide-marketing.css.map */

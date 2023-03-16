@@ -1,0 +1,960 @@
+/* ==========================================================================
+Settings Styles
+========================================================================== */
+.omapi-screen div.updated,
+.omapi-screen div.error {
+  margin-top: 15px; }
+
+.omapi-hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  line-height: 0; }
+
+.omapi-clear {
+  clear: both; }
+
+.omapi-clear:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: auto;
+  visibility: hidden;
+  zoom: 1; }
+
+.omapi-red {
+  color: red !important; }
+
+.omapi-green {
+  color: #74BA0D !important; }
+
+/* Remove default WP padding */
+.omapi-screen #wpcontent {
+  padding-left: 0; }
+
+.omapi-screen h2 {
+  padding-right: 0 !important; }
+
+.omapi-screen h2 span {
+  font-size: 13px;
+  color: #666; }
+
+/* Static Banner */
+.omapi-screen .omapi-static-banner {
+  background: #0d82df;
+  height: 50px;
+  line-height: 1;
+  padding-left: 15px; }
+
+.omapi-static-banner .logo-wrapper {
+  padding: 12px 0;
+  line-height: 1;
+  display: inline-block; }
+
+.omapi-static-banner .omapi-svg-logo {
+  height: 24px;
+  width: 159px; }
+
+.omapi-static-banner svg {
+  display: initial;
+  vertical-align: initial; }
+
+.logo-wrapper span.omapi-logo-version {
+  color: #fff;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  display: inline-block; }
+
+.omapi-screen .static-menu {
+  float: right; }
+
+.omapi-screen .static-menu ul {
+  margin: 0; }
+
+.omapi-screen .static-menu ul li {
+  display: inline-block;
+  padding: 18px 0;
+  margin: 0;
+  font-size: 14px; }
+
+.omapi-screen .static-menu ul li:last-of-type {
+  padding-right: 0; }
+
+.omapi-screen .static-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .04em;
+  padding: 5px 10px; }
+
+/* Cleaner screen even when updates needed */
+.omapi-screen .update-nag {
+  display: none; }
+
+/* Only shown on main plugin view */
+.omapi-screen .static-menu ul li.omapi-menu-button {
+  padding: 0 !important;
+  margin-top: -3px !important;
+  vertical-align: middle;
+  margin-left: 10px; }
+
+.omapi-screen #omapi-create-new-optin-button {
+  padding: 0 10px;
+  background: #83c11f;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0; }
+
+.omapi-screen #omapi-create-new-optin-button:hover {
+  color: #f5f5f5; }
+
+.omapi-screen .static-menu ul li a:hover {
+  background: rgba(0, 0, 0, 0.08); }
+
+.omapi-screen .omapi-static-banner .inner-container {
+  padding: 0 1.2rem;
+  max-width: 100%; }
+
+/* Welcome Page*/
+body.toplevel_page_optin-monster-campaigns, body.omapi-welcome,
+body .optinmonster_page_optin-monster-api-settings,
+body .optinmonster_page_optin-monster-templates, body[class*="optinmonster_page_"] {
+  background: #e5eaf4; }
+  body.toplevel_page_optin-monster-campaigns #wpbody-content > .notice, body.omapi-welcome #wpbody-content > .notice,
+  body .optinmonster_page_optin-monster-api-settings #wpbody-content > .notice,
+  body .optinmonster_page_optin-monster-templates #wpbody-content > .notice, body[class*="optinmonster_page_"] #wpbody-content > .notice {
+    margin: 28px 20px 15px; }
+
+.omapi-welcome .inner-container {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 0; }
+
+.omapi-welcome .logo-wrapper span.omapi-logo-version {
+  display: none; }
+
+.omapi-welcome .omapi-navigation-banner {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.omapi-welcome-content *,
+.admin_page_optin-monster-api-review #wpbody-content *,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content * {
+  font-family: 'proxima-nova'; }
+
+.omapi-welcome-content .dashicons,
+.admin_page_optin-monster-api-review #wpbody-content .dashicons,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content .dashicons {
+  font-family: 'dashicons'; }
+
+.omapi-welcome-content p, .omapi-welcome-content h3, .omapi-welcome-content h4, .omapi-welcome-content h5, .omapi-welcome-content ul,
+.admin_page_optin-monster-api-review #wpbody-content p,
+.admin_page_optin-monster-api-review #wpbody-content h3,
+.admin_page_optin-monster-api-review #wpbody-content h4,
+.admin_page_optin-monster-api-review #wpbody-content h5,
+.admin_page_optin-monster-api-review #wpbody-content ul,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content p,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content h3,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content h4,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content h5,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content ul {
+  color: #60656f; }
+
+.omapi-welcome-content h1,
+.admin_page_optin-monster-api-review #wpbody-content h1,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content h1 {
+  font-weight: 400;
+  color: #41495b; }
+
+.omapi-welcome-content h2,
+.admin_page_optin-monster-api-review #wpbody-content h2,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content h2 {
+  color: #41495b; }
+
+.omapi-welcome-content p, .omapi-welcome-content li,
+.admin_page_optin-monster-api-review #wpbody-content p,
+.admin_page_optin-monster-api-review #wpbody-content li,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content p,
+.optinmonster_page_optin-monster-constant-contact #wpbody-content li {
+  font-size: 17px;
+  margin: 10px 0;
+  font-weight: 400; }
+
+.omapi-welcome-content {
+  padding-top: 20px; }
+  .omapi-welcome-content a.button.button-hero {
+    line-height: 50px;
+    height: 50px; }
+  .omapi-welcome-content a.button.button-hero.button-omapi-green {
+    background: #71b406;
+    color: #fff;
+    font-weight: 400;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: 1px solid  #71b406; }
+    .omapi-welcome-content a.button.button-hero.button-omapi-green:hover {
+      border-color: #6aa807;
+      background-color: #6aa807; }
+  .omapi-welcome-content h1 {
+    text-align: center;
+    margin: 44px 0;
+    margin-bottom: 30px; }
+  .omapi-welcome-content .omapi-sub-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .omapi-welcome-content p {
+    color: #60656f; }
+  .omapi-welcome-content .divider {
+    height: 1px;
+    background: #60656f;
+    -webkit-box-shadow: 0px 0px 1px #e8edf0;
+            box-shadow: 0px 0px 1px #e8edf0;
+    width: 320px;
+    margin: 0 auto; }
+  .omapi-welcome-content .welcome-connect .actions {
+    margin: 40px 0;
+    margin-bottom: 8px; }
+  .omapi-welcome-content .omapi-well span.or {
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block; }
+  .omapi-welcome-content .welcome-data-vid {
+    background-image: url("/assets/images/omapi-graph.png");
+    background-size: contain;
+    background-position-y: bottom;
+    min-height: 338px;
+    background-repeat: no-repeat;
+    position: relative; }
+  .omapi-welcome-content .welcome-data-vid.active {
+    background-image: none; }
+  .omapi-welcome-content .welcome-data-vid .actions {
+    margin-top: 45px;
+    z-index: 200;
+    position: relative; }
+  .omapi-welcome-content .welcome-data-vid.active .actions {
+    display: none; }
+  .omapi-welcome-content .omapi-welcome-video-holder {
+    height: 1px;
+    margin: 0 auto;
+    width: 100%; }
+  .omapi-welcome-content .welcome-data-vid.active .omapi-welcome-video-holder {
+    height: auto; }
+  .omapi-welcome-content .omapi-feature-box {
+    margin: 50px 0; }
+  .omapi-welcome-content .omapi-feature-image,
+  .omapi-welcome-content .omapi-feature-text {
+    width: 47%;
+    display: inline-block;
+    vertical-align: middle; }
+  .omapi-welcome-content .omapi-feature-image img {
+    max-width: 100%;
+    height: auto; }
+  .omapi-welcome-content .omapi-feature-text p {
+    font-size: 15px; }
+  .omapi-welcome-content .omapi-feature-text {
+    margin-left: 5%;
+    margin-top: -2em; }
+  .omapi-welcome-content .omapi-feature-box:nth-of-type(even) .omapi-feature-text {
+    margin-right: 5%;
+    margin-left: 0; }
+  .omapi-welcome-content .omapi-well img {
+    max-width: 100%; }
+  .omapi-welcome-content .omapi-single-cta {
+    margin: 0 auto 60px;
+    text-align: center; }
+  .omapi-welcome-content .welcome-featuredin img {
+    margin: 40px 0;
+    width: 475px; }
+  .omapi-welcome-content .welcome-featuredin h2 {
+    font-size: 20px;
+    font-weight: 600; }
+  .omapi-welcome-content .omapi-reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .omapi-welcome-content .omapi-reviews p {
+    font-size: 14px; }
+  .omapi-welcome-content .omapi-talking-head {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto; }
+  .omapi-welcome-content .omapi-reviews span.reviewer-name {
+    margin-top: 15px;
+    display: block;
+    font-weight: 500; }
+  .omapi-welcome-content .omapi-reviews span.reviewer-title {
+    font-weight: 300; }
+  .omapi-welcome-content .omapi-mini-well {
+    margin-right: 15px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  .omapi-welcome-content .omapi-mini-well:last-of-type {
+    margin-right: 0; }
+
+input.button.button-omapi-outline,
+button.button.button-omapi-outline,
+a.button.button-omapi-outline {
+  background-color: #fff;
+  color: #a4badb;
+  border: 1px solid #a4badb;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto; }
+  input.button.button-omapi-outline:hover, input.button.button-omapi-outline:focus,
+  button.button.button-omapi-outline:hover,
+  button.button.button-omapi-outline:focus,
+  a.button.button-omapi-outline:hover,
+  a.button.button-omapi-outline:focus {
+    background-color: #1287dd;
+    color: #fff;
+    border-color: #1287dd; }
+
+input.button.button-omapi-blue,
+button.button.button-omapi-blue,
+a.button.button-omapi-blue {
+  color: #fff;
+  background: #0d82df;
+  border: 1px solid #0d82df;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto; }
+  input.button.button-omapi-blue:hover, input.button.button-omapi-blue:focus,
+  button.button.button-omapi-blue:hover,
+  button.button.button-omapi-blue:focus,
+  a.button.button-omapi-blue:hover,
+  a.button.button-omapi-blue:focus {
+    border-color: #0c76cb;
+    background: #0c76cb;
+    color: #fff; }
+
+/* Keep WordPress Page Styling */
+.omapi-page {
+  padding-left: 20px;
+  margin-left: 0; }
+
+/* Build out UI */
+.omapi-screen .inner-container {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 0; }
+
+.omapi-well {
+  padding: 2.1rem;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e9eff3;
+  margin-bottom: 15px;
+  border-radius: 5px; }
+
+.omapi-well img {
+  max-width: 100%;
+  height: auto; }
+
+.omapi-mini-well {
+  padding: 1rem; }
+
+.omapi-ui {
+  margin-top: 20px;
+  border-top: 0;
+  height: 100%;
+  width: 100%;
+  display: inline-block; }
+  .omapi-ui p, .omapi-ui h1, .omapi-ui h2, .omapi-ui h3, .omapi-ui h4, .omapi-ui h5, .omapi-ui ul {
+    color: #41495b;
+    font-family: 'proxima-nova'; }
+
+.omapi-ui,
+.omapi-ui * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.omapi-tabs {
+  float: left;
+  width: calc(25% - 20px);
+  min-width: 175px;
+  margin: 0;
+  display: inline-block;
+  height: 100%;
+  background: #fff;
+  border-radius: 5px;
+  margin-right: 20px; }
+
+.omapi-panels {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px; }
+  .omapi-panels li {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .omapi-panels li a {
+      display: block;
+      padding: 15px 10px;
+      border-bottom: 1px solid #cad1e2;
+      text-decoration: none;
+      font-size: 16px;
+      outline: none;
+      border-bottom: 1px solid #d7e5ff;
+      padding: 20px 0; }
+    .omapi-panels li a:focus {
+      outline: none !important;
+      box-shadow: none;
+      -webkit-box-shadow: none; }
+    .omapi-panels li.omapi-panel-active a,
+    .omapi-panels li a:hover {
+      color: #41495b;
+      background: #eef2f9;
+      margin-left: -20px;
+      margin-right: -20px;
+      border-bottom-color: #eef2f9;
+      padding: 20px;
+      cursor: pointer; }
+    .omapi-panels li:last-child a {
+      border-bottom: 0; }
+    .omapi-panels li.omapi-panel-active a {
+      color: #222; }
+    .omapi-panels li.omapi-panel-button-item {
+      padding: 20px 10px;
+      background: #eef2f9; }
+      .omapi-panels li.omapi-panel-button-item #omapi-create-new-optin-button {
+        width: 100%;
+        text-align: center; }
+
+.omapi-tabs-content {
+  float: left;
+  width: 75%;
+  background: #fff;
+  padding: 20px;
+  display: inline-block;
+  /* Match the minimum height of our tabs */
+  min-height: 256px;
+  border-radius: 5px; }
+
+.omapi-content {
+  display: none; }
+
+.omapi-content.omapi-content-active {
+  display: block; }
+
+.omapi-content h3 {
+  padding: 0;
+  margin: 0; }
+
+.omapi-field-box {
+  margin: 1.5em 0; }
+
+.omapi-field-wrap {
+  margin: 0; }
+
+.omapi-field-box li {
+  list-style: none;
+  margin: 0; }
+
+.omapi-field-box ul.children {
+  margin: 1px 0 1px 20px; }
+
+.omapi-field-box .wp-hidden-children {
+  display: none; }
+
+.omapi-field-box > div {
+  max-width: 350px; }
+
+.omapi-field-box p.hide-if-no-js,
+.omapi-field-box li.hide-if-no-js {
+  display: none; }
+
+.omapi-field-wrap label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 2px; }
+
+.omapi-field-wrap input[type=email],
+.omapi-field-wrap input[type=number],
+.omapi-field-wrap input[type=password],
+.omapi-field-wrap input[type=search],
+.omapi-field-wrap input[type=text],
+.omapi-field-wrap select {
+  min-width: 350px;
+  padding: 6px 8px; }
+
+.omapi-field-box .select2-container {
+  min-width: 350px; }
+
+.omapi-field-wrap textarea {
+  width: 100%;
+  padding: 6px 8px; }
+
+.omapi-field-wrap .omapi-field-desc {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
+  color: #666;
+  vertical-align: middle;
+  margin-bottom: 0; }
+
+.omapi-back {
+  float: right;
+  font-size: 13px;
+  font-weight: normal; }
+
+.omapi-optin {
+  padding: 20px 27px 20px 10px;
+  border-bottom: 1px solid #cad1e2;
+  font-size: 15px;
+  margin: 0; }
+
+.omapi-optin-first {
+  border-top: 1px solid #cad1e2;
+  margin-top: 1em; }
+
+.omapi-optin.omapi-test-mode {
+  background: #fcf8e3 !important; }
+
+.omapi-optin a {
+  text-decoration: none;
+  border-bottom: 0 none; }
+
+.omapi-optin .omapi-test {
+  color: #8a6d3b;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.omapi-optin .omapi-status,
+.omapi-optin .omapi-slug {
+  float: right; }
+
+.omapi-optin .omapi-slug {
+  font-size: 13px;
+  color: #999;
+  margin-top: 3px; }
+
+.omapi-optin .omapi-links,
+.omapi-optin .omapi-links a {
+  font-size: 12px; }
+
+/* Inline Note */
+.omapi-inline-notice .omapi-notice-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  margin-top: 0; }
+
+.omapi-inline-notice .omapi-field-desc {
+  margin: 0;
+  margin-bottom: 5px; }
+
+.omapi-inline-notice {
+  padding: 15px 0;
+  position: relative;
+  border: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0; }
+
+/* Toggler */
+.omapi-ui-toggle-controller {
+  margin-right: 8px;
+  cursor: pointer;
+  margin: 1.5em 0;
+  font-size: 13px;
+  position: relative; }
+
+.omapi-ui-toggle-controller .omapi-field-desc {
+  padding-left: 25px; }
+
+.omapi-ui-toggle-controller:after {
+  content: "\f132";
+  position: absolute;
+  height: 15px;
+  width: 20px;
+  top: 24px;
+  left: -2px;
+  font-size: 20px;
+  line-height: 1;
+  font-family: 'dashicons'; }
+
+.omapi-ui-toggle-controller.toggled:after {
+  content: '\f460';
+  position: absolute;
+  height: 15px;
+  width: 20px;
+  top: 23px;
+  left: -2px;
+  font-size: 20px;
+  line-height: 1;
+  font-family: 'dashicons'; }
+
+.omapi-ui-toggle-content {
+  display: none; }
+
+.visible.omapi-ui-toggle-content {
+  display: block; }
+
+.omapi-video-container {
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 25px;
+  height: 0; }
+
+.omapi-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.omapi-support-links {
+  width: 40%;
+  margin-top: 1.25em;
+  display: inline-block; }
+
+.omapi-support-links li {
+  font-size: 15px; }
+
+.omapi-support-data {
+  width: 60%;
+  display: inline-block; }
+
+.omapi-half-column {
+  margin-top: 1.25em; }
+
+@media all and (min-width: 1400px) {
+  .omapi-half-column {
+    width: 50%;
+    display: inline-block;
+    float: left; }
+  .omapi-support-links,
+  .omapi-support-data {
+    width: calc(50% - 30px);
+    margin-left: 30px;
+    float: right; } }
+
+.omapi-copy-button.button {
+  margin-left: 10px; }
+
+/* DatePicker Container */
+.ui-datepicker {
+  width: auto;
+  height: auto;
+  margin: 5px auto 0;
+  font: 9pt Arial, sans-serif;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.4);
+  background-color: #eee;
+  border: 1px solid #ddd; }
+
+.ui-datepicker a {
+  text-decoration: none;
+  position: relative; }
+
+.ui-datepicker table {
+  width: 100%;
+  padding: 0px; }
+
+.ui-datepicker-header {
+  color: #e0e0e0;
+  font-weight: bold;
+  -webkit-box-shadow: inset 0 1px 1px 0 #fafafa;
+  box-shadow: inset 0 1px 1px 0 rgba(250, 250, 250, 0.2);
+  text-shadow: 1px -1px 0px #000;
+  line-height: 30px;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #444; }
+
+.ui-datepicker-title {
+  text-align: center;
+  background: #444; }
+
+.ui-datepicker-prev, .ui-datepicker-next {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #FFF;
+  text-indent: 100%; }
+
+.ui-datepicker-prev {
+  float: left; }
+
+.ui-datepicker-next {
+  float: right; }
+
+.ui-datepicker-prev:before {
+  content: '<';
+  position: absolute;
+  left: -10px;
+  height: 10px;
+  width: 10px; }
+
+.ui-datepicker-next:before {
+  content: '>';
+  position: absolute;
+  left: -10px;
+  height: 10px;
+  width: 10px; }
+
+.ui-datepicker thead {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #000; }
+
+.ui-datepicker th {
+  text-transform: uppercase;
+  font-size: 6pt;
+  padding: 5px 0;
+  margin-bottom: 1px;
+  color: #666666;
+  text-shadow: 1px 0px 0px #fff;
+  -webkit-box-shadow: 0px 1px 0px 1px #E0E0E0;
+          box-shadow: 0px 1px 0px 1px #E0E0E0; }
+
+.ui-datepicker tbody td {
+  -webkit-box-shadow: 0px 1px 0px 1px #E0E0E0;
+          box-shadow: 0px 1px 0px 1px #E0E0E0;
+  padding: 0px; }
+
+.ui-datepicker tbody td:last-child {
+  border-right: 0px; }
+
+.ui-datepicker tbody tr {
+  border-bottom: 1px solid #bbb; }
+
+.ui-datepicker td span, .ui-datepicker td a {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #666666; }
+
+.ui-datepicker-calendar .ui-state-default {
+  background: #ededed; }
+
+.ui-datepicker-calendar .ui-state-hover {
+  background: #8ed41e;
+  color: #fff; }
+
+.ui-datepicker-calendar .ui-state-active {
+  background: #0d82df;
+  color: #fff;
+  position: relative; }
+
+.ui-datepicker-unselectable .ui-state-default {
+  background: #f4f4f4;
+  color: #b4b3b3; }
+
+.ui-datepicker-calendar td:first-child .ui-state-active {
+  width: 29px;
+  margin-left: 0; }
+
+.ui-datepicker-calendar td:last-child .ui-state-active {
+  width: 29px;
+  margin-right: 0; }
+
+/** Tooltips **/
+.omapi-has-tooltip:after {
+  content: '\f223';
+  color: #ccc;
+  position: absolute;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  font-size: 17px;
+  line-height: 1;
+  font-family: 'dashicons';
+  text-decoration: inherit;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-transition: color .1s ease-in 0;
+  transition: color .1s ease-in 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-left: 3px;
+  padding-top: 2px; }
+
+.tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1.42857143;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  white-space: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  font-size: 12px;
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+.tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90); }
+
+.tooltip.top {
+  margin-top: -3px;
+  padding: 5px 0; }
+
+.tooltip.right {
+  margin-left: 3px;
+  padding: 0 5px; }
+
+.tooltip.bottom {
+  margin-top: 3px;
+  padding: 5px 0; }
+
+.tooltip.left {
+  margin-left: -3px;
+  padding: 0 5px; }
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 10px 10px 9px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 4px; }
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid; }
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000; }
+
+.tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  right: 5px;
+  margin-bottom: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000; }
+
+.tooltip.top-right .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  margin-bottom: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000; }
+
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000000; }
+
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000000; }
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000; }
+
+.tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  margin-top: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000; }
+
+.tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  margin-top: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000; }
+
+/* ==========================================================================
+Navigation Banner Styles
+========================================================================== */
+.omapi-navigation-banner {
+  font-family: 'proxima-nova', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  height: 60px;
+  padding: 0 20px; }
+  .omapi-navigation-banner__title {
+    color: #41495B;
+    font-size: 24px;
+    font-weight: 700; }
+  .omapi-navigation-banner__links {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .omapi-navigation-banner__link {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #8997B7;
+    border-bottom: 2px solid transparent; }
+    .omapi-navigation-banner__link--active, .omapi-navigation-banner__link:hover {
+      color: #41495B;
+      border-bottom-color: #0d82df; }
+    .omapi-navigation-banner__link:focus {
+      outline: 0;
+      -webkit-box-shadow: none;
+              box-shadow: none; }

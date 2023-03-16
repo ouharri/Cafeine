@@ -1,0 +1,304 @@
+/* woocommerce CSS
+----------------------------------------------*/
+span.onsale {    
+    right: auto !important;
+    left: 15px !important;
+    top: 15px !important;
+    border-radius: 8px !important;
+    margin: 0 !important;
+    background: #37180e !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    text-transform: capitalize;
+    min-height: 30px !important;
+    line-height: 2 !important;
+}
+h2.woocommerce-loop-product__title {
+    font-size: 18px !important;
+}
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price {
+    font-size: 15px;
+    color: #b7b7b7;
+}
+.woocommerce-product-details__short-description {
+    margin: 10px 0;
+}
+.woocommerce ul.products li.product .star-rating {
+    font-size: 16px;
+}
+.woocommerce .quantity .qty {
+    padding: 9px;
+    border-radius: 5px;
+    border: solid 2px #37180e;
+}
+.woocommerce table.shop_table {
+    border: 2px solid #37180e;
+}
+.entry-content table th, .comment-body table th,
+.entry-content table td, .comment-body table td{
+    border-bottom: 2px #37180e solid;
+}
+form.checkout.woocommerce-checkout label,
+span.woocommerce-input-wrapper,.woocommerce form .form-row label,span.password-input {
+    width: 100%;
+}
+form.checkout.woocommerce-checkout input[type="text"],
+form.checkout.woocommerce-checkout input[type="tel"],
+form.checkout.woocommerce-checkout input[type="email"],
+.woocommerce form .form-row input.input-text {
+    padding: 10px;
+}
+form.checkout_coupon.woocommerce-form-coupon td{
+    border: none !important;
+}
+nav.woocommerce-MyAccount-navigation ul li {
+    border: solid 2px #37180e;
+    padding: 10px;
+    margin-bottom: 15px;
+    list-style: none;
+    margin-left: 0;
+    font-size: 16px;
+    box-shadow: 6px 7px 17px -2px #b1b1b1;
+    border-radius: 30px;
+}
+nav.woocommerce-MyAccount-navigation ul li:hover{
+    background: #37180e;    
+}
+nav.woocommerce-MyAccount-navigation ul li:hover a{
+    color: #fff;
+}
+nav.woocommerce-MyAccount-navigation ul li a{   
+    color: #333333;
+    text-decoration:none;
+}
+select.orderby {
+    padding: 5px;
+    background: transparent;
+    border: solid 2px #000000;
+}
+span.tagged_as {
+    display: -webkit-box;
+}
+.woocommerce ul.cart_list li img, 
+.woocommerce ul.product_list_widget li img{
+    margin-left: 35px;
+    width: 45px;
+}
+
+/* Contact form css
+-------------------------------------*/
+.wpcf7{
+	margin:30px 0 0;
+	padding:0;
+}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{
+	width:40%;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	height:35px;
+	padding:0 15px;
+	color:#797979;
+	margin-bottom:0;
+}
+.wpcf7 textarea{
+	width:60%;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	height:150px;
+	color:#797979;
+	margin-bottom:25px;
+	padding:10px;
+	padding-right:0;
+}
+.wpcf7 input[type="submit"]{
+	background-color:#37180e;
+	width:auto;
+	border:none;
+	cursor:pointer;
+	color:#ffffff;
+	padding:10px 40px;
+	border-radius:3px;
+}	
+
+/* Comment form
+--------------------------------*/
+.site-nav-previous, .nav-previous{
+    float:left;
+}
+.site-nav-next, .nav-next{
+    float:right;
+}
+#comments{
+    margin:30px 0 0;
+    padding:0;
+    width: 100%;
+    float: left;
+}
+nav#nav-below{
+    margin-top:15px;
+}
+.postmeta {
+    padding: 5px 0;
+    color: #999;
+}
+.postmeta a {
+    color: #999;
+}
+.postmeta a:hover {
+    color: #37180e;
+}
+.breadcrumbs {
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+ol.commentlist {
+    list-style: none;
+}
+#commentform p {
+    margin: 5px 0;
+}
+#commentform label {
+    display: block;
+}
+#commentform input#email,
+#commentform input#url,
+#commentform input#author,
+#commentform textarea,
+#commentform input#eazycfc_captcha {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+.form-allowed-tags {
+    display: none;
+}
+ul.errormsg {
+    background: #ffe4e4;
+}
+ul.errormsg li {
+    padding: 5px;
+}
+.entry-content table,
+.comment-body table {
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+.entry-content table td,
+.entry-content table th,
+.comment-body table td,
+.comment-body table th {
+    padding: 10px 5px;
+    text-align: left;
+}
+.entry-content table th,
+.comment-body table th {
+    color: #676767;
+    font-size: 18px;
+    border-bottom: 1px #888 solid;
+}
+.entry-content table td,
+.comment-body table td {
+    border-bottom: 1px #ccc solid;
+}
+.fvch-codeblock:hover .comment-form-url {
+    display: block !important;
+}
+
+/* Comment CSS
+------------------------------------------------------*/
+.commentlist,
+ol.commentlist {
+    list-style: none;
+    box-shadow: 0 0 5px #666;
+    -moz-box-shadow: 0 0 5px #666;
+    -webkit-box-shadow: 0 0 5px #666;
+    -khtml-box-shadow: 0 0 5px #666;
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 10px 0;
+}
+.commentlist li,
+ol.commentlist li {
+    list-style: none;
+    background-image: none !important;
+    padding: 0px 15px;
+}
+.commentlist li ol li.depth-2,
+.commentlist li ol li.depth-3,
+.commentlist li ol li.depth-4,
+ol.commentlist li ol li.depth-2,
+ol.commentlist li ol li.depth-3,
+ol.commentlist li ol li.depth-4 {
+    border-bottom: none;
+}
+.commentlist li.bypostauthor article,
+ol.commentlist li.bypostauthor article {
+    background: #f9ffe1;
+}
+.commentlist article,
+.commentlist li.bypostauthor li article,
+ol.commentlist li.bypostauthor li article {
+    border: none !important;
+    padding: 10px;
+    position: relative;
+    background-color: #fff;
+}
+.commentlist li .fn {
+    font-weight: normal;
+    font-size: 15px;
+    font-style: normal;
+}
+.commentlist li.bypostauthor .fn,
+ol.commentlist li.bypostauthor .fn {
+    color: #000;
+}
+img.avatar {
+    vertical-align: middle;
+    position: static;
+    display: inline-block;
+}
+.commentlist article a time {
+    display: block;
+    clear: both;
+    padding: 5px 0 10px;
+    font-size: 11px;
+    font-style: italic;
+}
+.commentlist,
+ol.commentlist p {
+    font-size: 14px;
+}
+.commentlist .reply span,
+ol.commentlist .reply span {
+    display: none;
+}
+.commentlist .reply a,
+ol.commentlist .reply a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background: #f6f6f6;
+    margin: 5px 0;
+    border: 1px #ddd solid;
+}
+.comment-author.vcard {
+    display: inline-block;
+    margin-right: 15px;
+}
+.comment-list ul.children li.comment {
+    background-image: none;
+    padding-left: 5px;
+}
+
+
+#footer .logo{
+    border: none;
+}
+
+#footer .social-icons {
+    border: none;
+}

@@ -1,0 +1,11 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#46B450;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<ellipse transform="matrix(6.141749e-02 -0.9981 0.9981 6.141749e-02 -0.595 19.3608)" class="st0" cx="10" cy="10" rx="10" ry="10"/>
+<path class="st1" d="M15.3,7.5c0-0.2-0.1-0.3-0.2-0.5l-0.9-0.9C14,6,13.9,6,13.7,6c-0.2,0-0.3,0.1-0.5,0.2l-4.5,4.5l-2-2
+	C6.7,8.5,6.5,8.4,6.3,8.4C6.1,8.4,6,8.5,5.8,8.6L4.9,9.5C4.8,9.7,4.7,9.8,4.7,10c0,0.2,0.1,0.3,0.2,0.5l3.4,3.4
+	C8.4,14,8.6,14,8.8,14c0.2,0,0.3-0.1,0.5-0.2L15.1,8C15.2,7.9,15.3,7.7,15.3,7.5z"/>
+</svg>

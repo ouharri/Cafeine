@@ -1,0 +1,539 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ img{
+    max-width: 100%;
+}
+
+.bttk-sc-icons, .widget-content input[type="text"], 
+.widget-content select, .widget-content input[type="number"] {
+    width: 100%;
+}
+
+.bttk-option-side-note {
+    margin: 10px 0 20px 0;
+    display: block;
+}
+
+.bttk-screenshot .bttk-remove-image{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    margin-top: 5px;
+}
+
+.image-text-widget-wrap{
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px rgba(0,0,0,0.2);
+  position: relative;
+  margin-top: 30px;
+}
+
+.image-text-cancel{
+    border-bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: #bc4848;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    display: block;
+}
+
+.image-text-cancel .dashicons{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.image-text-cancel:hover,
+.image-text-cancel:focus{
+    color: #fff;
+    background: #9c3b3b;
+}
+
+.bttk-screenshot{
+    margin-top: 10px;
+}
+
+.bttk-icons-list {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    z-index: 9999;
+    width: 225px;
+    border: 1px solid #ddd;
+    height: 300px;
+    overflow: scroll;
+    margin: 0 -5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+li.social-share-list {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 215px;
+    box-shadow: 1px 1px 1px #888888;
+    position: relative;
+}
+.twitter-widget-color-fields>.wp-picker-container>a
+{
+    display: none;
+}
+.bttk-icons-list li {
+    padding: 0;
+    width: 47px;
+    list-style: none;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 47px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-align: center;
+    height: 47px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-right: 5px;
+}
+
+li.social-share-list, li.bttk-social-icon-wrap {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 1px 1px 1px #888888;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+span.del-user-social-links , .del-bttk-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e5e5e5;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+.del-bttk-icon {
+
+}
+span.del-user-social-links:hover, .del-bttk-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+.bttk-social-icons-sortable-handle:after, 
+.btab-social-links-sortable-handle:after, 
+.btab-contact-social-links-sortable-handle:after, 
+.widget-client-logo-repeater .link-image-repeat::before,
+.bttk-img-text-outer .image-text-widget-wrap::before {
+    content: "Ξ";
+    right: 0;
+    position: absolute;
+    top: 22%;
+    margin: 0 15px 0 5px;
+    font-weight: 800;
+    opacity: 0.5;
+}
+.taxonomy-category img.tax-img {
+    height: 75px;
+    width: 75px;
+}
+
+.social-share-list span.bttk-social-icons-field-handle{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4px;
+    width: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.social-share-list label{
+    vertical-align: top;
+}
+
+.social-share-list .example-text{
+    display: block;
+    margin-left: 39px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.widget-content .social-share-list input[type="text"]{
+    width: 80%;
+    display: block;
+    margin-left: 39px;
+}
+
+.social-share-list .link-label{
+    margin-left: 39px;
+    margin-bottom: 5px;
+}
+
+.bttk-social-icon-wrap span.del-bttk-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 20px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.bttk-social-icon-wrap label{
+    vertical-align: top;
+}
+
+.bttk-social-icon-wrap .example-text{
+    display: block;
+    margin-left: 39px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.bttk-social-icon-wrap input[type="text"]{
+    width: 80%;
+    display: block;
+    margin-left: 39px;
+}
+
+.bttk-social-icon-wrap .link-label{
+    margin-left: 39px;
+    margin-bottom: 5px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.bttk-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.bttk-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.bttk-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.bttk-font-awesome-list li:hover,
+.bttk-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.bttk-font-awesome-list {
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+}
+
+.bttk-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.bttk-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+}
+
+.bttk-font-awesome-list li:hover,
+.bttk-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.bttk-remove-icon {
+    background: url("../images/ico-delete.png");
+    top: 0;
+    display: block;
+    height: 16px;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+    right: 0;
+}
+.bttk-remove-image {
+    background: url("../images/ico-delete.png");
+    display: block;
+    height: 16px;
+    right: 0;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.bttk-screenshot{
+    margin: 20px 0 10px; 
+    position: relative;
+}
+
+.bttk-remove-image{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.widget-control-actions{margin-top: 10px;}
+
+.icon-receiver{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #F1F1F1;
+    position: relative;
+    min-height: 50px;
+}
+
+.bttk-font-awesome-list ul{
+    overflow: auto;
+    height: 315px;
+}
+
+.bttk-font-group li{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 55px;
+    border: 1px solid rgba(0,0,0,0.05);
+    margin-right: 5px;
+    width: 55px;
+    height: 55px;
+}
+
+.search-itw-icons {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.search-itw-icons:focus {
+    border-color: #d5d5d5;
+}
+
+.link-image-repeat {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 2px 2px #eee;
+}
+.link-image-repeat .cross a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    background: #eee;
+    color: red;
+    display: block;
+}
+
+.widget-upload .bttk-screenshot {
+    background: #f9f9f9;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.widget-client-logo-repeater .widget-upload .bttk-screenshot img {
+    margin: 20px 10px;
+    max-width: 75%;
+}
+
+.widget-upload + .widget-feat-link {
+    margin-top: 20px;
+}
+
+.button-one-info label, .button-two-info label {
+    min-width: 100px;
+    display: inline-block;
+}
+
+.widget-content label {
+    display: block;
+}
+
+.widget-content .radio-btn-wrap {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 10px;
+    background: #e5e5e5;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+input:checked + .radio-btn-wrap {
+    background: #008ec2;
+    color: #fff;
+}
+
+.widget-content input[type="radio"] {
+    display: none;
+}
+
+.social-share-list span.bttk-social-icons-field-handle, 
+.bttk-social-icon-wrap .bttk-social-links-field-handle, 
+.social-share-list span.bttk-social-icons-field-handle {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    margin: 0;
+    font-size: 20px;
+}
+.social-share-list span.bttk-social-icons-field-handle + label, 
+.bttk-social-icon-wrap .bttk-social-links-field-handle + label, 
+.social-share-list span.bttk-social-icons-field-handle + label {
+    margin-left: 39px;
+}
+
+input[type="checkbox"] + label {
+    display: inline-block;
+}
+
+.bttk-option-side-note b {
+    color: #000;
+}
+
+.bttk-social-icon-wrap .bttk-icons-list, 
+.social-share-list input.user-social-profile + .bttk-icons-list {
+    top: 82px;
+    left: 54px;
+    width: 76%;
+    padding: 20px 10px;
+}
+
+.bttk-social-icon-wrap .bttk-icons-list #remove-icon-list, 
+.bttk-contact-social-icon-wrap .social-search-wrap .bttk-icons-list #remove-icon-list, 
+.social-share-list input.user-social-profile + .bttk-icons-list #remove-icon-list {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.bttk-social-icon-wrap .bttk-icons-list li:hover, 
+.bttk-contact-social-icon-wrap .social-search-wrap .bttk-icons-list li:hover, 
+.social-share-list input.user-social-profile + .bttk-icons-list li:hover {
+    background: #f5f5f5;
+}
+
+.bttk-contact-social-icon-wrap {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px #eee;
+    padding: 10px 10px 10px 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.bttk-contact-social-icon-wrap .bttk-contact-social-links-field-handle {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.bttk-contact-social-icon-wrap .bttk-contact-social-links-field-handle svg {
+    font-size: 20px;
+}
+
+.bttk-contact-social-icon-wrap .example-text {
+    margin-bottom: 5px;
+    display: block;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.bttk-contact-social-icon-wrap .del-contact-bttk-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    color: red;
+    background: #eee;
+    cursor: pointer;
+}
+
+.bttk-social-icon-wrap .btab-social-links-sortable-handle:after, 
+.bttk-contact-social-icon-wrap .btab-contact-social-links-sortable-handle::after, 
+.social-share-list .bttk-social-icons-sortable-handle:after, 
+.widget-client-logo-repeater .link-image-repeat::before,
+.bttk-img-text-outer .image-text-widget-wrap::before {
+    right: auto;
+    left: -13px;
+    top: 50%;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    background: #eee;
+    border-radius: 100%;
+    color: #333;
+    opacity: 1;
+    cursor: move;
+}
+
+.bttk-contact-social-icon-wrap .social-search-wrap {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.bttk-contact-social-icon-wrap .social-search-wrap .bttk-icons-list {
+    left: 6px;
+    width: auto;
+    right: 4px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.elementor-panel .bttk-font-group,
+.elementor-panel .bttk-icons-list{
+    display: flex;
+    flex-wrap:wrap;
+    font-size:18px;
+    height: 400px;
+    overflow: hidden;
+}
+.elementor-panel .bttk-font-group li,
+.elementor-panel .bttk-icons-list li{
+    width:40px;
+    height:40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkoptinmonster_wordpress_plugin_vue_app"]=self["webpackChunkoptinmonster_wordpress_plugin_vue_app"]||[]).push([[292],{58476:function(n,t,e){e.r(t),e.d(t,{default:function(){return i}});var o=function(){var n=this,t=n._self._c;return t("core-page",{staticClass:"om-app-404"},[t("h1",{staticClass:"omapi-warning"},[n._v("404")]),t("strong",[n._v("Uh oh!")]),n._v(" We can't find what you're looking for! ")])},s=[],r={name:"NotFound404"},u=r,a=e(1001),p=(0,a.Z)(u,o,s,!1,null,null,null),i=p.exports}}]);
+//# sourceMappingURL=temp-legacy.4d6fcaae.js.map

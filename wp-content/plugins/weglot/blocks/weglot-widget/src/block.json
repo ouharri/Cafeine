@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/weglot-widget",
+	"version": "0.1.0",
+	"title": "Weglot Widget",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Weglot switcher widget",
+	"supports": {
+		"html": true
+	},
+	"textdomain": "weglot-widget",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

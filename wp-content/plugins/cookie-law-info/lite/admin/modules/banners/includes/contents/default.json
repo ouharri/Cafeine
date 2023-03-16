@@ -1,0 +1,100 @@
+{
+    "notice": {
+        "elements": {
+            "title": "",
+            "description": "",
+            "privacyLink": "",
+            "buttons": {
+                "elements": {
+                    "accept": "",
+                    "reject": "",
+                    "settings": "",
+                    "readMore": "",
+                    "donotSell": ""
+                }
+            },
+            "closeButton": ""
+        }
+    },
+    "categoryPreview": {
+        "elements": {
+            "buttons": {
+                "elements": {
+                    "save": ""
+                }
+            }
+        }
+    },
+    "preferenceCenter": {
+        "elements": {
+            "title": "",
+            "description": "",
+            "showMore": "",
+            "showLess": "",
+            "category": {
+                "elements": {
+                    "alwaysEnabled": "",
+                    "enable": "",
+                    "disable": ""
+                }
+            },
+            "buttons": {
+                "elements": {
+                    "accept": "",
+                    "save": "",
+                    "reject": ""
+                }
+            },
+            "closeButton": ""
+        }
+    },
+    "optoutPopup": {
+        "elements": {
+            "title": "",
+            "description": "",
+            "optOption": {
+                "elements": {
+                    "title": "",
+                    "enable": "",
+                    "disable": ""
+                }
+            },
+            "gpcOption": {
+                "elements": {
+                    "description": ""
+                }
+            },
+            "showLess": "",
+            "showMore": "",
+            "buttons": {
+                "elements": {
+                    "cancel": "",
+                    "confirm": ""
+                }
+            },
+            "closeButton": ""
+        }
+    },
+    "revisitConsent": {
+        "elements": {
+            "title": ""
+        }
+    },
+    "auditTable": {
+        "elements": {
+            "headers": {
+                "elements": {
+                    "id": "",
+                    "duration": "",
+                    "description": ""
+                }
+            },
+            "message": ""
+        }
+    },
+    "videoPlaceholder": {
+        "elements": {
+            "title": ""
+        }
+    }
+}

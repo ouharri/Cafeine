@@ -1,0 +1,138 @@
+
+
+/**
+* Cookie blocker css
+ */
+
+//this class should not be contained in blocked content container class, to ensure it applies also before the complianz script has added the blocked content class
+.cmplz-video {
+  //prevent theme's from hiding the placeholder image with a background color
+  &.cmplz-iframe-styles {
+	background-color:transparent;
+  }
+  //hide placeholder video
+  &.cmplz-hidden {
+	visibility: hidden !important;
+  }
+}
+.cmplz-blocked-content-notice {
+  display: none;
+}
+//show the notice when the banner is loaded completely
+//it's hidden by default, with an inline css snippet to make sure it's loaded instantly
+.cmplz-optin, .cmplz-optout {
+  .cmplz-blocked-content-container, .cmplz-wp-video {
+	.cmplz-blocked-content-notice {
+	  display: block;
+	}
+  }
+}
+
+.cmplz-blocked-content-container, .cmplz-wp-video {
+  animation-name: cmplz-fadein;
+  animation-duration: 600ms;
+  background: #FFF;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: inherit;
+  position: relative;
+  //Geo My WP integration
+  &.gmw-map-cover {
+	max-height: 100%;
+	position: absolute;
+  }
+  &.cmplz-video-placeholder {
+	padding-bottom: initial;
+  }
+
+  iframe {
+	visibility:hidden;
+	max-height: 100%;
+	border: 0 !important;
+  }
+
+  .cmplz-custom-accept-btn {
+	&:focus {
+	  border: 1px dotted #cecece;
+	}
+
+	white-space: normal;
+	text-transform: initial;
+	cursor: pointer;
+	position: absolute !important;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 200px;
+	font-size: 14px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+	color: #fff;
+	text-align: center;
+	/*make sure the container is on top of the iframe, but below our cookie notice */
+	z-index: 98;
+	/*We need some lineheight, for example Elementor will force a lineheight of 0*/
+	line-height: 23px;
+  }
+
+  .cmplz-blocked-content-notice {
+	white-space: normal;
+	text-transform: initial;
+	position: absolute !important;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 300px;
+	font-size: 14px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+	color: #fff;
+	text-align: center;
+	/*make sure the container is on top of the iframe, but below our cookie notice */
+	z-index: 98;
+	/*We need some lineheight, for example Elementor will force a lineheight of 0*/
+	line-height: 23px;
+	.cmplz-links {
+	  display:block;
+	  margin-bottom:10px;
+	  a {
+	  	color:#fff;
+	  }
+	}
+	.cmplz-blocked-content-notice-body {
+	  display:block;
+	}
+  }
+}
+
+//cannot apply to wp-video as well.
+.cmplz-blocked-content-container {
+  div div {
+	display: none
+  }
+}
+
+//should only apply to wp-video
+.cmplz-wp-video {
+  .cmplz-placeholder-element{
+	width: 100%;
+	height: inherit;
+  }
+}
+
+@keyframes cmplz-fadein {
+  from   {
+	opacity:0;
+  }
+  to {
+	opacity:1;
+  }
+}

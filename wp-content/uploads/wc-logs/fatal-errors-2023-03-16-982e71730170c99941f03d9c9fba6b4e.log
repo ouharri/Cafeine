@@ -1,0 +1,4 @@
+2023-03-16T09:05:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\server\Cafeine\wp-content\plugins\elementor\modules\kit-elements-defaults\import-export\import-export.php à la ligne 9
+
+2023-03-16T09:48:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\server\Cafeine\wp-content\plugins\wordpress-seo\src\integrations\uninstall-integration.php à la ligne 10
+

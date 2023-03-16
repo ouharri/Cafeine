@@ -1,0 +1,22 @@
+{
+    "necessary": {
+        "name": "Szükséges",
+        "description": "<p>A szükséges sütik döntő fontosságúak a weboldal alapvető funkciói szempontjából, és a weboldal ezek nélkül nem fog megfelelően működni. Ezek a sütik nem tárolnak személyazonosításra alkalmas adatokat.</p>"
+    },
+    "functional": {
+        "name": "Funkcionális",
+        "description": "<p>A funkcionális sütik segítenek bizonyos funkciók végrehajtásában, például a weboldal tartalmának megosztásában a közösségi média platformokon, visszajelzések gyűjtésében és más, harmadik féltől származó funkciókban.</p>"
+    },
+    "analytics": {
+        "name": "Analitika",
+        "description": "<p>Analitikai sütiket használnak annak megértésére, hogy a látogatók hogyan lépnek kapcsolatba a weboldallal. Ezek a cookie-k segítséget nyújtanak a látogatók számáról, a visszafordulási arányról, a forgalmi forrásról stb.</p>"
+    },
+    "performance": {
+        "name": "Teljesítmény",
+        "description": "<p>A teljesítmény-sütiket a weboldal kulcsfontosságú teljesítménymutatóinak megértésére és elemzésére használják, amelyek hozzájárulnak a látogatók jobb felhasználói élményének biztosításához.</p>"
+    },
+    "advertisement": {
+        "name": "Hirdetés",
+        "description": "<p>A hirdetési sütiket arra használják, hogy a látogatókat személyre szabott hirdetésekkel juttassák el a korábban meglátogatott oldalak alapján, és elemezzék a hirdetési kampány hatékonyságát.</p>"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "optinmonster/campaign-selector",
+    "title": "OptinMonster",
+    "description": "Select and display one of your OptinMonster inline campaigns.",
+    "category": "embed",
+    "keywords": [ "Popup", "Form", "Campaign", "Email", "Conversion" ],
+    "textdomain": "optin-monster-api",
+    "attributes": {
+        "slug": {
+            "type": "string"
+        },
+        "followrules": {
+            "type": "boolean",
+            "default": true
+        }
+    }
+}

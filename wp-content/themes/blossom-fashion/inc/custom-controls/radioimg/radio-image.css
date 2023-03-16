@@ -1,0 +1,25 @@
+/*Radio Image Button */
+.customize-control-blossom-fashion-radio-image label {
+    position: relative;
+    display: inline-block; 
+}
+.customize-control-blossom-fashion-radio-image input {
+    display: none; 
+}
+.customize-control-blossom-fashion-radio-image input img {
+    border: 1px solid transparent; 
+}
+.customize-control-blossom-fashion-radio-image input:checked + label img {
+    -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    border: 1px solid #3498DB; 
+}
+.customize-control-blossom-fashion-radio-image input + label .image-clickable {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+/*Radio Image Button Ends */

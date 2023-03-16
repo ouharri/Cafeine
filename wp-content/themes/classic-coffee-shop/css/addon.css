@@ -1,0 +1,112 @@
+.theme-info-wrap {
+	position: relative;
+	max-width: 1006px;
+	margin: auto;
+}
+.theme-info-wrap img {
+	max-width: 100%;
+}
+
+/* Clearing Floats */
+.theme-info-wrap .clearfix::before,
+.theme-info-wrap .clearfix::after {
+	display: table;
+	content: " ";
+}
+.theme-info-wrap .clearfix::after {
+	clear: both;
+}
+
+/* Columns */
+.theme-info-wrap .columns-wrapper {
+	margin-right: -4em;
+}
+.theme-info-wrap .columns-wrapper .column {
+	float: left;
+	box-sizing: border-box;
+	padding-right: 4em;
+}
+.theme-info-wrap .columns-wrapper .column-half {
+	width: 50%;
+}
+.theme-info-wrap .columns-wrapper .column-third {
+	width: 33.3333333333333%;
+}
+.theme-info-wrap .columns-wrapper .column-quarter {
+	width: 25%;
+}
+
+/* Font Styles */
+.theme-info-wrap h3 {
+	margin: 1em 0 0.6em;
+	font-size: 1.8em;
+	line-height: 1.5;
+}
+.theme-info-wrap h4 {
+	margin: 0.2em 0;
+	font-size: 1.4em;
+}
+
+/* Theme Info Header */
+.theme-info-wrap h1 {
+	margin: 0.2em 0 0 0;
+	font-size: 3em;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.theme-info-wrap .theme-description {
+	margin: 1em 0;
+	min-height: 60px;
+	color: #777;
+	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 1.6;
+	text-align: center;
+}
+.theme-info-wrap .theme-description-1 {
+	margin: 1em 0;
+	min-height: 60px;
+	color: #777;
+	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 1.6;
+}
+
+/* Important Links */
+.theme-info-wrap .important-links p strong {
+	margin-right: 1em;
+}
+.theme-info-wrap .important-links p a {  
+    padding: 10px 32px;
+    border-radius: 10px;
+}
+.important-links.clearfix {
+    text-align: center;
+}
+
+/* Getting Started */
+#getting-started {
+	margin: 2em 0;
+}
+#getting-started .section {
+	margin: 2em 0 4em;
+}
+#getting-started .section .about {
+	color: #777;
+	font-size: 1.2em;
+	line-height: 1.6;
+}
+a.button.button-secondary.premium-btn {
+    margin-left: 20px;
+}
+
+/* Theme Author */
+#theme-author {
+	margin: 1em 0;
+}
+#theme-author p {
+	color: #777;
+	font-size: 1.2em;
+	line-height: 1.6;
+}

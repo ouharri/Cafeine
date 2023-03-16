@@ -1,0 +1,13 @@
+{
+  "OTHER": 0,
+  "TEXT": 1,
+  "VALUE": 2,
+  "PLACEHOLDER": 3,
+  "META_CONTENT": 4,
+  "IFRAME_SRC": 5,
+  "IMG_SRC": 6,
+  "IMG_ALT": 7,
+  "PDF_HREF": 8,
+  "PAGE_TITLE": 9,
+  "EXTERNAL_LINK": 10
+}

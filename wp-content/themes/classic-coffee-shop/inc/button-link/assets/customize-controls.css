@@ -1,0 +1,28 @@
+.control-section-classic-coffee-shop h3.accordion-section-title {
+  font-size: 12px !important;
+  color: #29233d !important;
+  border: none !important;
+  text-align: center;
+}
+a.button.button-secondary.alignright {
+  color: #29233d;
+  box-shadow: none;
+  font-weight: bold;
+  padding: 1px 10px;
+  font-size: 12px !important;
+  border-radius: 2px;
+  border: 1px solid #29233d;
+  float: none;
+}
+a.button.button-secondary.alignright:hover {
+  background: #29233d;
+  color: #fff;
+}
+li#accordion-section-classic_coffee_shop_button_link {
+  height: 75px;
+  background: #fff;
+  border-bottom: 1px solid #ddd !important;
+}
+.button_link {
+  text-align: center;
+}

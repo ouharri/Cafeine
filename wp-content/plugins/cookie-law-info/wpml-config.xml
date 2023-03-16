@@ -1,0 +1,36 @@
+<wpml-config>
+	<admin-texts>
+        <key name="CookieLawInfo-0.9">
+            <key name="bar_heading_text" />
+            <key name="notify_message" />
+            <key name="button_1_text" />
+            <key name="button_1_url" />
+            <key name="button_2_text" />
+            <key name="button_2_url" />
+            <key name="button_3_text" />
+            <key name="button_3_url" />
+            <key name="button_4_text" />
+            <key name="button_6_text" />
+            <key name="button_7_text" />
+            <key name="showagain_text" />
+    	</key>
+        <key name="cookielawinfo_privacy_overview_content_settings">
+            <key name="privacy_overview_content" />
+            <key name="privacy_overview_title" />
+        </key>
+        <key name="cookielawinfo_thirdparty_settings">
+            <key name="thirdparty_title" />
+            <key name="thirdparty_description" />
+        </key>
+        <key name="cookielawinfo_necessary_settings">
+            <key name="necessary_title" />
+            <key name="necessary_description" />
+        </key>
+	</admin-texts>
+    <taxonomies>
+     <taxonomy translate="1">cookielawinfo-category</taxonomy>
+    </taxonomies>
+    <custom-types>
+     <custom-type translate="1">cookielawinfo</custom-type>
+    </custom-types>
+</wpml-config>

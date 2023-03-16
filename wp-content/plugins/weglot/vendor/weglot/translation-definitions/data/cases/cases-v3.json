@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Simple tag #1",
+    "body": "<p>Hello, <b>this is</b> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, <b wg-1=\"\">this is</b> a test!"
+      }
+    ]
+  },
+  {
+    "name": "Simple tag #2",
+    "body": "<p>Hello, <strong>this is</strong> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, <strong wg-1=\"\">this is</strong> a test!"
+      }
+    ]
+  },
+  {
+    "name": "Simple tag #3",
+    "body": "<p>Hello, <em>this is</em> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, <em wg-1=\"\">this is</em> a test!"
+      }
+    ]
+  },
+  {
+    "name": "Simple tag #4",
+    "body": "<p>This is a normal sentence</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "This is a normal sentence"
+      }
+    ]
+  },
+  {
+    "name": "Nested simple tags",
+    "body": "<p>Hello, <i><b>this is</b></i> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, <i wg-1=\"\"><b wg-2=\"\">this is</b></i> a test!"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 2",
+    "body": "<p>This is a sentence with <strong>bolded</strong> text.</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "This is a sentence with <strong wg-1=\"\">bolded</strong> text."
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 3",
+    "body": "<p>This is a sentence with <strong>bolded</strong> text and <em>italic text</em> and other text.</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "This is a sentence with <strong wg-1=\"\">bolded</strong> text and <em wg-2=\"\">italic text</em> and other text."
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 4",
+    "body": "<p><strong>Everything is important</strong></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Everything is important"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 5",
+    "body": "<p>We believe <strong>everything is <em>really</em> important</strong></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "We believe <strong wg-1=\"\">everything is <em wg-2=\"\">really</em> important</strong>"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 6",
+    "body": "<p>We believe <strong><strong>everything</strong></strong><em><em> is important</em></em></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "We believe <strong wg-1=\"\"><strong wg-2=\"\">everything</strong></strong><em wg-3=\"\"><em wg-4=\"\"> is important</em></em>"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 7",
+    "body": "<p><abbr><i></i><i></i><strong><strong>Hello, </strong></strong><em><em>how are you</em></em><i></i></abbr></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "<i wg-1=\"\"></i><i wg-2=\"\"></i><strong wg-3=\"\"><strong wg-4=\"\">Hello, </strong></strong><em wg-5=\"\"><em wg-6=\"\">how are you</em></em><i wg-7=\"\"></i>"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 8",
+    "body": "<p><abbr><i></i><i></i><b><strong><strong>Hello, </strong></strong><em><em>how are you</em></em></b><i></i></abbr></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "<strong wg-1=\"\"><strong wg-2=\"\">Hello, </strong></strong><em wg-3=\"\"><em wg-4=\"\">how are you</em></em>"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 9",
+    "body": "<p><abbr><i></i><i></i><b><strong><strong>Hello, </strong></strong></b><i></i></abbr></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, "
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 10",
+    "body": " <p><b>Hello </b><b>this is</b></p><p>bonjour</p><p><b>Hi </b><b>we are</b></p> ",
+    "expected": [
+      {
+        "t": 1,
+        "w": "<b wg-1=\"\">Hello </b><b wg-2=\"\">this is</b>"
+      },
+      {
+        "t": 1,
+        "w": "bonjour"
+      },
+      {
+        "t": 1,
+        "w": "<b wg-1=\"\">Hi </b><b wg-2=\"\">we are</b>"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 11",
+    "body": " <p><b>Hello </b> <b>this is</b></p> <i> </i> <p>bonjour</p><p><b>Hi </b><b>we are</b></p> ",
+    "expected": [
+      {
+        "t": 1,
+        "w": "<b wg-1=\"\">Hello </b> <b wg-2=\"\">this is</b>"
+      },
+      {
+        "t": 1,
+        "w": "bonjour"
+      },
+      {
+        "t": 1,
+        "w": "<b wg-1=\"\">Hi </b><b wg-2=\"\">we are</b>"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 12",
+    "body": " <p> <b>Hello</b> <i> </i> <i></i></p><p>This</p><p>is</p> ",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello"
+      },
+      {
+        "t": 1,
+        "w": "This"
+      },
+      {
+        "t": 1,
+        "w": "is"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 13",
+    "body": " <p><b>8</b><b> Hello </b></p><p> Hi</p><p>Cool</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "<b wg-1=\"\">8</b><b wg-2=\"\"> Hello </b>"
+      },
+      {
+        "t": 1,
+        "w": " Hi"
+      },
+      {
+        "t": 1,
+        "w": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 14",
+    "body": "<li><a><h2>Banho Floral</h2><span>A first link</span></a><a>Another link</a></li>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Banho Floral"
+      },
+      {
+        "t": 1,
+        "w": "A first link"
+      },
+      {
+        "t": 1,
+        "w": "Another link"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 15",
+    "body": "<p> <b> This is another nested test </b><br></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": " This is another nested test "
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 16",
+    "body": "<p>This <strong>is</strong> another nested test<br></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "This <strong wg-1=\"\">is</strong> another nested test<br wg-2=\"\">"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 17",
+    "body": "<p>This ending tag must not be here<br></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "This ending tag must not be here"
+      }
+    ]
+  },
+  {
+    "name": "Tag with br",
+    "body": "<p>Hello, <br> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, <br wg-1=\"\"> a test!"
+      }
+    ]
+  },
+  {
+    "name": "Tag with br",
+    "body": "<p>Hello, <br> a test! how are <b>you</b></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, <br wg-1=\"\"> a test! how are <b wg-2=\"\">you</b>"
+      }
+    ]
+  },
+  {
+    "name": "Exclude tags 1",
+    "body": " <p><b>Hello </b><b data-wg-notranslate>man</b></p> ",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello "
+      }
+    ]
+  },
+  {
+    "name": "Link tag",
+    "body": "<p>Hello, <a href='#'>this is</a> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, <a wg-1=\"\">this is</a> a test!"
+      }
+    ]
+  },
+  {
+    "name": "Link tag with title",
+    "body": "<p>Hello, <a href='#' title='title needs translation'>this is</a> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "title needs translation"
+      },
+      {
+        "t": 1,
+        "w": "Hello, <a wg-1=\"\">this is</a> a test!"
+      }
+    ]
+  },
+  {
+    "name": "Link tag with title 2",
+    "body": "<p>Hello, <b><a href='#' class='translate' title='translate'>this is</a> a <a href='#' title='link needs translation'>link</a></b> and a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "translate"
+      },
+      {
+        "t": 1,
+        "w": "link needs translation"
+      },
+      {
+        "t": 1,
+        "w": "Hello, <b wg-1=\"\"><a wg-2=\"\">this is</a> a <a wg-3=\"\">link</a></b> and a test!"
+      }
+    ]
+  },
+  {
+    "name": "Button tag",
+    "body": "<form><button value='Click me!'></button></form>",
+    "expected": [
+      {
+        "t": 2,
+        "w": "Click me!"
+      }
+    ]
+  },
+  {
+    "name": "Input tag",
+    "body": "<form><input type='text' placeholder='This is a placeholder!'></form>",
+    "expected": [
+      {
+        "t": 3,
+        "w": "This is a placeholder!"
+      }
+    ]
+  },
+  {
+    "name": "Meta tag",
+    "body": "<meta name='description' content='This is a website description!'>",
+    "expected": [
+      {
+        "t": 4,
+        "w": "This is a website description!"
+      }
+    ]
+  },
+  {
+    "name": "Image tag",
+    "body": "<p><img src='/an-image.png' alt='This is an image!'></p>",
+    "expected": [
+      {
+        "t": 7,
+        "w": "This is an image!"
+      },
+      {
+        "t": 6,
+        "w": "/an-image.png"
+      }
+    ]
+  },
+  {
+    "name": "Link tag with pdf",
+    "body": "<p><a href=\"/my-document.pdf\">Click here!</a></p>",
+    "expected": [
+      {
+        "t": 8,
+        "w": "/my-document.pdf"
+      },
+      {
+        "t": 1,
+        "w": "Click here!"
+      }
+    ]
+  },
+  {
+    "name": "Link tag with pdf 2",
+    "body": "<p>Hello! <a href=\"/my-document.pdf\">Click here!</a></p>",
+    "expected": [
+      {
+        "t": 8,
+        "w": "/my-document.pdf"
+      },
+      {
+        "t": 1,
+        "w": "Hello! <a wg-1=\"\">Click here!</a>"
+      }
+    ]
+  },
+  {
+    "name": "Tag with new line and blanks",
+    "body": "<p> \n\n <strong>test</strong> \n\n </p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "test"
+      }
+    ]
+  },
+  {
+    "name": "Sentence with a comment",
+    "body": "<p><!--This is a comment-->This is <b>nice</b> and easy</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "This is <b wg-1=\"\">nice</b> and easy"
+      }
+    ]
+  },
+  {
+    "name": "Sentence with empty node",
+    "body": "<p><a href=\"#\"> <span>Hello</span></a></p><h2>That's a test</h2><p>test</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello"
+      },
+      {
+        "t": 1,
+        "w": "That's a test"
+      },
+      {
+        "t": 1,
+        "w": "test"
+      }
+    ]
+  },
+  {
+    "name": "Sentence with 2 comments",
+    "body": "<h2><!-- Comment 1 --><!--Comment2-->Hi there</h2>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hi there"
+      }
+    ]
+  },
+  {
+    "name": "Sentence with a number merged",
+    "body": "<div><a><b>1</b><b>Hallo</b></a></div><p>Wo bist du?</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "<b wg-1=\"\">1</b><b wg-2=\"\">Hallo</b>"
+      },
+      {
+        "t": 1,
+        "w": "Wo bist du?"
+      }
+    ]
+  }
+]

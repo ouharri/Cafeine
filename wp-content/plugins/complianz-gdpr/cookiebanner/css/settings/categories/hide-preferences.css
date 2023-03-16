@@ -1,0 +1,5 @@
+.cmplz-cookiebanner .cmplz-preferences,
+.cmplz-manage-consent-container .cmplz-preferences {
+  display: none;
+}
+/*# sourceMappingURL=hide-preferences.css.map */

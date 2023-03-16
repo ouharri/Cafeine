@@ -1,0 +1,453 @@
+[
+    {
+        "key": "cky_revisit_title",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_notice_title",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_notice_description",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_settings_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_reject_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_accept_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_readmore_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_notice_close_label",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preview_save_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_optout_title",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_optout_description",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_optout_option_title",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_enable_optout_label",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_disable_optout_label",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_optout_gpc_description",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_optout_close_label",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preference_title",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preference_description",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_showmore_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_showless_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preference_accept_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preference_reject_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preference_save_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_donotsell_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preference_always_enabled",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_enable_category_label",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_disable_category_label",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_optout_cancel_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_optout_confirm_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preference_close_label",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_video_placeholder_title",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_audit_table_empty_text",
+        "type": "text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_settings",
+        "type": "html",
+        "content": {
+            "link": "<a href=\"javascript:void(0);\" class=\"cky-btn cky-btn-customize\" aria-label=\"[cky_settings_text]\" data-cky-tag=\"settings-button\">[cky_settings_text]</a>",
+            "button": "<button class=\"cky-btn cky-btn-customize\" aria-label=\"[cky_settings_text]\" data-cky-tag=\"settings-button\">[cky_settings_text]</button>"
+        },
+        "attributes": {
+            "data-cky-tag": "settings-button"
+        },
+        "customTag": "settings-button",
+        "uiTag": "settings-button"
+    },
+    {
+        "key": "cky_reject",
+        "type": "html",
+        "content": {
+            "link": "<a href=\"javascript:void(0);\" class=\"cky-btn cky-btn-reject\" aria-label=\"[cky_reject_text]\" data-cky-tag=\"reject-button\">[cky_reject_text]</a>",
+            "button": "<button class=\"cky-btn cky-btn-reject\" aria-label=\"[cky_reject_text]\" data-cky-tag=\"reject-button\">[cky_reject_text]</button>"
+        },
+        "attributes": {
+            "data-cky-tag": "reject-button"
+        },
+        "customTag": "reject-button",
+        "uiTag": "reject-button"
+    },
+    {
+        "key": "cky_accept",
+        "type": "html",
+        "content": {
+            "link": "<a href=\"javascript:void(0);\" class=\"cky-btn cky-btn-accept\" aria-label=\"[cky_accept_text]\" data-cky-tag=\"accept-button\">[cky_accept_text]</a>",
+            "button": "<button class=\"cky-btn cky-btn-accept\" aria-label=\"[cky_accept_text]\" data-cky-tag=\"accept-button\">[cky_accept_text]</button>"
+        },
+        "attributes": {
+            "data-cky-tag": "accept-button"
+        },
+        "customTag": "accept-button",
+        "uiTag": "accept-button"
+    },
+    {
+        "key": "cky_donot_sell",
+        "type": "html",
+        "content": {
+            "link": "<a href=\"javascript:void(0);\" aria-label=\"[cky_donotsell_text]\" data-cky-tag=\"donotsell-button\">[cky_donotsell_text]</a>",
+            "button": "<button class=\"cky-btn cky-btn-do-not-sell\" aria-label=\"[cky_donotsell_text]\" data-cky-tag=\"donotsell-button\">[cky_donotsell_text]</button>"
+        },
+        "attributes": {
+            "data-cky-tag": "donotsell-button"
+        },
+        "customTag": "donotsell-button",
+        "uiTag": "donotsell-button"
+    },
+    {
+        "key": "cky_show_desc",
+        "type": "data",
+        "content": {
+            "button": "<button class=\"cky-show-desc-btn\" data-cky-tag=\"show-desc-button\" aria-label=\"[cky_showmore_text]\">[cky_showmore_text]</button>"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "show-desc-button"
+    },
+    {
+        "key": "cky_hide_desc",
+        "type": "data",
+        "content": {
+            "button": "<button class=\"cky-show-desc-btn\" data-cky-tag=\"hide-desc-button\" aria-label=\"[cky_showless_text]\">[cky_showless_text]</button>"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "hide-desc-button"
+    },
+    {
+        "key": "cky_readmore",
+        "type": "data",
+        "content": {
+            "link": "<a href=\"[cky_privacy_link]\" class=\"cky-policy\" aria-label=\"[cky_readmore_text]\" target=\"_blank\" rel=\"noopener\" data-cky-tag=\"readmore-button\">[cky_readmore_text]</a>",
+            "button": "<button class=\"cky-policy\" aria-label=\"[cky_readmore_text]\" data-cky-tag=\"readmore-button\">[cky_readmore_text]</button>"
+        },
+        "attributes": {
+            "data-cky-tag": "readmore-button"
+        },
+        "customTag": "",
+        "uiTag": "readmore-button"
+    },
+    {
+        "key": "cky_audit_table",
+        "type": "data",
+        "content": {
+            "container": "<ul class=\"cky-cookie-des-table\">[CONTENT]</ul>"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "audit-table"
+    },
+    {
+        "key": "cky_outside_audit_table",
+        "type": "data",
+        "content": {
+            "container": "<h3>[cky_preference_{{category_slug}}_title]</h3><div class=\"cky-table-wrapper\"><table class=\"cky-cookie-audit-table\">[CONTENT]</table></div>"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "outside-audit-table"
+    },
+    {
+        "key": "cky_audit_table_empty",
+        "type": "data",
+        "content": {
+            "container": "<p class=\"cky-empty-cookies-text\">[cky_audit_table_empty_text]</p>"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "audit-table-empty"
+    },
+    {
+        "key": "cky_category_toggle_label",
+        "type": "data",
+        "content": {
+            "container": "[cky_{{status}}_category_label] [cky_preference_{{category_slug}}_title]"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "detail-category-toggle"
+    },
+    {
+        "key": "cky_optout_toggle_label",
+        "type": "data",
+        "content": {
+            "container": "[cky_{{status}}_optout_label] [cky_optout_option_title]"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "optout-option-toggle"
+    },
+    {
+        "key": "cky_video_placeholder",
+        "type": "data",
+        "content": {
+            "container": "<div class=\"video-placeholder-normal\" data-cky-tag=\"video-placeholder\" id=\"[UNIQUEID]\"><p class=\"video-placeholder-text-normal\" data-cky-tag=\"placeholder-title\">[cky_video_placeholder_title]</p></div>"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "video-placeholder"
+    },
+    {
+        "key": "cky_preview_category",
+        "type": "system",
+        "content": {
+            "container": "<div class=\"cky-category-direct-item\"><label for=\"ckyCategoryDirect{{category_slug}}\" data-cky-tag=\"detail-category-preview-title\">[cky_preview_{{category_slug}}_title]</label><div class=\"cky-category-direct-switch\" data-cky-tag=\"detail-category-preview-toggle\"><input type=\"checkbox\" id=\"ckyCategoryDirect{{category_slug}}\"></div></div>"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "detail-category-preview"
+    },
+    {
+        "key": "cky_preference_category",
+        "type": "system",
+        "content": {
+            "container": "<div class=\"cky-accordion\" id=\"ckyDetailCategory{{category_slug}}\"> <div class=\"cky-accordion-item\"> <div class=\"cky-accordion-chevron\"><i class=\"cky-chevron-right\"></i></div> <div class=\"cky-accordion-header-wrapper\"> <div class=\"cky-accordion-header\"><button class=\"cky-accordion-btn\" aria-label=\"[cky_preference_{{category_slug}}_title]\" data-cky-tag=\"detail-category-title\">[cky_preference_{{category_slug}}_title]</button><span class=\"cky-always-active\">[cky_preference_always_enabled]</span> <div class=\"cky-switch\" data-cky-tag=\"detail-category-toggle\"><input type=\"checkbox\" id=\"ckySwitch{{category_slug}}\"></div> </div> <div class=\"cky-accordion-header-des\" data-cky-tag=\"detail-category-description\"> [cky_preference_{{category_slug}}_description]</div> </div> </div> <div class=\"cky-accordion-body\"> <div class=\"cky-audit-table\" data-cky-tag=\"audit-table\">[cky_audit_table]</div> </div> </div>"
+        },
+        "attributes": {},
+        "customTag": "",
+        "uiTag": "detail-categories"
+    },
+    {
+        "key": "cky_preview_{{category_slug}}_title",
+        "type": "category-text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preference_{{category_slug}}_title",
+        "type": "category-text",
+        "content": {},
+        "attributes": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_preference_{{category_slug}}_description",
+        "type": "category-text",
+        "content": {},
+        "customTag": "",
+        "uiTag": ""
+    },
+    {
+        "key": "cky_privacy_link",
+        "type": "data",
+        "content": {},
+        "customTag": "",
+        "uiTag": ""
+    }
+]

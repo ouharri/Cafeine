@@ -1,0 +1,22 @@
+{
+    "necessary": {
+        "name": "niezbędny",
+        "description": "<p>Niezbędne pliki cookie mają kluczowe znaczenie dla podstawowych funkcji witryny i witryna nie będzie działać w zamierzony sposób bez nich. Te pliki cookie nie przechowują żadnych danych umożliwiających identyfikację osoby.</p>"
+    },
+    "functional": {
+        "name": "Funkcjonalny",
+        "description": "<p>Funkcjonalne pliki cookie pomagają wykonywać pewne funkcje, takie jak udostępnianie zawartości witryny na platformach mediów społecznościowych, zbieranie informacji zwrotnych i inne funkcje stron trzecich.</p>"
+    },
+    "analytics": {
+        "name": "Analityka",
+        "description": "<p>Analityczne pliki cookie służą do zrozumienia, w jaki sposób użytkownicy wchodzą w interakcję z witryną. Te pliki cookie pomagają dostarczać informacje o metrykach liczby odwiedzających, współczynniku odrzuceń, źródle ruchu itp.</p>"
+    },
+    "performance": {
+        "name": "Występ",
+        "description": "<p>Wydajnościowe pliki cookie służą do zrozumienia i analizy kluczowych wskaźników wydajności witryny, co pomaga zapewnić lepsze wrażenia użytkownika dla odwiedzających.</p>"
+    },
+    "advertisement": {
+        "name": "Reklama",
+        "description": "<p>Reklamowe pliki cookie służą do dostarczania użytkownikom spersonalizowanych reklam w oparciu o strony, które odwiedzili wcześniej, oraz do analizowania skuteczności kampanii reklamowej.</p>"
+    }
+}

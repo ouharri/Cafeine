@@ -1,0 +1,202 @@
+{
+    "gdpr": {
+        "notice": {
+            "elements": {
+                "title": "Fontosnak tartjuk az adatok védelmét",
+                "description": "<p>A böngészési élmény fokozása, a személyre szabott hirdetések vagy tartalmak megjelenítése, valamint a forgalom elemzése érdekében sütiket (cookie) használunk. A \"Mindet elfogadom\" gombra kattintva hozzájárulhat a sütik használatához.</p>",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Az összes elfogadása",
+                        "reject": "Elutasít",
+                        "settings": "Testreszabás",
+                        "readMore": "Cookie-szabályzat",
+                        "donotSell": "Ne Értékesítse vagy Ossza Meg SZemélyes Adataimat"
+                    }
+                },
+                "closeButton": "Bezárás"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Mentse el a beállításokat"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Engedélyek beállítása",
+                "description": "<p>A hatékony navigáció és bizonyos funkciók működésének érdekében sütiket használunk. Az alábbiakban az egyes kategóriák alatt részletes információkat talál minden sütiről.</p><p>A \"Szükséges\" kategóriába sorolt sütiket a böngésző tárolja, mivel ezek elengedhetetlenül szükségesek a webhely alapvető funkcióihoz. </p><p>A harmadik féltől származó sütik segítenek a weboldal használatának elemzésében, tárolják a preferenciáit és releváns tartalmakat és hirdetéseket biztosítanak Önnek. Ezeket a sütiket csak az Ön előzetes beleegyezésével tároljuk a böngészőjében.</p><p>Eldöntheti, hogy engedélyezi vagy letiltja ezeket a sütiket, de bizonyos sütik letiltása befolyásolhatja a böngészési élményt.</p>",
+                "showMore": "Mutass többet",
+                "showLess": "Mutass kevesebbet",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Mindig aktív",
+                        "enable": "Engedélyezze",
+                        "disable": "Letiltás"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Az összes elfogadása",
+                        "save": "Mentse el a beállításokat",
+                        "reject": "Elutasít"
+                    }
+                },
+                "closeButton": "Bezárás"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Kikapcsolási preferenciák",
+                "description": "<p>Külső felektől származó cookie-kat használunk arra, hogy elemezzük, hogyan használja ezt a weboldalt, megjegyezzük preferenciáit, és releváns tartalmat és hirdetéseket biztosítsunk. Ezeket a cookie-kat kikapcsolhatja, ha megjelöli a „Ne Értékesítse vagy Ossza Meg SZemélyes Adataimat” opciót, majd rákattint a „Mentse el a beállításokat” gombra. A kikapcsolásuk után, bármikor újra engedélyezheti őket, ha visszavonja a „Ne Értékesítse vagy Ossza Meg SZemélyes Adataimat” kijelölését, és rákattint a \"Mentse el a beállításokat\" gombra.</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "Ne Értékesítse vagy Ossza Meg SZemélyes Adataimat",
+                        "enable": "Engedélyezze",
+                        "disable": "Letiltás"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>A kikapcsolási beállításait tiszteletben tartottuk ezen a weboldalon, mivel a böngészője egy globális adatvédelmi ellenőrző jelzést érzékelt, ezért nem tudja megváltoztatni ezt a beállítást.</p>"
+                    }
+                },
+                "showLess": "Mutass kevesebbet",
+                "showMore": "Mutass többet",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Mégse",
+                        "confirm": "Mentse el a beállításokat"
+                    }
+                },
+                "closeButton": "Bezárás"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Cookie-beállítások"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Cookie",
+                        "duration": "Időtartam",
+                        "description": "Leírás"
+                    }
+                },
+                "message": "Nincs megjeleníthető cookie."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Kérjük, fogadja el a cookie-k beleegyezését"
+            }
+        }
+    },
+    "ccpa": {
+        "notice": {
+            "elements": {
+                "title": "Fontosnak tartjuk az adatok védelmét",
+                "description": "Ez a weboldal vagy harmadik féltől származó eszközei feldolgozzák a személyes adatokat. A „Ne Értékesítse vagy Ossza Meg SZemélyes Adataimat” linkre kattintva letilthatja személyes adatainak értékesítését.",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Az összes elfogadása",
+                        "reject": "Elutasít",
+                        "settings": "Testreszabás",
+                        "readMore": "Cookie-szabályzat",
+                        "donotSell": "Ne Értékesítse vagy Ossza Meg SZemélyes Adataimat"
+                    }
+                },
+                "closeButton": "Bezárás"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Mentse el a beállításokat"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Engedélyek beállítása",
+                "description": "<p>A hatékony navigáció és bizonyos funkciók működésének érdekében sütiket használunk. Az alábbiakban az egyes kategóriák alatt részletes információkat talál minden sütiről.</p><p>A \"Szükséges\" kategóriába sorolt sütiket a böngésző tárolja, mivel ezek elengedhetetlenül szükségesek a webhely alapvető funkcióihoz. </p><p>A harmadik féltől származó sütik segítenek a weboldal használatának elemzésében, tárolják a preferenciáit és releváns tartalmakat és hirdetéseket biztosítanak Önnek. Ezeket a sütiket csak az Ön előzetes beleegyezésével tároljuk a böngészőjében.</p><p>Eldöntheti, hogy engedélyezi vagy letiltja ezeket a sütiket, de bizonyos sütik letiltása befolyásolhatja a böngészési élményt.</p>",
+                "showMore": "Mutass többet",
+                "showLess": "Mutass kevesebbet",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Mindig aktív",
+                        "enable": "Engedélyezze",
+                        "disable": "Letiltás"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Az összes elfogadása",
+                        "save": "Mentse el a beállításokat",
+                        "reject": "Elutasít"
+                    }
+                },
+                "closeButton": "Bezárás"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Kikapcsolási preferenciák",
+                "description": "<p>Külső felektől származó cookie-kat használunk arra, hogy elemezzük, hogyan használja ezt a weboldalt, megjegyezzük preferenciáit, és releváns tartalmat és hirdetéseket biztosítsunk. Ezeket a cookie-kat kikapcsolhatja, ha megjelöli a „Ne Értékesítse vagy Ossza Meg SZemélyes Adataimat” opciót, majd rákattint a „Mentse el a beállításokat” gombra. A kikapcsolásuk után, bármikor újra engedélyezheti őket, ha visszavonja a „Ne Értékesítse vagy Ossza Meg SZemélyes Adataimat” kijelölését, és rákattint a \"Mentse el a beállításokat\" gombra.</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "Ne Értékesítse vagy Ossza Meg SZemélyes Adataimat",
+                        "enable": "Engedélyezze",
+                        "disable": "Letiltás"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>A kikapcsolási beállításait tiszteletben tartottuk ezen a weboldalon, mivel a böngészője egy globális adatvédelmi ellenőrző jelzést érzékelt, ezért nem tudja megváltoztatni ezt a beállítást.</p>"
+                    }
+                },
+                "showLess": "Mutass kevesebbet",
+                "showMore": "Mutass többet",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Mégse",
+                        "confirm": "Mentse el a beállításokat"
+                    }
+                },
+                "closeButton": "Bezárás"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Cookie-beállítások"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Cookie",
+                        "duration": "Időtartam",
+                        "description": "Leírás"
+                    }
+                },
+                "message": "Nincs megjeleníthető cookie."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Kérjük, fogadja el a cookie-k beleegyezését"
+            }
+        }
+    }
+}

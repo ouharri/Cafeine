@@ -1,0 +1,270 @@
+{
+    "packages": [
+        {
+            "name": "gmulti/morphism-php",
+            "version": "0.3.0",
+            "version_normalized": "0.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gmulti/morphism-php.git",
+                "reference": "0b4cc4e604452a724124b8d342635c4b0b0e9809"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gmulti/morphism-php/zipball/0b4cc4e604452a724124b8d342635c4b0b0e9809",
+                "reference": "0b4cc4e604452a724124b8d342635c4b0b0e9809",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5"
+            },
+            "time": "2017-12-23T20:54:39+00:00",
+            "type": "project",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Morphism\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas DENEULIN",
+                    "email": "thomas@delipress.io"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Gmulti/morphism-php/issues",
+                "source": "https://github.com/Gmulti/morphism-php/tree/0.3.0"
+            },
+            "install-path": "../gmulti/morphism-php"
+        },
+        {
+            "name": "psr/cache",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/cache.git",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2016-08-06T20:24:11+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for caching libraries",
+            "keywords": [
+                "cache",
+                "psr",
+                "psr-6"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/cache/tree/master"
+            },
+            "install-path": "../psr/cache"
+        },
+        {
+            "name": "weglot/simplehtmldom",
+            "version": "0.7",
+            "version_normalized": "0.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:weglot/simple_html_dom.git",
+                "reference": "020aac0f37d5cf1ebfde62aa67cb2a6cc3914f41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/weglot/simple_html_dom/zipball/020aac0f37d5cf1ebfde62aa67cb2a6cc3914f41",
+                "reference": "020aac0f37d5cf1ebfde62aa67cb2a6cc3914f41",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2021-12-13T12:39:30+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "WGSimpleHtmlDom": "src/"
+                },
+                "files": [
+                    "src/simple_html_dom.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "S.C. Chen",
+                    "email": "me578022@gmail.com"
+                }
+            ],
+            "description": "Composer package that gives you access to and (unlike all the others at this time) autoloads S.C. Chen's PHP Simple HTML DOM Parser Library",
+            "homepage": "http://simplehtmldom.sourceforge.net/",
+            "keywords": [
+                "dom",
+                "html",
+                "simple"
+            ],
+            "support": {
+                "source": "https://github.com/weglot/simple_html_dom/tree/0.7"
+            },
+            "abandoned": true,
+            "install-path": "../weglot/simplehtmldom"
+        },
+        {
+            "name": "weglot/translation-definitions",
+            "version": "v2.3.4",
+            "version_normalized": "2.3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/weglot/weglot-translation-definitions.git",
+                "reference": "f54b91a863e529f3efbc0c68acde7731a57176de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/weglot/weglot-translation-definitions/zipball/f54b91a863e529f3efbc0c68acde7731a57176de",
+                "reference": "f54b91a863e529f3efbc0c68acde7731a57176de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5"
+            },
+            "time": "2021-02-18T14:47:45+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "index.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mehdi Rejraji",
+                    "email": "mehdi@weglot.com"
+                }
+            ],
+            "description": "Weglot's shared definitions",
+            "support": {
+                "issues": "https://github.com/weglot/weglot-translation-definitions/issues",
+                "source": "https://github.com/weglot/weglot-translation-definitions/tree/v2.3.4"
+            },
+            "install-path": "../weglot/translation-definitions"
+        },
+        {
+            "name": "weglot/weglot-php",
+            "version": "1.6.2",
+            "version_normalized": "1.6.2.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:weglot/weglot-php.git",
+                "reference": "54322ba52d7b720cbf757a40be1112c792243921"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/weglot/weglot-php/zipball/54322ba52d7b720cbf757a40be1112c792243921",
+                "reference": "54322ba52d7b720cbf757a40be1112c792243921",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "psr/cache": "^1.0",
+                "weglot/simplehtmldom": "^0.7",
+                "weglot/translation-definitions": "^2.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "^2.4",
+                "vlucas/phpdotenv": "^2.4"
+            },
+            "time": "2022-12-08T13:06:59+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Weglot\\": "src/",
+                    "Languages\\": "node_modules/@weglot/languages/dist/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Baptiste Leduc",
+                    "email": "baptiste@weglot.com",
+                    "homepage": "https://baptiste-leduc.now.sh/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Thomas Deneulin",
+                    "email": "thomas@weglot.com",
+                    "role": "Review"
+                },
+                {
+                    "name": "Edson Galina Fortes",
+                    "email": "edson@weglot.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library for the Weglot API",
+            "homepage": "https://weglot.com/",
+            "keywords": [
+                "i18n",
+                "languages",
+                "localization",
+                "php",
+                "translate",
+                "translation",
+                "translator",
+                "weglot",
+                "weglot-library"
+            ],
+            "support": {
+                "email": "support@weglot.com",
+                "source": "https://github.com/weglot/weglot-php",
+                "docs": "https://weglot.github.io/weglot-documentation/",
+                "issues": "https://github.com/weglot/weglot-php/issues"
+            },
+            "install-path": "../weglot/weglot-php"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

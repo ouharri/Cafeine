@@ -1,0 +1,202 @@
+{
+    "gdpr": {
+        "notice": {
+            "elements": {
+                "title": "Valoramos tu privacidad",
+                "description": "<p>Usamos cookies para mejorar su experiencia de navegación, mostrarle anuncios o contenidos personalizados y analizar nuestro tráfico. Al hacer clic en “Aceptar todo” usted da su consentimiento a nuestro uso de las cookies.</p>",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Aceptar todo",
+                        "reject": "Rechazar todo",
+                        "settings": "Personalizar",
+                        "readMore": "Política de cookies",
+                        "donotSell": "No vendan ni compartan mi información personal"
+                    }
+                },
+                "closeButton": "Cerca"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Guardar mis preferencias"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Personalizar las preferencias de consentimiento",
+                "description": "<p>Usamos cookies para ayudarle a navegar de manera eficiente y realizar ciertas funciones. Encontrará información detallada sobre cada una de las cookies bajo cada categoría de consentimiento a continuación.</p><p>Las cookies categorizadas como “Necesarias” se guardan en su navegador, ya que son esenciales para permitir las funcionalidades básicas del sitio web.</p><p>También utilizamos cookies de terceros que nos ayudan a analizar cómo usted utiliza este sitio web, guardar sus preferencias y aportar el contenido y la publicidad que le sean relevantes. Estas cookies solo se guardan en su navegador previo consentimiento por su parte.</p><p>Puede optar por activar o desactivar alguna o todas estas cookies, aunque la desactivación de algunas podría afectar a su experiencia de navegación.</p>",
+                "showMore": "Mostrar más",
+                "showLess": "Mostrar menos",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Siempre activas",
+                        "enable": "Permitir",
+                        "disable": "Desactivar"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Aceptar todo",
+                        "save": "Guardar mis preferencias",
+                        "reject": "Rechazar todo"
+                    }
+                },
+                "closeButton": "Cerca"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Preferencias de exclusión voluntaria",
+                "description": "<p>Utilizamos cookies de terceros que nos ayudan a analizar el uso que usted hace de este sitio web, a almacenar sus preferencias y a ofrecerle el contenido y la publicidad que le resulten de interés. Sin embargo, usted puede excluirse de estas cookies marcando «No vendan ni compartan mi información personal» y haciendo clic en el botón «Guardar mis preferencias». Una vez que haya optado por la exclusión, podrá cancelarlo en cualquier momento desmarcando «No vendan ni compartan mi información personal» y haciendo clic en el botón «Guardar mis preferencias».</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "No vendan ni compartan mi información personal",
+                        "enable": "Permitir",
+                        "disable": "Desactivar"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>Su configuración de exclusión voluntaria para este sitio web se ha respetado desde que detectamos una señal de control de privacidad global de su navegador y, por lo tanto, no puede cambiar esta configuración.</p>"
+                    }
+                },
+                "showLess": "Mostrar más",
+                "showMore": "Mostrar menos",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Cancelar",
+                        "confirm": "Guardar mis preferencias"
+                    }
+                },
+                "closeButton": "Cerca"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Configuración de cookies"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Cookie",
+                        "duration": "Duración",
+                        "description": "Descripción"
+                    }
+                },
+                "message": "No hay cookies para mostrar."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Por favor acepte el consentimiento de cookies"
+            }
+        }
+    },
+    "ccpa": {
+        "notice": {
+            "elements": {
+                "title": "Valoramos tu privacidad",
+                "description": "Este sitio web o sus herramientas de terceros procesan datos personales. Puede optar por no participar en la venta de su información personal haciendo clic en el enlace \"No vendan ni compartan mi información personal\".",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Aceptar todo",
+                        "reject": "Rechazar todo",
+                        "settings": "Personalizar",
+                        "readMore": "Política de cookies",
+                        "donotSell": "No vendan ni compartan mi información personal"
+                    }
+                },
+                "closeButton": "Cerca"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Guardar mis preferencias"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Personalizar las preferencias de consentimiento",
+                "description": "<p>Usamos cookies para ayudarle a navegar de manera eficiente y realizar ciertas funciones. Encontrará información detallada sobre cada una de las cookies bajo cada categoría de consentimiento a continuación.</p><p>Las cookies categorizadas como “Necesarias” se guardan en su navegador, ya que son esenciales para permitir las funcionalidades básicas del sitio web.</p><p>También utilizamos cookies de terceros que nos ayudan a analizar cómo usted utiliza este sitio web, guardar sus preferencias y aportar el contenido y la publicidad que le sean relevantes. Estas cookies solo se guardan en su navegador previo consentimiento por su parte.</p><p>Puede optar por activar o desactivar alguna o todas estas cookies, aunque la desactivación de algunas podría afectar a su experiencia de navegación.</p>",
+                "showMore": "Mostrar más",
+                "showLess": "Mostrar menos",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Siempre activas",
+                        "enable": "Permitir",
+                        "disable": "Desactivar"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Aceptar todo",
+                        "save": "Guardar mis preferencias",
+                        "reject": "Rechazar todo"
+                    }
+                },
+                "closeButton": "Cerca"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Preferencias de exclusión voluntaria",
+                "description": "<p>Utilizamos cookies de terceros que nos ayudan a analizar el uso que usted hace de este sitio web, a almacenar sus preferencias y a ofrecerle el contenido y la publicidad que le resulten de interés. Sin embargo, usted puede excluirse de estas cookies marcando «No vendan ni compartan mi información personal» y haciendo clic en el botón «Guardar mis preferencias». Una vez que haya optado por la exclusión, podrá cancelarlo en cualquier momento desmarcando «No vendan ni compartan mi información personal» y haciendo clic en el botón «Guardar mis preferencias».</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "No vendan ni compartan mi información personal",
+                        "enable": "Permitir",
+                        "disable": "Desactivar"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>Su configuración de exclusión voluntaria para este sitio web se ha respetado desde que detectamos una señal de control de privacidad global de su navegador y, por lo tanto, no puede cambiar esta configuración.</p>"
+                    }
+                },
+                "showLess": "Mostrar más",
+                "showMore": "Mostrar menos",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Cancelar",
+                        "confirm": "Guardar mis preferencias"
+                    }
+                },
+                "closeButton": "Cerca"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Configuración de cookies"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Cookie",
+                        "duration": "Duración",
+                        "description": "Descripción"
+                    }
+                },
+                "message": "No hay cookies para mostrar."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Por favor acepte el consentimiento de cookies"
+            }
+        }
+    }
+}

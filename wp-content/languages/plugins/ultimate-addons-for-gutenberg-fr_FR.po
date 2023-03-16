@@ -1,0 +1,950 @@
+# Translation of Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-27 18:05:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release)\n"
+
+#: includes/blocks/modal/block.php:17 dist/blocks.js:17
+msgid "This block allows you to add modal popup."
+msgstr "Ce bloc vous autorise à ajouter une fenêtre surgissante modale."
+
+#: includes/blocks/modal/block.php:16 dist/blocks-placeholder.js:26
+#: dist/blocks.js:17
+msgid "Modal"
+msgstr "Fenêtre modale"
+
+#: includes/blocks/register/block.php:17
+msgid "This block lets you add a user register form."
+msgstr "Ce bloc vous permet d’ajouter un formulaire d’inscription des comptes."
+
+#: includes/blocks/register/block.php:16
+msgid "Registration Form"
+msgstr "Formulaire d’inscription"
+
+#: includes/blocks/login/block.php:17
+msgid "This block lets you add a user login form."
+msgstr "Ce bloc permet d’ajouter un formulaire de connexion au compte."
+
+#: includes/blocks/login/block.php:16
+msgid "Login Form"
+msgstr "Formulaire de connexion"
+
+#: includes/blocks/image-gallery/block.php:17 dist/blocks.js:17
+msgid "Create a highly customizable image gallery"
+msgstr "Créez une galerie d’images hautement personnalisable"
+
+#: includes/blocks/image-gallery/block.php:16 dist/blocks-placeholder.js:20
+#: dist/blocks.js:17
+msgid "Image Gallery"
+msgstr "Galerie d’images"
+
+#: includes/blocks/counter/block.php:17 dist/blocks.js:17
+msgid "This block allows you to add number counter."
+msgstr "Ce bloc vous permet d’ajouter un compteur de nombres."
+
+#: includes/blocks/counter/block.php:16 dist/blocks-placeholder.js:14
+#: dist/blocks.js:17
+msgid "Counter"
+msgstr "Compteur"
+
+#: includes/blocks/counter/attributes.php:29 dist/blocks.js:1
+msgid "Add Your Title Here…"
+msgstr "Ajoutez votre titre ici…"
+
+#: classes/class-uagb-init-blocks.php:633
+msgid ""
+"Use custom class added in block's advanced settings to target your desired block. Examples:\n"
+"\t\t\t\t.my-class {text-align: center;} // my-class is a custom selector"
+msgstr ""
+"Utilisez la classe personnalisée ajoutée dans les réglages avancés du bloc pour cibler le bloc souhaité. Exemples :\n"
+"\t\t\t\t.my-class {text-align: center;} // my-class is a custom selector"
+
+#: blocks-config/image-gallery/class-spectra-image-gallery.php:1140
+#: dist/blocks.js:17
+msgid "Unable to load image"
+msgstr "Impossible de charger l’image"
+
+#: blocks-config/image-gallery/class-spectra-image-gallery.php:409
+#: includes/blocks/image-gallery/attributes.php:118 dist/blocks.js:1
+#: dist/blocks.js:17
+msgid "Load More Images"
+msgstr "Charger plus d’images"
+
+#: blocks-config/image-gallery/class-spectra-image-gallery.php:178
+#: includes/blocks/image-gallery/attributes.php:56 dist/blocks.js:1
+#: dist/blocks.js:17
+msgid "No Caption"
+msgstr "Aucune légende"
+
+#: includes/blocks/how-to/block.php:16 dist/blocks-placeholder.js:18
+#: dist/blocks.js:17
+msgid "How To"
+msgstr "Comment faire"
+
+#: lib/wp-background-processing/class-uagb-wp-background-process.php:426
+msgid "Every %d Minutes"
+msgstr "Toutes les %d minutes"
+
+#: includes/blocks/forms-upload/block.php:15
+msgid "Add a attachment in your form."
+msgstr "Ajouter un fichier joint dans le formulaire."
+
+#: includes/blocks/forms-upload/block.php:14
+msgid "Upload"
+msgstr "Téléverser"
+
+#. translators: %s: PHP version
+#: ultimate-addons-for-gutenberg.php:38
+msgid "Spectra requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr "Spectra nécessite la version PHP %s+, l’extension n’est pas en cours d’exécution."
+
+#: includes/blocks/wp-search/block.php:17 dist/blocks.js:17
+msgid "Add a search widget to let users search posts from your website."
+msgstr "Ajoutez un widget de recherche pour permettre aux utilisateurs/utilisatrices de rechercher des publications sur votre site."
+
+#: includes/blocks/testimonial/block.php:17
+msgid "Display customer testimonials with customizable layouts."
+msgstr "Affichez les témoignages de clients avec des mises en page personnalisables."
+
+#: includes/blocks/team/block.php:17 dist/blocks.js:17
+msgid "Showcase your team by displaying info and social media profiles."
+msgstr "Présentez votre équipe en affichant des informations et des profils de réseaux sociaux."
+
+#: includes/blocks/taxonomy-list/block.php:17 dist/blocks.js:17
+msgid "Display your content categorized as per post type."
+msgstr "Affichez votre contenu classé par type de publication."
+
+#: includes/blocks/tabs/block.php:17 dist/blocks.js:17
+msgid "Display your content under different tabs."
+msgstr "Affichez votre contenu sous différents onglets."
+
+#: includes/blocks/tabs-child/block.php:15 dist/blocks.js:17
+msgid "Display your content in a tab."
+msgstr "Affichez votre contenu dans un onglet."
+
+#: includes/blocks/table-of-contents/block.php:17 dist/blocks.js:17
+msgid "Add a table of contents to allow page navigation."
+msgstr "Ajoutez une table des matières pour autoriser la navigation dans les pages."
+
+#: includes/blocks/star-rating/block.php:17 dist/blocks.js:17
+msgid "Display customizable star ratings on your page."
+msgstr "Affichez des classements par étoiles personnalisables sur votre page."
+
+#: includes/blocks/social-share/block.php:17
+msgid "Share your content on different social media platforms."
+msgstr "Partagez votre contenu sur différentes plateformes de réseaux sociaux."
+
+#: includes/blocks/social-share-child/block.php:15
+msgid "Share your content on this social media platform."
+msgstr "Partagez votre contenu sur cette plateforme de réseau social."
+
+#: includes/blocks/section/block.php:17 dist/blocks.js:17
+msgid "Outer wrap section that allows you to add other blocks within it."
+msgstr "Section englobante externe qui vous permet d’y ajouter d’autres blocs à l’intérieur."
+
+#: includes/blocks/section/block.php:16 dist/blocks.js:17
+msgid "Advanced Row"
+msgstr "Rangée avancée"
+
+#: includes/blocks/review/block.php:17 dist/blocks.js:17
+msgid "Add reviews to items with Schema support."
+msgstr "Ajoutez des avis aux éléments avec la prise en charge de Schema."
+
+#: includes/blocks/review/block.php:16 dist/blocks-placeholder.js:30
+#: dist/blocks.js:17
+msgid "Review"
+msgstr "Avis"
+
+#: includes/blocks/restaurant-menu/block.php:17 dist/blocks.js:17
+msgid "Create an attractive price list for your products."
+msgstr "Créez une liste de prix attrayante pour vos produits."
+
+#: includes/blocks/restaurant-menu-child/block.php:15 dist/blocks.js:17
+msgid "Add information for this product."
+msgstr "Ajouter des informations pour ce produit."
+
+#: includes/blocks/post-title/block.php:16 dist/blocks.js:17
+msgid "Customize your post title."
+msgstr "Personnaliser le titre de la publication."
+
+#: includes/blocks/post-timeline/block.php:17 dist/blocks.js:17
+msgid "Create an attractive timeline to display your posts."
+msgstr "Créez une chronologie attractive pour afficher vos publications."
+
+#: includes/blocks/post-taxonomy/block.php:15 dist/blocks.js:17
+msgid "Show your post's under categories."
+msgstr "Afficher vos publications dans les catégories."
+
+#: includes/blocks/post-taxonomy/block.php:14 dist/blocks.js:17
+msgid "Post Taxonomy"
+msgstr "Taxonomie de la publication"
+
+#: includes/blocks/post-meta/block.php:15 dist/blocks.js:17
+msgid "Show your post meta details."
+msgstr "Afficher les détails des métas de votre publication."
+
+#: includes/blocks/post-masonry/block.php:17 dist/blocks.js:17
+msgid "Display your posts in a masonary layout."
+msgstr "Affichez vos publications dans une mise en page maçonnerie."
+
+#: includes/blocks/post-image/block.php:15 dist/blocks.js:17
+msgid "Customize your post image."
+msgstr "Personnaliser l’image de votre publication."
+
+#: includes/blocks/post-grid/block.php:17 dist/blocks.js:17
+msgid "Display your posts in a grid layout."
+msgstr "Afficher vos publications sans une mise en page de grille."
+
+#: includes/blocks/post-excerpt/block.php:16
+msgid "Show your post's excerpt "
+msgstr "Afficher l’extrait de votre publication "
+
+#: includes/blocks/post-carousel/block.php:17 dist/blocks.js:17
+msgid "Display your posts in a sliding carousel layout."
+msgstr "Afficher vos publications dans une mise en page de carrousel coulissant."
+
+#: includes/blocks/post-button/block.php:15 dist/blocks.js:17
+msgid "Customize this post button."
+msgstr "Personnaliser ce bouton de publication."
+
+#: includes/blocks/masonry-gallery/block.php:14
+msgid "Display your core gallery in a masonary layout."
+msgstr "Afficher votre galerie de base dans une mise en page maçonnée."
+
+#: includes/blocks/marketing-button/block.php:17 dist/blocks.js:17
+msgid "Add a marketing call to action button with a short description."
+msgstr "Ajouter un bouton d’appel à l’action marketing avec une courte description."
+
+#: includes/blocks/lottie/block.php:17 dist/blocks.js:17
+msgid "Add customizable lottie animation on your page."
+msgstr "Ajouter une animation lottie personnalisable sur votre page."
+
+#: includes/blocks/lottie/block.php:16 dist/blocks-placeholder.js:24
+#: dist/blocks.js:17
+msgid "Lottie Animation"
+msgstr "Animation Lottie"
+
+#: includes/blocks/inline-notice/block.php:17 dist/blocks.js:17
+msgid "Highlight important information using inline notice block."
+msgstr "Surligner les informations importantes à l’aide du bloc de notification en ligne."
+
+#: includes/blocks/info-box/block.php:17
+msgid "Add image/icon, seperator and text description using a single block."
+msgstr "Ajouter une image/icône, un séparateur et une description textuelle à l’aide d’un seul bloc."
+
+#: includes/blocks/image/block.php:17 dist/blocks.js:13
+msgid "Add images on your webpage with multiple customization options."
+msgstr "Ajouter des images sur votre page avec plusieurs options de personnalisation."
+
+#: includes/blocks/icon-list/block.php:17 dist/blocks.js:17
+msgid "Create a list highlighted with icons/images."
+msgstr "Créer une liste mise en évidence avec des icônes/images."
+
+#: includes/blocks/icon-list-child/block.php:15 dist/blocks.js:17
+msgid "Add and customize content for this list component."
+msgstr "Ajouter et personnaliser le contenu de ce composant de liste."
+
+#: includes/blocks/how-to/block.php:17 dist/blocks.js:17
+msgid "Add instructions/steps on processes using how to block."
+msgstr "Ajouter des instructions/étapes sur les processus en utilisant comment bloquer."
+
+#: includes/blocks/how-to-step/block.php:14 dist/blocks.js:17
+msgid "Add relevant content for this step."
+msgstr "Ajouter du contenu pertinent pour cette étape."
+
+#: includes/blocks/how-to-step/block.php:13 dist/blocks.js:1 dist/blocks.js:17
+msgid "Step"
+msgstr "Étape"
+
+#: includes/blocks/google-map/block.php:17 dist/blocks.js:17
+msgid "Show a Google Map location on your website."
+msgstr "Afficher un emplacement Google Map sur votre site."
+
+#: includes/blocks/gf-styler/block.php:17 dist/blocks.js:17
+msgid "Highly customize and style your forms created by Gravity Forms."
+msgstr "Personnalisez fortement et stylisez vos formulaires créés par Gravity Forms."
+
+#: includes/blocks/gf-styler/block.php:16 dist/blocks.js:17
+msgid "Gravity Form Designer"
+msgstr "Gravity Form Designer"
+
+#: includes/blocks/forms/block.php:17 dist/blocks.js:17
+msgid "Add easily customizable forms to gather information."
+msgstr "Ajouter des formulaires facilement personnalisables pour recueillir des informations."
+
+#: includes/blocks/forms/block.php:16 dist/blocks-placeholder.js:16
+#: dist/blocks.js:17
+msgid "Form"
+msgstr "Formulaire"
+
+#: includes/blocks/forms/attributes.php:35 dist/blocks.js:1
+msgid "Spectra Form"
+msgstr "Formulaire Spectra"
+
+#: includes/blocks/forms-url/block.php:16 dist/blocks.js:17
+msgid "Add a URL input field in your form."
+msgstr "Ajoutez un champ de saisie d’URL dans votre formulaire."
+
+#: includes/blocks/forms-toggle/block.php:15 dist/blocks.js:17
+msgid "Add a toggle button in your form."
+msgstr "Ajoutez un bouton bascule dans votre formulaire."
+
+#: includes/blocks/forms-textarea/block.php:15
+msgid "Add a text field in your form"
+msgstr "Ajouter un champ de texte dans le formulaire."
+
+#: includes/blocks/forms-select/block.php:16 dist/blocks.js:17
+msgid "Add a select dropdown to list choices."
+msgstr "Ajoutez une liste déroulante pour lister les choix."
+
+#: includes/blocks/forms-radio/block.php:15 dist/blocks.js:17
+msgid "Add radio select boxes to allow a single choice from options."
+msgstr "Ajouter des cases de sélection radio pour autoriser un choix unique parmi les options."
+
+#: includes/blocks/forms-phone/block.php:15
+msgid "Add a phone number field in your form"
+msgstr "Ajouter un champ numérique dans votre formulaire."
+
+#: includes/blocks/forms-name/block.php:15
+msgid "Add a name field in your form"
+msgstr "Ajouter un champ de nom dans votre formulaire."
+
+#: includes/blocks/forms-hidden/block.php:15
+msgid "Add a hidden field in your form to pass data"
+msgstr "Ajouter un champ masqué dans votre formulaire pour transmettre des données"
+
+#: includes/blocks/forms-email/block.php:15
+msgid "Add an email address field in your form"
+msgstr "Ajouter un champ d’adresse e-mail dans votre formulaire"
+
+#: includes/blocks/forms-date/block.php:15 dist/blocks.js:17
+msgid "Add a calendar based date picker in your form."
+msgstr "Ajoutez un sélecteur de date basé sur le calendrier dans votre formulaire."
+
+#: includes/blocks/forms-checkbox/block.php:15
+msgid "Add checkboxes to allow mulitple choices from optons."
+msgstr "Ajoutez des cases à cocher pour autoriser plusieurs choix parmi les options."
+
+#: includes/blocks/forms-accept/block.php:15 dist/blocks.js:17
+msgid "Add a consent statement with a checkbox in your form."
+msgstr "Ajouter une déclaration de consentement avec une case à cocher dans votre formulaire."
+
+#: includes/blocks/faq/block.php:17 dist/blocks.js:17
+msgid "Add accordions/FAQ schema to your page."
+msgstr "Ajouter le schéma accordéons/FAQ à votre page."
+
+#: includes/blocks/faq/block.php:16 dist/blocks-placeholder.js:15
+#: dist/blocks.js:17
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/blocks/faq-child/block.php:15
+msgid "Add a frequently asked question/accordian to display information."
+msgstr "Ajouter une foire aux questions/accordéon pour afficher des informations."
+
+#: includes/blocks/faq-child/block.php:14 dist/blocks.js:17
+msgid "FAQ Child"
+msgstr "FAQ enfant"
+
+#: includes/blocks/content-timeline/block.php:17 dist/blocks.js:13
+msgid "Create a timeline displaying contents of your site."
+msgstr "Créer une chronologie affichant le contenu de votre site."
+
+#: includes/blocks/content-timeline-child/block.php:15
+msgid "Add and customize displaying content of this timeline."
+msgstr "Ajouter et personnaliser l’affichage du contenu de cette chronologie."
+
+#: includes/blocks/container/block.php:17 dist/blocks.js:11
+msgid "Create beautiful layouts with flexbox powered container block."
+msgstr "Créer de belles mises en page avec le bloc de conteneur alimenté par flexbox."
+
+#: includes/blocks/container/block.php:16 dist/blocks-placeholder.js:13
+#: dist/blocks.js:11 dist/blocks.js:17
+msgid "Container"
+msgstr "Conteneur"
+
+#: includes/blocks/columns/block.php:17 dist/blocks.js:17
+msgid "Insert a number of columns within a single row."
+msgstr "Insérer plusieurs colonnes dans une seule ligne."
+
+#: includes/blocks/column/block.php:15
+msgid "Immediate child of Advanced Columns."
+msgstr "Enfant immédiat des colonnes avancées."
+
+#: includes/blocks/cf7-styler/block.php:17
+msgid "Highly customize and style your Contact Form 7 forms."
+msgstr "Personnaliser et styliser fortement vos formulaires de Contact Form 7."
+
+#: includes/blocks/cf7-styler/block.php:16 dist/blocks.js:17
+msgid "Contact Form 7 Designer"
+msgstr "Concepteur Contact Form 7"
+
+#: includes/blocks/call-to-action/block.php:17 dist/blocks.js:13
+msgid "Add a button along with heading and description."
+msgstr "Ajouter un bouton avec un titre et une description."
+
+#: includes/blocks/buttons/block.php:17 dist/blocks.js:13
+msgid "Add multiple buttons to redirect user to different webpages."
+msgstr "Ajoutez plusieurs boutons pour rediriger l’internaute vers différentes pages web."
+
+#: includes/blocks/buttons/block.php:16 dist/blocks-placeholder.js:11
+#: dist/blocks.js:13
+msgid "Buttons"
+msgstr "Boutons"
+
+#: includes/blocks/buttons-child/block.php:15
+msgid "Customize this button as per your need."
+msgstr "Personnaliser ce bouton selon vos besoins."
+
+#: includes/blocks/blockquote/block.php:17 dist/blocks.js:13
+msgid "Display qoutes/quoted texts using blockquote."
+msgstr "Afficher les citations/textes cités à l’aide du bloc de citations."
+
+#: includes/blocks/advanced-heading/block.php:17 dist/blocks.js:11
+msgid "Add heading, sub heading and a separator using one block."
+msgstr "Ajouter un titre, un sous-titre et un séparateur en utilisant un seul bloc."
+
+#: classes/class-uagb-rollback.php:165
+msgid "Spectra <p>Rollback to Previous Version</p>"
+msgstr "Spectra <p>Revenir à la version précédente</p>"
+
+#. translators: %s: html tags
+#: classes/class-uagb-loader.php:431
+msgid "The %1$sSpectra%2$s plugin requires %1$sGutenberg%2$s plugin installed & activated."
+msgstr "L’extension %1$sSpectra%2$s nécessite l’extension %1$sGutenberg%2$s installé et activé."
+
+#: classes/class-uagb-admin.php:218
+msgid "Wow! The Spectra has already powered over 5 pages on your website!"
+msgstr "Ouah ! Spectra a déjà propulsé plus de 5 pages sur votre site !"
+
+#: classes/class-uagb-admin-helper.php:406
+msgid "Filter added through any 3rd Party Theme/Plugin."
+msgstr "Filtre ajouté via n’importe quel thème/extension tiers."
+
+#: classes/class-uagb-admin-helper.php:402
+msgid "Astra Theme"
+msgstr "Thème Astra"
+
+#: blocks-config/forms/class-uagb-forms.php:100
+#: blocks-config/forms/class-uagb-forms.php:116
+msgid "Please try logging in again to verify that you are not a robot."
+msgstr "Veuillez réessayer de vous connecter pour vérifier que vous n’êtes pas un robot."
+
+#: admin-core/api/common-settings.php:99 classes/class-uagb-rest-api.php:325
+msgid "Sorry, you cannot list resources."
+msgstr "Désolé, vous ne pouvez pas lister les ressources."
+
+#: admin-core/ajax/common-settings.php:164
+#: admin-core/ajax/common-settings.php:198
+#: admin-core/ajax/common-settings.php:232
+#: admin-core/ajax/common-settings.php:267
+#: admin-core/ajax/common-settings.php:345
+#: admin-core/ajax/common-settings.php:380
+#: admin-core/ajax/common-settings.php:415
+#: admin-core/ajax/common-settings.php:450
+#: admin-core/ajax/common-settings.php:485
+#: admin-core/ajax/common-settings.php:520
+#: admin-core/ajax/common-settings.php:554
+#: admin-core/ajax/common-settings.php:589
+#: admin-core/ajax/common-settings.php:623
+#: admin-core/ajax/common-settings.php:657
+#: admin-core/ajax/common-settings.php:691
+#: admin-core/ajax/common-settings.php:725
+#: admin-core/ajax/common-settings.php:781
+#: admin-core/ajax/common-settings.php:810
+#: admin-core/ajax/common-settings.php:845
+#: admin-core/ajax/common-settings.php:879
+#: admin-core/ajax/common-settings.php:913
+#: admin-core/ajax/common-settings.php:948
+#: admin-core/ajax/common-settings.php:983
+#: admin-core/ajax/common-settings.php:1024
+#: admin-core/ajax/common-settings.php:1061
+#: admin-core/ajax/common-settings.php:1098
+#: admin-core/ajax/common-settings.php:1136
+#: admin-core/ajax/common-settings.php:1190
+#: admin-core/ajax/common-settings.php:1248
+#: admin-core/ajax/common-settings.php:1283
+#: classes/class-uagb-init-blocks.php:404
+msgid "Successfully saved data!"
+msgstr "Données bien enregistrées !"
+
+#: admin-core/ajax/common-settings.php:157
+#: admin-core/ajax/common-settings.php:191
+#: admin-core/ajax/common-settings.php:225
+#: admin-core/ajax/common-settings.php:260
+#: admin-core/ajax/common-settings.php:338
+#: admin-core/ajax/common-settings.php:373
+#: admin-core/ajax/common-settings.php:408
+#: admin-core/ajax/common-settings.php:443
+#: admin-core/ajax/common-settings.php:478
+#: admin-core/ajax/common-settings.php:513
+#: admin-core/ajax/common-settings.php:547
+#: admin-core/ajax/common-settings.php:581
+#: admin-core/ajax/common-settings.php:616
+#: admin-core/ajax/common-settings.php:650
+#: admin-core/ajax/common-settings.php:684
+#: admin-core/ajax/common-settings.php:718
+#: admin-core/ajax/common-settings.php:752
+#: admin-core/ajax/common-settings.php:838
+#: admin-core/ajax/common-settings.php:872
+#: admin-core/ajax/common-settings.php:906
+#: admin-core/ajax/common-settings.php:941
+#: admin-core/ajax/common-settings.php:976
+#: admin-core/ajax/common-settings.php:1011
+#: admin-core/ajax/common-settings.php:1051
+#: admin-core/ajax/common-settings.php:1088
+#: admin-core/ajax/common-settings.php:1125
+#: admin-core/ajax/common-settings.php:1163
+#: admin-core/ajax/common-settings.php:1241
+#: admin-core/ajax/common-settings.php:1276
+msgid "No post data found!"
+msgstr "Aucune donnée de publication trouvée !"
+
+#: admin-core/ajax/ajax-errors.php:61
+msgid "Sorry, something went wrong."
+msgstr "Désolé, quelque chose s’est mal passé."
+
+#: admin-core/ajax/ajax-errors.php:60
+msgid "Nonce validation failed"
+msgstr "Échec de validation du nonce"
+
+#: admin-core/ajax/ajax-errors.php:59
+msgid "Sorry, you are not allowed to do this operation."
+msgstr "Désolé, vous n’êtes pas autorisé à effectuer cette opération."
+
+#. Plugin Name of the plugin
+#: admin-core/inc/admin-menu.php:224 classes/class-uagb-admin-helper.php:394
+#: classes/class-uagb-init-blocks.php:441
+msgid "Spectra"
+msgstr "Spectra"
+
+#: lib/class-uagb-ast-block-templates.php:65
+#: lib/gutenberg-templates/classes/class-ast-block-templates.php:404
+msgid "Template Kits"
+msgstr "Kits de modèles"
+
+#: includes/blocks/star-rating/block.php:16 dist/blocks-placeholder.js:32
+#: dist/blocks.js:17
+msgid "Star Ratings"
+msgstr "Notes par étoile"
+
+#: includes/blocks/masonry-gallery/block.php:13
+#: admin-core/assets/build/dashboard-app.js:1 dist/blocks.js:17
+msgid "Masonry Gallery"
+msgstr "Galerie masonry"
+
+#: includes/blocks/forms-accept/block.php:14 dist/blocks.js:17
+msgid "Accept"
+msgstr "Accepter"
+
+#: includes/blocks/forms-date/block.php:14 dist/blocks.js:17
+msgid "Datepicker"
+msgstr "Sélecteur de date"
+
+#: includes/blocks/forms-toggle/block.php:14 dist/blocks.js:1 dist/blocks.js:17
+msgid "Toggle"
+msgstr "Permuter"
+
+#: includes/blocks/forms-select/block.php:15 dist/blocks.js:17
+msgid "Select"
+msgstr "Sélectionner"
+
+#: includes/blocks/forms-radio/block.php:14 dist/blocks.js:17
+msgid "Radio"
+msgstr "Boutons radio"
+
+#: includes/blocks/forms-checkbox/block.php:14 dist/blocks.js:17
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#: includes/blocks/forms-textarea/block.php:14 dist/blocks.js:17
+msgid "Textarea"
+msgstr "Zone de texte"
+
+#: includes/blocks/forms-phone/block.php:14 dist/blocks.js:17
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/blocks/forms-hidden/block.php:14 dist/blocks.js:11
+#: dist/blocks.js:17
+msgid "Hidden"
+msgstr "Masqué"
+
+#: includes/blocks/forms/attributes.php:168 dist/blocks.js:1 dist/blocks.js:17
+msgid "Please fill up the above captcha."
+msgstr "Veuillez remplir le captcha ci-dessus."
+
+#: includes/blocks/forms/attributes.php:121 dist/blocks.js:1 dist/blocks.js:17
+msgid "There has been some error while submitting the form. Please verify all form fields again."
+msgstr "Une erreur s’est produite lors de l’envoi du formulaire. Veuillez vérifier à nouveau tous les champs du formulaire."
+
+#: includes/blocks/forms/attributes.php:69 dist/blocks.js:1 dist/blocks.js:17
+msgid "Form Submission"
+msgstr "Soumission du formulaire"
+
+#: includes/blocks/forms/attributes.php:40
+msgid "The form has been submitted Successfully!"
+msgstr "Le formulaire a bien été envoyé !"
+
+#: includes/blocks/forms/attributes.php:34 dist/blocks.js:1 dist/blocks.js:17
+msgid "Submit"
+msgstr "Envoyer"
+
+#: includes/blocks/tabs-child/block.php:14 dist/blocks.js:17
+msgid "Tabs child"
+msgstr "Onglets fils"
+
+#: includes/blocks/tabs/block.php:16 dist/blocks-placeholder.js:34
+#: dist/blocks.js:17
+msgid "Tabs"
+msgstr "Onglets"
+
+#: includes/blocks/post-image/block.php:14 dist/blocks.js:17
+msgid "Post Image"
+msgstr "Image de la publication"
+
+#: includes/blocks/post-meta/block.php:14 dist/blocks.js:17
+msgid "Post Meta"
+msgstr "Métas de la publication"
+
+#: includes/blocks/post-excerpt/block.php:15 dist/blocks.js:17
+msgid "Post Excerpt"
+msgstr "Extrait de l’article"
+
+#: includes/blocks/post-button/block.php:14 dist/blocks.js:17
+msgid "Post Button"
+msgstr "Bouton de publication"
+
+#: includes/blocks/post-title/block.php:15 dist/blocks.js:17
+msgid "Post Title"
+msgstr "Titre de la publication"
+
+#: includes/blocks/content-timeline-child/block.php:14 dist/blocks.js:13
+msgid "Content Timeline Child"
+msgstr "Contenu enfant de la chronologie"
+
+#: classes/class-uagb-admin.php:114
+msgid "Error occurred, The version selected is invalid. Try selecting different version."
+msgstr "Une erreur s’est produite, la version sélectionnée n’est pas valide. Essayez de sélectionner une version différente."
+
+#: classes/class-uagb-admin.php:101 classes/class-uagb-admin.php:132
+#: admin-core/assets/build/dashboard-app.js:1
+msgid "Rollback to Previous Version"
+msgstr "Revenir à la version précédente"
+
+#: classes/class-uagb-admin.php:100
+msgid "You do not have permission to access this page."
+msgstr "Vous n’avez pas le droit d’accéder à cette page."
+
+#: includes/blocks/restaurant-menu-child/block.php:14 dist/blocks.js:17
+msgid "Price List-Child"
+msgstr "Liste enfant de prix"
+
+#. translators: %s Product title
+#: admin/bsf-analytics/class-bsf-analytics.php:410
+msgid "Allow %s products to track non-sensitive usage tracking data."
+msgstr "Autoriser aux produits %s de suivre les données de suivi d’utilisation non sensibles."
+
+#: includes/blocks/taxonomy-list/block.php:16 dist/blocks-placeholder.js:35
+#: dist/blocks.js:17
+msgid "Taxonomy List"
+msgstr "Liste des taxonomies"
+
+#: blocks-config/taxonomy-list/class-uagb-taxonomy-list.php:125
+#: includes/blocks/taxonomy-list/attributes.php:92
+msgid "Taxonomy Not Available."
+msgstr "Taxonomie non disponible."
+
+#: includes/blocks/wp-search/block.php:16 dist/blocks.js:17
+msgid "Search"
+msgstr "Rechercher"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:418
+msgid "Learn More."
+msgstr "En savoir plus."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:413
+msgid " This will be applicable for all sites from the network."
+msgstr " Ce sera applicable pour tous les sites de ce réseau."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:366
+msgid "Usage Tracking"
+msgstr "Suivi d’utilisation"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:260
+msgid "No Thanks"
+msgstr "Non merci"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:251
+msgid "Yes! Allow it"
+msgstr "Oui ! L’autoriser"
+
+#. translators: %s usage doc link
+#: admin/bsf-analytics/class-bsf-analytics.php:243
+msgid " Know More."
+msgstr "En savoir plus."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:219
+msgid "This will be applicable for all sites from the network."
+msgstr "Cela sera applicable pour tous les sites du réseau."
+
+#. translators: %s product name
+#: admin/bsf-analytics/class-bsf-analytics.php:216
+msgid "Want to help make <strong>%1s</strong> even more awesome? Allow us to collect non-sensitive diagnostic data and usage information. "
+msgstr "Vous souhaitez aider à rendre <strong>%1s</strong> encore plus génial ? Autorisez nous à collecter des données de diagnostic et des informations d’utilisation non sensibles. "
+
+#: includes/blocks/inline-notice/block.php:16 dist/blocks-placeholder.js:23
+#: dist/blocks.js:17
+msgid "Inline Notice"
+msgstr "Notification en ligne"
+
+#: includes/blocks/social-share-child/block.php:14 dist/blocks.js:17
+msgid "Social Share Child"
+msgstr "Partage social enfant"
+
+#: blocks-config/table-of-content/class-uagb-table-of-content.php:637
+#: blocks-config/table-of-content/class-uagb-table-of-content.php:641
+#: includes/blocks/table-of-contents/attributes.php:18
+#: dist/blocks-placeholder.js:33 dist/blocks.js:1 dist/blocks.js:17
+msgid "Table Of Contents"
+msgstr "Table des matières"
+
+#: includes/blocks/forms-email/block.php:14 dist/blocks.js:1 dist/blocks.js:17
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/blocks/forms-url/block.php:15 dist/blocks.js:1 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "URL"
+msgstr "URL"
+
+#: includes/blocks/forms-name/block.php:14 dist/blocks.js:1 dist/blocks.js:17
+msgid "Name"
+msgstr "Nom"
+
+#: includes/blocks/icon-list-child/block.php:14 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "Icon"
+msgstr "Icône"
+
+#: admin-core/inc/admin-menu.php:93 admin-core/assets/build/dashboard-app.js:1
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/blocks/buttons-child/block.php:14 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "Button"
+msgstr "Bouton"
+
+#: includes/blocks/image/block.php:16 dist/blocks-placeholder.js:21
+#: dist/blocks.js:11 dist/blocks.js:13 dist/blocks.js:17
+msgid "Image"
+msgstr "Image"
+
+#: classes/class-uagb-init-blocks.php:563 dist/blocks.js:11 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "Default"
+msgstr "Par défaut"
+
+#: classes/class-uagb-init-blocks.php:663 dist/blocks.js:11 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "None"
+msgstr "Aucune"
+
+#: includes/blocks/advanced-heading/block.php:16 dist/blocks-placeholder.js:9
+#: dist/blocks.js:11 dist/blocks.js:13 dist/blocks.js:17
+msgid "Heading"
+msgstr "En-tête"
+
+#: blocks-config/table-of-content/class-uagb-table-of-content.php:925
+#: includes/blocks/table-of-contents/attributes.php:19 dist/blocks.js:1
+#: dist/blocks.js:17
+msgid "Add a header to begin generating the table of contents"
+msgstr "Ajoutez un titre pour commencer la génération de la table des matières"
+
+#: lib/astra-notices/class-astra-notices.php:119
+msgid "WordPress Nonce not validated."
+msgstr "Nonce WordPress non validé."
+
+#: includes/blocks/table-of-contents/block.php:16
+msgid "Table of Contents"
+msgstr "Table des matières"
+
+#: classes/class-uagb-init-blocks.php:739
+msgid "You have not added any Gravity Forms yet."
+msgstr "Vous n’avez pas encore ajouté de formulaire Gravity Forms."
+
+#: classes/class-uagb-admin.php:219
+msgid "Would you please mind sharing your views and give it a 5 star rating on the WordPress repository?"
+msgstr "Souhaitez-vous partager votre avis et lui attribuer une note de 5 étoiles dans le référentiel WordPress ?"
+
+#: classes/class-uagb-init-blocks.php:382
+msgid "Please select a valid Gravity Form."
+msgstr "Veuillez sélectionner un formulaire Gravity Form."
+
+#: includes/blocks/marketing-button/block.php:16 dist/blocks-placeholder.js:25
+#: dist/blocks.js:17
+msgid "Marketing Button"
+msgstr "Bouton marketing"
+
+#: classes/class-uagb-init-blocks.php:424
+msgid "Please select a valid Contact Form 7."
+msgstr "Veuillez sélectionner un formulaire Contact Form 7."
+
+#: classes/class-uagb-init-blocks.php:706
+msgid "You have not added any Contact Form 7 yet."
+msgstr "Vous n’avez pas encore ajouté de formulaire Contact Form 7."
+
+#: classes/class-uagb-init-blocks.php:692
+#: classes/class-uagb-init-blocks.php:725 dist/blocks.js:17
+msgid "Select Form"
+msgstr "Sélectionner un formulaire"
+
+#: classes/class-uagb-helper.php:409 dist/blocks.js:17
+msgid "Full"
+msgstr "Plein"
+
+#: includes/blocks/blockquote/block.php:16 dist/blocks-placeholder.js:10
+#: dist/blocks.js:13
+msgid "Blockquote"
+msgstr "Citation"
+
+#. translators: %s: html tags
+#: classes/class-uagb-admin.php:243
+msgid "Spectra requires&nbsp;%3$sBlock Editor%4$s. You can change your editor settings to Block Editor from&nbsp;%1$shere%2$s. Plugin is currently NOT RUNNING."
+msgstr "Spectra nécessite  %3$sl’éditeur de blocs%4$s. Vous pouvez modifier les réglages de votre éditeur dans l’éditeur de bloc par %1$sici%2$s. L’extension n’est pas en fonctionnement pour le moment."
+
+#: admin-core/ajax/common-settings.php:130
+msgid "Plugin Successfully Activated"
+msgstr "Extension bien activée"
+
+#. translators: %s: WordPress version
+#: ultimate-addons-for-gutenberg.php:55
+msgid "Spectra requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
+msgstr "Spectra nécessite WordPress version  %s ou supérieure. Comme vous utilisez une version antérieure, l’extension ne peut pas fonctionner."
+
+#: includes/blocks/restaurant-menu/block.php:16 dist/blocks-placeholder.js:29
+#: dist/blocks.js:17
+msgid "Price List"
+msgstr "Liste de prix"
+
+#: includes/blocks/column/block.php:14 dist/blocks.js:11 dist/blocks.js:17
+msgid "Column"
+msgstr "Colonne"
+
+#: includes/blocks/columns/block.php:16 dist/blocks.js:17
+msgid "Advanced Columns"
+msgstr "Colonnes avancées"
+
+#: classes/class-uagb-admin.php:224
+msgid "I already did"
+msgstr "Je l’ai déjà fait"
+
+#: classes/class-uagb-admin.php:223
+msgid "Nope, maybe later"
+msgstr "Non, peut-être plus tard"
+
+#: classes/class-uagb-admin.php:221
+msgid "Ok, you deserve it"
+msgstr "Ok, vous le méritez"
+
+#: includes/blocks/call-to-action/block.php:16 dist/blocks-placeholder.js:12
+#: dist/blocks.js:1 dist/blocks.js:13 dist/blocks.js:17
+msgid "Call To Action"
+msgstr "Appel à l’action"
+
+#: includes/blocks/post-masonry/block.php:16 dist/blocks.js:17
+msgid "Post Masonry"
+msgstr "Publications Masonry"
+
+#: includes/blocks/post-carousel/block.php:16 dist/blocks-placeholder.js:27
+#: dist/blocks.js:17
+msgid "Post Carousel"
+msgstr "Carrousel de publications"
+
+#: includes/blocks/post-timeline/block.php:16 dist/blocks-placeholder.js:39
+#: dist/blocks.js:17
+msgid "Post Timeline"
+msgstr "Chronologie de publications"
+
+#: blocks-config/post-timeline/class-uagb-post-timeline.php:885
+msgid "No posts found"
+msgstr "Aucune publication trouvée"
+
+#. Description of the plugin
+msgid "The Spectra extends the Gutenberg functionality with several unique and feature-rich blocks that help build websites faster."
+msgstr "Spectra étend les fonctionnalités de Gutenberg avec plusieurs blocs uniques et riches en fonctionnalités qui permettent de créer des sites web plus rapidement."
+
+#: includes/blocks/testimonial/block.php:16 dist/blocks-placeholder.js:37
+#: dist/blocks.js:17
+msgid "Testimonials"
+msgstr "Témoignage"
+
+#: includes/blocks/icon-list/attributes.php:19
+msgid "Label #1"
+msgstr "Libellé N°1"
+
+#: includes/blocks/icon-list/block.php:16 dist/blocks-placeholder.js:19
+#: dist/blocks.js:17
+msgid "Icon List"
+msgstr "Liste avec icônes"
+
+#: includes/blocks/team/block.php:16 dist/blocks-placeholder.js:36
+#: dist/blocks.js:17
+msgid "Team"
+msgstr "Équipe"
+
+#: includes/blocks/social-share/block.php:16 dist/blocks-placeholder.js:31
+#: dist/blocks.js:17
+msgid "Social Share"
+msgstr "Partage social"
+
+#: includes/blocks/content-timeline/block.php:16 dist/blocks-placeholder.js:38
+#: dist/blocks.js:13
+msgid "Content Timeline"
+msgstr "Chronologie de contenu"
+
+#: includes/blocks/post-grid/block.php:16 dist/blocks-placeholder.js:28
+#: dist/blocks.js:17
+msgid "Post Grid"
+msgstr "Grille de publications"
+
+#: blocks-config/post-timeline/class-uagb-post-timeline.php:523
+#: blocks-config/post/class-uagb-post.php:540
+#: blocks-config/post/class-uagb-post.php:2066
+#: includes/blocks/post-carousel/attributes.php:116
+#: includes/blocks/post-grid/attributes.php:107
+#: includes/blocks/post-masonry/attributes.php:110 dist/blocks.js:1
+#: dist/blocks.js:13 dist/blocks.js:17
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: includes/blocks/google-map/block.php:16 dist/blocks-placeholder.js:17
+#: dist/blocks.js:17
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: includes/blocks/info-box/block.php:16 dist/blocks-placeholder.js:22
+#: dist/blocks.js:1 dist/blocks.js:13
+msgid "Info Box"
+msgstr "Boîte d’info"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.brainstormforce.com"
+msgstr "https://www.brainstormforce.com"
+
+#. Author of the plugin
+msgid "Brainstorm Force"
+msgstr "Brainstorm Force"
+
+#: classes/class-uagb-loader.php:434
+msgid "Install Gutenberg"
+msgstr "Installer Gutenberg"

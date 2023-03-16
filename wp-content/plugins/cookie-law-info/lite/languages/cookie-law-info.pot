@@ -1,0 +1,363 @@
+# Copyright (C) 2021 WebToffee
+# This file is distributed under the same license as the CookieYes | GDPR Cookie Consent & Compliance Notice (CCPA Ready) plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: CookieYes | GDPR Cookie Consent & Compliance Notice (CCPA Ready) 2.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cookie-law-info\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-12-13T10:09:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: cookie-law-info\n"
+
+#. Plugin Name of the plugin
+msgid "CookieYes | GDPR Cookie Consent & Compliance Notice (CCPA Ready)"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is a short description of what the plugin does. It's displayed in the WordPress admin area."
+msgstr ""
+
+#. Author of the plugin
+msgid "WebToffee"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.webtoffee.com/"
+msgstr ""
+
+#: admin/class-cli-admin.php:233
+#: admin/class-cli-admin.php:242
+#: admin/class-cli-admin.php:243
+msgid "Dashboard"
+msgstr ""
+
+#: admin/class-cli-admin.php:234
+msgid "GDPR Cookie Consent"
+msgstr ""
+
+#: admin/class-cli-admin.php:250
+#: admin/class-cli-admin.php:251
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-cli-admin.php:258
+#: admin/class-cli-admin.php:259
+msgid "CookieYes Setup Wizard"
+msgstr ""
+
+#: admin/modules/banners/api/class-cli-banners-api.php:84
+#: admin/modules/banners/api/class-cli-banners-api.php:102
+#: admin/modules/banners/api/class-cli-banners-api.php:237
+#: admin/modules/consentlogs/api/class-cli-consent-api.php:216
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:83
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:165
+#: admin/modules/cookies/api/class-cli-cookies-api.php:82
+#: admin/modules/cookies/api/class-cli-cookies-api.php:164
+#: admin/modules/languages/api/class-cli-languages-api.php:169
+#: admin/modules/licenses/api/class-cli-license-api.php:84
+#: admin/modules/scanner/api/class-cli-scanner-api.php:88
+#: admin/modules/scanner/api/class-cli-scanner-api.php:189
+#: admin/modules/settings/api/class-cli-settings-api.php:244
+#: admin/modules/settings/api/class-cli-settings-api.php:250
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#: admin/modules/banners/api/class-cli-banners-api.php:146
+msgid "Invalid banner ID."
+msgstr ""
+
+#: admin/modules/banners/api/class-cli-banners-api.php:243
+#: admin/modules/consentlogs/api/class-cli-consent-api.php:222
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:171
+#: admin/modules/cookies/api/class-cli-cookies-api.php:170
+#: admin/modules/scanner/api/class-cli-scanner-api.php:195
+#: admin/modules/settings/api/class-cli-settings-api.php:285
+msgid "The date the cookie was created, as GMT."
+msgstr ""
+
+#: admin/modules/banners/api/class-cli-banners-api.php:249
+#: admin/modules/consentlogs/api/class-cli-consent-api.php:228
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:177
+#: admin/modules/cookies/api/class-cli-cookies-api.php:176
+#: admin/modules/scanner/api/class-cli-scanner-api.php:201
+#: admin/modules/settings/api/class-cli-settings-api.php:291
+msgid "The date the cookie was last modified, as GMT."
+msgstr ""
+
+#: admin/modules/banners/api/class-cli-banners-api.php:254
+#: admin/modules/cookies/api/class-cli-cookies-api.php:191
+msgid "Cookie unique name"
+msgstr ""
+
+#: admin/modules/banners/api/class-cli-banners-api.php:259
+msgid "Banner settings."
+msgstr ""
+
+#: admin/modules/banners/class-cli-banners.php:59
+#: admin/modules/banners/class-cli-banners.php:60
+msgid "Consent Banner"
+msgstr ""
+
+#: admin/modules/consentlogs/api/class-cli-consent-api.php:233
+msgid "Visitor IP."
+msgstr ""
+
+#: admin/modules/consentlogs/api/class-cli-consent-api.php:238
+msgid "Visitor Country."
+msgstr ""
+
+#: admin/modules/consentlogs/api/class-cli-consent-api.php:243
+msgid "Consent status."
+msgstr ""
+
+#: admin/modules/consentlogs/api/class-cli-consent-api.php:248
+msgid "Log."
+msgstr ""
+
+#: admin/modules/consentlogs/api/class-cli-consent-api.php:253
+#: admin/modules/settings/api/class-cli-settings-api.php:255
+#: admin/modules/settings/api/class-cli-settings-api.php:260
+#: admin/modules/settings/api/class-cli-settings-api.php:265
+#: admin/modules/settings/api/class-cli-settings-api.php:270
+#: admin/modules/settings/api/class-cli-settings-api.php:275
+#: admin/modules/settings/api/class-cli-settings-api.php:280
+#: admin/modules/settings/api/class-cli-settings-api.php:296
+msgid "Language."
+msgstr ""
+
+#: admin/modules/consentlogs/class-cli-consentlogs.php:57
+#: admin/modules/consentlogs/class-cli-consentlogs.php:58
+msgid "Consent Logs"
+msgstr ""
+
+#: admin/modules/consentlogs/includes/class-cli-consent-controller.php:214
+msgid "Could not insert the log, please try again"
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:183
+#: admin/modules/cookies/api/class-cli-cookies-api.php:186
+#: admin/modules/scanner/api/class-cli-scanner-api.php:207
+msgid "Cookie category name."
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:188
+#: admin/modules/scanner/api/class-cli-scanner-api.php:212
+msgid "Cookie category unique name"
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:193
+#: admin/modules/scanner/api/class-cli-scanner-api.php:217
+msgid "Cookie category description."
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:198
+#: admin/modules/cookies/api/class-cli-cookies-api.php:201
+#: admin/modules/scanner/api/class-cli-scanner-api.php:222
+msgid "Cookie type."
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:203
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:208
+#: admin/modules/scanner/api/class-cli-scanner-api.php:227
+#: admin/modules/scanner/api/class-cli-scanner-api.php:232
+msgid "Cookie scripts."
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookie-categories-api.php:213
+#: admin/modules/scanner/api/class-cli-scanner-api.php:237
+msgid "Cookie count."
+msgstr ""
+
+#. translators: %s: Class method name.
+#: admin/modules/cookies/api/class-cli-cookies-api-controller.php:45
+#: admin/modules/cookies/api/class-cli-cookies-api-controller.php:55
+#: admin/modules/cookies/api/class-cli-cookies-api-controller.php:66
+#: includes/class-cli-abstract.php:93
+#: includes/class-cli-abstract.php:104
+#: includes/class-cli-abstract.php:115
+#: integrations/cookieyes/includes/class-cli-cookieyes-cloud.php:74
+#: integrations/cookieyes/includes/class-cli-cookieyes-cloud.php:87
+#: integrations/cookieyes/includes/class-cli-cookieyes-cloud.php:100
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookies-api-controller.php:109
+#: admin/modules/cookies/api/class-cli-cookies-api-controller.php:158
+#: admin/modules/cookies/api/class-cli-cookies-api-controller.php:205
+msgid "Invalid ID."
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookies-api-controller.php:271
+msgid "Cookie category"
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookies-api.php:181
+msgid "Cookie name."
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookies-api.php:196
+msgid "Cookie description."
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookies-api.php:206
+msgid "Cookie duration"
+msgstr ""
+
+#: admin/modules/cookies/api/class-cli-cookies-api.php:212
+msgid "Cookie language."
+msgstr ""
+
+#: admin/modules/cookies/class-cli-cookies.php:65
+#: admin/modules/cookies/class-cli-cookies.php:66
+msgid "Cookie Manager"
+msgstr ""
+
+#: admin/modules/languages/api/class-cli-languages-api.php:175
+msgid "Name of the language."
+msgstr ""
+
+#: admin/modules/languages/api/class-cli-languages-api.php:180
+msgid "Native name of the language."
+msgstr ""
+
+#: admin/modules/languages/api/class-cli-languages-api.php:185
+msgid "Language code"
+msgstr ""
+
+#: admin/modules/languages/class-cli-languages.php:53
+#: admin/modules/languages/class-cli-languages.php:54
+msgid "Translations"
+msgstr ""
+
+#: admin/modules/licenses/api/class-cli-license-api.php:226
+msgid "Website ID"
+msgstr ""
+
+#: admin/modules/licenses/api/class-cli-license-api.php:231
+msgid "Unique key assigned to a website"
+msgstr ""
+
+#: admin/modules/licenses/api/class-cli-license-api.php:236
+msgid "Current web app plan"
+msgstr ""
+
+#: admin/modules/licenses/api/class-cli-license-api.php:241
+msgid "Token generated from the Web app"
+msgstr ""
+
+#: admin/modules/licenses/api/class-cli-license-api.php:246
+msgid "License status"
+msgstr ""
+
+#: admin/modules/licenses/api/class-cli-license-api.php:251
+msgid "Email address"
+msgstr ""
+
+#: admin/modules/licenses/api/class-cli-license-api.php:256
+msgid "Connection status"
+msgstr ""
+
+#: admin/modules/licenses/api/class-cli-license-api.php:261
+msgid "Script URL generated from the Web app"
+msgstr ""
+
+#: admin/modules/licenses/api/class-cli-license-api.php:266
+msgid "Priority to decide send from either plugin or web app"
+msgstr ""
+
+#: admin/modules/policies/class-cli-policies.php:51
+#: admin/modules/policies/class-cli-policies.php:52
+#: admin/modules/settings/class-cli-settings.php:56
+#: admin/modules/settings/class-cli-settings.php:57
+msgid "Policiy Generators"
+msgstr ""
+
+#: admin/modules/scanner/api/class-cli-scanner-api.php:129
+#: admin/modules/scanner/api/class-cli-scanner-api.php:152
+msgid "A scan is already in progress!"
+msgstr ""
+
+#: admin/modules/scanner/api/class-cli-scanner-api.php:155
+msgid "Could not initiate the scan, please try again"
+msgstr ""
+
+#: admin/modules/scriptblocker/class-cli-scriptblocker.php:53
+#: admin/modules/scriptblocker/class-cli-scriptblocker.php:54
+msgid "Script blocker"
+msgstr ""
+
+#: admin/modules/settings/api/class-cli-settings-api.php:124
+msgid "Continue with the GDPR template if most of your targeted audience are from the EU or UK. It creates a customizable banner that allows your visitors to accept/reject cookies or adjust their consent preferences."
+msgstr ""
+
+#: admin/modules/settings/api/class-cli-settings-api.php:125
+msgid ""
+"Choose GDPR if most of your targeted audience are from the EU or UK.\n"
+"\t\t\t\t\tIt creates a customizable banner that allows your visitors to accept/reject cookies or adjust their consent preferences."
+msgstr ""
+
+#: admin/modules/settings/api/class-cli-settings-api.php:134
+msgid "CCPA"
+msgstr ""
+
+#: admin/modules/settings/api/class-cli-settings-api.php:135
+msgid ""
+"Choose CCPA if most of your targeted audience are from California or US.\n"
+"\t\t\t\t\tIt creates a customizable banner with a “Do Not Sell My Personal Information” link that allows your visitors to refuse the use of cookies."
+msgstr ""
+
+#: admin/modules/settings/api/class-cli-settings-api.php:144
+msgid "Info (Information Display Banner)"
+msgstr ""
+
+#: admin/modules/settings/api/class-cli-settings-api.php:145
+msgid ""
+"Choose Info if you do not want to block any cookies on your website.\n"
+"\t\t\t\t\t\tIt creates a dismissible banner that provides some general info to your site visitors."
+msgstr ""
+
+#: frontend/modules/shortcodes/class-cli-shortcodes.php:256
+msgid "Powered By"
+msgstr ""
+
+#: includes/class-cli-rest-controller.php:58
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: includes/class-cli-rest-controller.php:73
+msgid "Sorry, you are not allowed to create resources."
+msgstr ""
+
+#: includes/class-cli-rest-controller.php:88
+msgid "Sorry, you cannot view this resource."
+msgstr ""
+
+#: includes/class-cli-rest-controller.php:104
+msgid "Sorry, you are not allowed to edit this resource."
+msgstr ""
+
+#: includes/class-cli-rest-controller.php:119
+msgid "Sorry, you are not allowed to delete this resource."
+msgstr ""
+
+#: integrations/cookieyes/includes/class-cli-cookieyes-cloud.php:49
+#: integrations/cookieyes/includes/class-cli-cookieyes-cloud.php:61
+msgid "Ivalid method."
+msgstr ""
+
+#: admin/dist/js/app.js:4165
+msgid "SGP Setup Wizard"
+msgstr ""
+
+#: admin/dist/js/dashboard.js:873
+msgid "We help you comply with the data privacy laws for your website's use of cookies. You can set up cookie consent banner(s) that complieswith the <b>General Data Protection Regulation (GDPR | DSGVO | RGPD),ePrivacy, CCPA, CNIL, LGPD, and POPIA</b>."
+msgstr ""

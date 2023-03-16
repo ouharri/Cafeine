@@ -1,0 +1,97 @@
+.burger-companion-range-slider {
+	width: 100%;
+}
+
+.burger-companion-range-slider-range::-moz-range-track,
+.burger-companion-range-slider-range::-moz-focus-inner,
+.burger-companion-range-slider-range::-moz-focus-outer {
+	background: #d7dcdf;
+	border: 0;
+}
+
+.burger-companion-range-slider-range {
+	-webkit-appearance: none;
+	width: calc(100% - (100px)) !important;
+	height: 6px;
+	border-radius: 5px;
+	background: #d7dcdf;
+	outline: none;
+	padding: 0;
+	margin: 0;
+}
+
+.burger-companion-range-slider-range::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #0085BA;
+	cursor: pointer;
+	-webkit-transition: background .15s ease-in-out;
+	transition: background .15s ease-in-out;
+}
+
+.burger-companion-range-slider-range::-webkit-slider-thumb:hover {
+	background: #0071A8;
+}
+
+.burger-companion-range-slider-range:active::-webkit-slider-thumb {
+	background: #0071A8;
+}
+
+.burger-companion-range-slider-range::-moz-range-thumb {
+	width: 20px;
+	height: 20px;
+	border: 0;
+	border-radius: 50%;
+	background: #0085BA;
+	cursor: pointer;
+	-webkit-transition: background .15s ease-in-out;
+	transition: background .15s ease-in-out;
+}
+
+.burger-companion-range-reset-slider .dashicons{
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	line-height: 1;
+}
+
+.burger-companion-range-reset-slider {
+	display: inline-block;
+	position: relative;
+	width: 6%;
+	line-height: 1;
+	color: rgba(0,0,0,.2);
+	cursor: pointer;
+	text-align: center;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+}
+
+.burger-companion-range-reset-slider:hover {
+	color: #fe5252;
+}
+
+.burger-companion-range-slider-range::-moz-range-thumb:hover {
+	background: #0071A8;
+}
+
+.burger-companion-range-slider-range:active::-moz-range-thumb {
+	background: #0071A8;
+}
+  
+input[type="number"].burger-companion-range-slider-value {
+	display: inline-block;
+	position: relative;
+	width: 60px;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px 10px;
+	margin-left: 8px;
+}

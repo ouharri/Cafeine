@@ -1,0 +1,22 @@
+{
+    "necessary": {
+        "name": "Tarvittavat",
+        "description": "<p>Tarvittavat evästeet ovat ratkaisevan tärkeitä verkkosivuston perustoiminnoille, eikä verkkosivusto toimi tarkoitetulla tavalla ilman niitä. Nämä evästeet eivät tallenna henkilökohtaisia tietoja.</p>"
+    },
+    "functional": {
+        "name": "Toiminnalliset",
+        "description": "<p>Toiminnalliset evästeet auttavat suorittamaan tiettyjä toimintoja, kuten verkkosivuston sisällön jakamista sosiaalisen median alustoilla, palautteiden keräämistä ja muita kolmannen osapuolen ominaisuuksia.</p>"
+    },
+    "analytics": {
+        "name": "Analytics",
+        "description": "<p>Analyyttisiä evästeitä käytetään ymmärtämään, miten kävijät ovat vuorovaikutuksessa verkkosivuston kanssa. Nämä evästeet auttavat tarjoamaan tietoa kävijöiden lukumäärästä, poistumisprosentista, liikenteen lähteestä jne.</p>"
+    },
+    "performance": {
+        "name": "Suorituskykyä",
+        "description": "<p>Suorituskykyevästeitä käytetään verkkosivuston tärkeimpien suorituskykyindeksien ymmärtämiseen ja analysointiin, mikä auttaa tarjoamaan vierailijoille paremman käyttökokemuksen.</p>"
+    },
+    "advertisement": {
+        "name": "Mainos",
+        "description": "<p>Mainosevästeitä käytetään tarjoamaan kävijöille räätälöityjä mainoksia sivujen perusteella, joilla he ovat käyneet aiemmin, ja analysoimaan mainoskampanjan tehokkuutta.</p>"
+    }
+}

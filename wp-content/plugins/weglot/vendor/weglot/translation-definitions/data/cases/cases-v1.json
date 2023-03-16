@@ -1,0 +1,300 @@
+[
+  {
+    "name": "Simple tag #1",
+    "body": "<p>Hello, <b>this is</b> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, "
+      },
+      {
+        "t": 1,
+        "w": "this is"
+      },
+      {
+        "t": 1,
+        "w": " a test!"
+      }
+    ]
+  },
+  {
+    "name": "Simple tag #2",
+    "body": "<p>Hello, <strong>this is</strong> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, "
+      },
+      {
+        "t": 1,
+        "w": "this is"
+      },
+      {
+        "t": 1,
+        "w": " a test!"
+      }
+    ]
+  },
+  {
+    "name": "Simple tag #3",
+    "body": "<p>Hello, <em>this is</em> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, "
+      },
+      {
+        "t": 1,
+        "w": "this is"
+      },
+      {
+        "t": 1,
+        "w": " a test!"
+      }
+    ]
+  },
+  {
+    "name": "Simple tag #4",
+    "body": "<p>This is a normal sentence</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "This is a normal sentence"
+      }
+    ]
+  },
+  {
+    "name": "Nested simple tags",
+    "body": "<p>Hello, <i><b>this is</b></i> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, "
+      },
+      {
+        "t": 1,
+        "w": "this is"
+      },
+      {
+        "t": 1,
+        "w": " a test!"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 2",
+    "body": "<p>This is a sentence with <strong>bolded</strong> text.</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "This is a sentence with "
+      },
+      {
+        "t": 1,
+        "w": "bolded"
+      },
+      {
+        "t": 1,
+        "w": " text."
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 3",
+    "body": "<p>This is a sentence with <strong>bolded</strong> text and <em>italic text</em> and <div>other</div> text.</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "This is a sentence with "
+      },
+      {
+        "t": 1,
+        "w": "bolded"
+      },
+      {
+        "t": 1,
+        "w": " text and "
+      },
+      {
+        "t": 1,
+        "w": "italic text"
+      },
+      {
+        "t": 1,
+        "w": " and "
+      },
+      {
+        "t": 1,
+        "w": "other"
+      },
+      {
+        "t": 1,
+        "w": " text."
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 4",
+    "body": "<p><strong>Everything is important</strong></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Everything is important"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 5",
+    "body": "<p>We believe <strong>everything is <em>really</em> important</strong></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "We believe "
+      },
+      {
+        "t": 1,
+        "w": "everything is "
+      },
+      {
+        "t": 1,
+        "w": "really"
+      },
+      {
+        "t": 1,
+        "w": " important"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 6",
+    "body": "<p>We believe <strong><strong>everything</strong></strong><em><em> is important</em></em></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "We believe "
+      },
+      {
+        "t": 1,
+        "w": "everything"
+      },
+      {
+        "t": 1,
+        "w": " is important"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 7",
+    "body": "<p><abbr><i></i><i></i><strong><strong>Hello, </strong></strong><em><em>how are you</em></em><i></i></abbr></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, "
+      },
+      {
+        "t": 1,
+        "w": "how are you"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 8",
+    "body": "<p><abbr><i></i><i></i><b><strong><strong>Hello, </strong></strong><em><em>how are you</em></em></b><i></i></abbr></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, "
+      },
+      {
+        "t": 1,
+        "w": "how are you"
+      }
+    ]
+  },
+  {
+    "name": "Nested tags 9",
+    "body": "<p><abbr><i></i><i></i><b><strong><strong>Hello, </strong></strong></b><i></i></abbr></p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, "
+      }
+    ]
+  },
+  {
+    "name": "Link tag",
+    "body": "<p>Hello, <a href='#'>this is</a> a test!</p>",
+    "expected": [
+      {
+        "t": 1,
+        "w": "Hello, "
+      },
+      {
+        "t": 1,
+        "w": "this is"
+      },
+      {
+        "t": 1,
+        "w": " a test!"
+      }
+    ]
+  },
+  {
+    "name": "Button tag",
+    "body": "<form><button value='Click me!'></button></form>",
+    "expected": [
+      {
+        "t": 2,
+        "w": "Click me!"
+      }
+    ]
+  },
+  {
+    "name": "Input tag",
+    "body": "<form><input type='text' placeholder='This is a placeholder!'></form>",
+    "expected": [
+      {
+        "t": 3,
+        "w": "This is a placeholder!"
+      }
+    ]
+  },
+  {
+    "name": "Meta tag",
+    "body": "<meta name='description' content='This is a website description!'>",
+    "expected": [
+      {
+        "t": 4,
+        "w": "This is a website description!"
+      }
+    ]
+  },
+  {
+    "name": "Image tag",
+    "body": "<p><img src='/an-image.png' alt='This is an image!'></p>",
+    "expected": [
+      {
+        "t": 7,
+        "w": "This is an image!"
+      },
+      {
+        "t": 6,
+        "w": "/an-image.png"
+      }
+    ]
+  },
+  {
+    "name": "Link tag with pdf",
+    "body": "<p><a href='/my-document.pdf'>Click here!</a></p>",
+    "expected": [
+      {
+        "t": 8,
+        "w": "/my-document.pdf"
+      },
+      {
+        "t": 1,
+        "w": "Click here!"
+      }
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+/*
+  To ensure this file is minified, comment the import in document.less, then save this file.
+*/
+#cmplz-manage-consent-container {
+  display:none;
+}
+.cmplz-obfuscate {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  white-space: nowrap;
+}
+
+#cmplz-manage-consent-container.cmplz-manage-consent-container {
+  .cmplz-categories {
+	summary{
+	  display:block;
+	  cursor:pointer;
+	  &::-webkit-details-marker, &::marker {
+		display:none;
+		content:'';
+	  }
+	}
+  }
+}
+
+.cmplz-alert {
+  display:none;
+  padding: 7px;
+  color: white;
+  margin: 10px 0;
+  &.cmplz-error {
+	background-color: #f44336;
+  }
+  &.cmplz-success {
+	background-color: green;
+  }
+}
+
+.cmplz-close {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+	color: black;
+  }
+}
+
+//needs to apply both to separate cookie shortcode, cookie policy and privacy policy
+#cmplz-cookies-overview , #cmplz-document, .editor-styles-wrapper .cmplz-unlinked-mode{
+ .cmplz-dropdown {
+	.cmplz-service-description, .cmplz-sharing-data{
+		display:inline-block;
+		width: calc(50% - 35px);
+		vertical-align: top;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.cmplz-service-description, .cmplz-sharing-data{
+			width: 100%;
+		}
+	}
+	summary{
+	  	display:block;
+	  	cursor:pointer;
+		&::-webkit-details-marker, &::marker {
+		  display:none;
+		  content:'';
+		}
+	  div {
+		display: grid;
+		grid-template: "heading chevron";
+		grid-template-columns: 2fr 25px;
+		grid-gap: 15px;
+		align-items: center;
+		h3{
+		  grid-area: heading;
+		  margin: 0;
+		}
+		&:after{
+		  grid-area: chevron;
+		}
+		input[data-category="functional"] {
+		  visibility:hidden;
+		}
+	  }
+	}
+	&.cmplz-dropdown-cookiepolicy{
+		summary{
+		  display:block;
+		  div {
+			grid-template: "heading paragraph label checkbox chevron";
+			grid-template-columns: 2fr auto 0 auto 25px;
+			p {
+				grid-area: paragraph;
+			}
+		  }
+		}
+		.cookies-per-purpose {
+			display: grid;
+
+			@media only screen and (min-width: 600px) {
+				  grid-column: span 2;
+				  grid-template-columns: 1fr 1fr 1fr;
+				  grid-template: "purpose purpose purpose" "header1 header2 header3" auto;
+				.purpose {
+					grid-area: purpose;
+				}
+
+				.name-header {
+					grid-area: header1;
+				}
+
+				.retention-header {
+					grid-area: header2;
+				}
+
+				.function-header {
+					grid-area: header3;
+				}
+			}
+
+			@media only screen and (max-width: 600px) {
+				grid-template-columns: 100px 1fr;
+				.purpose {
+					grid-column: span 2;
+				}
+			}
+		}
+	}
+}
+}
+/**
+* Categories on the cookie policy
+* Do not wrap in cmplz-document, to ensure it works with the separate shortcode
+ */
+
+#cmplz-manage-consent-container.cmplz-manage-consent-container {
+  .cmplz-categories {
+	margin-top:10px;
+	display: block;
+	width:100%;
+	.cmplz-category {
+
+	  summary::marker {
+		display: none;
+		content: '';
+	  }
+	  summary::-webkit-details-marker {
+		display: none;
+		content: '';
+	  }
+	  .cmplz-description {
+		padding:10px;
+	  }
+
+	  &:not(:last-child) {
+		margin-bottom: 5px;
+	  }
+
+	  background-color: rgba(239, 239, 239, .25);
+	  .cmplz-category-header {
+		display: grid;
+		grid-template-columns: 1fr auto 25px;
+		grid-template-rows: auto;
+		align-items: center;
+		grid-gap: 10px;
+		padding: 5px 10px;
+		background-color: rgba(239, 239, 239, .5);
+		section {
+		  padding:initial;
+		}
+		h2 {
+		  grid-column-start: 1;
+		  width:100%;
+		  justify-self: start;
+		  font-size: 18px;
+		  text-align: left;
+		  margin-top: 8px;
+		  text-transform: initial;
+		  padding-bottom: 10px;
+		  border-bottom: 0;
+		  margin-bottom: 0px;
+		  //twenty nineteen fix
+		  &:before {
+			height: 0;
+			margin: initial;
+		  }
+		}
+
+		// Always active
+		.cmplz-always-active {
+		  font-size: var(--cmplz_category_header_active_font_size);
+		  color: var(--cmplz_category_header_always_active_color);
+		  label, input {
+			display:none;
+		  }
+		}
+
+		// Center checkbox
+		.cmplz-banner-checkbox {
+		  display: flex;
+		  align-items: center;
+		  margin: 0;
+		  padding: initial;
+		}
+
+		// Complianz marker
+		.cmplz-icon.cmplz-open {
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  grid-column-start: 3;
+		  cursor: pointer;
+		  content: '';
+		  background: var(--cmplz_category_open_icon_url) no-repeat;
+		  transform: rotate(0deg);
+		  -webkit-transition: all 0.5s ease;
+		  -moz-transition: all 0.5s ease;
+		  -o-transition: all 0.5s ease;
+		  transition: all 0.5s ease;
+		  background-size: cover;
+		  height: 25px;
+		  width: 25px;
+		}
+	  }
+
+	  &[open]{
+		padding-bottom: 1px;
+		summary .cmplz-category-header:after, summary .cmplz-icon.cmplz-open {
+		  transform: rotate(180deg);
+		}
+
+	  }
+	}
+  }
+}
+

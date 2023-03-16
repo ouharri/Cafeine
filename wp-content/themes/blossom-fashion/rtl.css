@@ -1,0 +1,332 @@
+/*
+Theme Name: Blossom Fashion
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.site-header .header-t .col {
+    float: right;
+}
+
+.site-header .header-t .search-form input[type="submit"] {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.site-header .header-t .search-form label {
+    margin-left: 0;
+    margin-right: 12px;
+}
+
+.site-header .tools {
+    float: left;
+}
+
+.site-header .tools .separator,
+.site-header .tools .cart,
+.site-header .social-networks {
+    float: left;
+}
+
+.site-header .social-networks li {
+    float: right;
+    margin-left: 0;
+    margin-right: 17px;
+}
+
+.site-header .social-networks li:first-child {
+    margin-right: 0;
+}
+
+.site-header .tools .separator {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.site-header .tools .cart {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.site-header .tools .cart .number {
+    right: auto;
+    left: -13px;
+}
+
+.main-navigation ul .menu-item-has-children::before {
+    right: auto;
+    left: -20px;
+}
+
+.main-navigation ul ul {
+    text-align: right;
+}
+
+.main-navigation ul ul ul {
+    left: auto;
+    right: 100%;
+}
+
+.main-navigation ul ul ul {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 24px;
+    -webkit-transition: margin 0.4s ease 0s;
+    -moz-transition: margin 0.4s ease 0s;
+    transition: margin 0.4s ease 0s;
+}
+
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li:focus>ul {
+    margin-right: 0;
+}
+
+.main-navigation ul ul .menu-item-has-children::before {
+    left: 20px;
+    right: auto;
+    -webkit-transform: rotate(-270deg);
+    -moz-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+}
+
+#primary .post .btn-readmore {
+    float: right;
+}
+
+.widget_search .search-form label,
+.widget_search .search-form input[type="search"] {
+    float: right;
+}
+
+.widget_search .search-form input[type="submit"] {
+    float: left;
+}
+
+#primary .post .entry-header .entry-meta span {
+    display: inline-block;
+}
+
+#primary .post .entry-header .entry-meta .comments .fa,
+#primary .post .entry-header .entry-meta .likes .fa {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+#primary .post .entry-header .entry-meta .comments,
+#primary .post .entry-header .entry-meta .likes {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+#primary .post .entry-header .entry-title a,
+.search #primary .page .entry-header .entry-title a,
+.search #primary .search-post .entry-header .entry-title a {
+    background-position: right;
+}
+
+.widget .widget-title {
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    transform: translateX(50%);
+    left: auto;
+    right: 50%;
+}
+
+.widget ul li::before {
+    left: auto;
+    right: 0;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.widget ul li {
+    padding-left: 0;
+    padding-right: 16px;
+}
+
+.pagination .next {
+    float: left;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.widget_tag_cloud .tagcloud a {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.tag-link-count {
+    display: inline-block;
+}
+
+.site-footer .grid .col {
+    float: right;
+}
+
+.search .top-section .search-form label {
+    float: right;
+}
+
+.search .top-section .search-form input[type="submit"] {
+    float: left;
+}
+
+.archive #primary .post .post-thumbnail,
+.search #primary .post .post-thumbnail,
+.search #primary .page .post-thumbnail {
+    float: right;
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.archive #primary .post .entry-header,
+.search #primary .post .entry-header,
+.search #primary .page .entry-header {
+    text-align: right;
+}
+
+.error-holder .search-form label{
+	float: right;
+}
+
+.error-holder .search-form input[type="search"]{
+	float: right;
+}
+
+.error-holder .search-form input[type="submit"]{
+	float: left;
+}
+
+.comments-area .comment-body .comment-meta{
+	float: right;
+	margin-right: 0;
+	margin-left: 25px;
+}
+
+.comments-area .comment-body .text-holder .top .reply{
+	float: left;
+}
+
+.comments-area .comment-body .text-holder .top .left{
+	float: right;
+}
+
+.comments-area .comment-body .reply a{
+	padding-left: 0;
+	padding-right: 21px;
+}
+
+.comments-area .comment-body .reply a::before{
+	display: inline-block;
+	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    left: auto;
+    right: 0;
+}
+
+.comments-area .children{
+	margin-left: 0;
+	margin-right: 110px;
+}
+
+.comments-area .children{
+	border-left: 2px solid #eee;
+	border-right: 0;
+	padding-right: 0;
+	padding-left: 30px;
+}
+
+.comments-area .children li::after,
+.comments-area .children li:last-child::before{
+	left: -35px;
+	right: auto;
+}
+
+#crumbs a,
+#crumbs span{
+	display: inline-block;
+}
+
+#crumbs a{
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+#crumbs .separator{
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+#crumbs .separator .fa{
+	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.archive #primary .post .post-thumbnail, .search #primary .search-post .post-thumbnail{
+	float: right;
+	margin-right: 0;
+	margin-left: 40px;
+}
+
+.archive #primary .post .entry-header, .search #primary .search-post .entry-header{
+	text-align: right;
+}
+
+@media only screen and (max-width: 1024px){
+	#toggle-button{
+
+	}
+
+	.main-navigation ul li a{
+		background-position: right;
+	}
+
+	.main-navigation ul li span.fa{
+		left: 0;
+		right: auto;
+	}
+	#toggle-button span{
+		margin-right: 0;
+		margin-left: 10px;
+		display: inline-block;
+	}
+
+	.main-navigation ul ul{
+		padding-left: 0;
+		padding-right: 20px;
+	}
+
+	.main-navigation .btn-close-menu{
+		left: 30px;
+		right: auto;
+	}
+
+	.main-navigation ul ul ul{
+		margin-right:0;
+	}
+
+	.site-header .nav-holder .form-holder .search-form input[type="submit"]{
+		float: left;
+	}
+
+	.site-header .nav-holder .form-holder .search-form label{
+		float: right;
+	}
+}

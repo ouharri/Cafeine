@@ -1,0 +1,202 @@
+{
+    "gdpr": {
+        "notice": {
+            "elements": {
+                "title": "Arvostamme yksityisyyttäsi",
+                "description": "<p>Käytämme evästeitä selauskokemuksesi parantamiseksi, personoitujen mainosten ja sisällön tarjoamiseksi ja liikenteemme analysoimiseksi. Hyväksyt evästeidemme käytön klikkaamalla ”Hyväksy kaikki”.</p>",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Hyväksy kaikki",
+                        "reject": "Hylätä",
+                        "settings": "Mukauta",
+                        "readMore": "Evästekäytäntö",
+                        "donotSell": "Henkilökohtaisia tietojani ei saa myydä tai jakaa eteenpäin"
+                    }
+                },
+                "closeButton": "kiinni"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Tallenna asetukset"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Mukauta suostumuksen asetuksia",
+                "description": "<p>Käytämme eväseitä auttamaan sinua navigoimaan tehokkaasti ja suorittaaksemme tiettyjä toimintoja. Löydät tarkempaa tietoa kaikista evästeistä alla olevien kategorioiden alta. ”Välttämättömiksi” kategorioituja evästeitä säilytetään selaimessasi, sillä ne ovat välttämättömiä sivuston perustoimintojen käyttämiseksi.</p><p>Käytämme myös kolmansien osapuolien evästeitä, jotka auttavat meitä analysoimaan sivustomme käyttöäsi, tallentamaan asetuksesi ja tarjoamaan sinulle relevanttia sisältöä ja mainoksia. Nämä evästeet tallennetaan selaimeesi vain etukäteen antamallasi suostumuksella.</p><p>Voit halutessasi ottaa käyttöön tai poistaa käytöstä joitain evästeitä tai kaikki niistä, mutta osan poisto käytöstä voi vaikuttaa selauskokemukseesi.</p>",
+                "showMore": "Näytä lisää",
+                "showLess": "Näytä vähemmän",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Aina aktiivinen",
+                        "enable": "ota käyttöön",
+                        "disable": "Poista käytöstä"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Hyväksy kaikki",
+                        "save": "Tallenna asetukset",
+                        "reject": "Hylätä"
+                    }
+                },
+                "closeButton": "kiinni"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Pois jättäytymisen asetukset",
+                "description": "<p>Käytämme kolmansien osapuolien evästeitä, joita käytetään analysoimaan verkkosivun käyttöä, asetuksiesi muistamiseen ja tarjoamaan sinulle sopivia mainoksia. Voit kuitenkin jättää pois nämä evästeet valitsemalla “Henkilökohtaisia tietojani ei saa myydä tai jakaa eteenpäin” ja klikkaamalla “Tallenna asetukset” -nappia. Kun jättäydyt pois, voit kuitenkin ottaa evästeet käyttöön poistamalla valinnan kohdasta “Henkilökohtaisia tietojani ei saa myydä tai jakaa eteenpäin” ja klikkaamalla “Tallenna asetukset” -nappia.</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "Henkilökohtaisia tietojani ei saa myydä tai jakaa eteenpäin",
+                        "enable": "Ota käyttöön",
+                        "disable": "Poista käytöstä"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>Pois jättäytymisesi asetuksesi on pantu täytäntöön tällä sivustolla, sillä havaitsimme maailmanlaajuisen tietosuojan hallintasignaalin selaimeltasi, joten et voi muuttaa tätä asetusta.</p>"
+                    }
+                },
+                "showLess": "Näytä vähemmän",
+                "showMore": "Näytä lisää",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Peruuttaa",
+                        "confirm": "Tallenna asetukset"
+                    }
+                },
+                "closeButton": "kiinni"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Cookie-asetukset"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Eväste",
+                        "duration": "Kesto",
+                        "description": "Kuvaus"
+                    }
+                },
+                "message": "Ei näytettäviä evästeitä."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Hyväksy evästeen suostumus"
+            }
+        }
+    },
+    "ccpa": {
+        "notice": {
+            "elements": {
+                "title": "Arvostamme yksityisyyttäsi",
+                "description": "Tämä verkkosivusto tai sen kolmannen osapuolen työkalut käsittelevät henkilötietoja. Voit kieltäytyä henkilökohtaisten tietojesi myynnistä napsauttamalla “Henkilökohtaisia tietojani ei saa myydä tai jakaa eteenpäin” linkkiä.",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Hyväksy kaikki",
+                        "reject": "Hylätä",
+                        "settings": "Mukauta",
+                        "readMore": "Evästekäytäntö",
+                        "donotSell": "Henkilökohtaisia tietojani ei saa myydä tai jakaa eteenpäin"
+                    }
+                },
+                "closeButton": "kiinni"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Tallenna asetukset"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Mukauta suostumuksen asetuksia",
+                "description": "<p>Käytämme eväseitä auttamaan sinua navigoimaan tehokkaasti ja suorittaaksemme tiettyjä toimintoja. Löydät tarkempaa tietoa kaikista evästeistä alla olevien kategorioiden alta. ”Välttämättömiksi” kategorioituja evästeitä säilytetään selaimessasi, sillä ne ovat välttämättömiä sivuston perustoimintojen käyttämiseksi.</p><p>Käytämme myös kolmansien osapuolien evästeitä, jotka auttavat meitä analysoimaan sivustomme käyttöäsi, tallentamaan asetuksesi ja tarjoamaan sinulle relevanttia sisältöä ja mainoksia. Nämä evästeet tallennetaan selaimeesi vain etukäteen antamallasi suostumuksella.</p><p>Voit halutessasi ottaa käyttöön tai poistaa käytöstä joitain evästeitä tai kaikki niistä, mutta osan poisto käytöstä voi vaikuttaa selauskokemukseesi.</p>",
+                "showMore": "Näytä lisää",
+                "showLess": "Näytä vähemmän",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Aina aktiivinen",
+                        "enable": "ota käyttöön",
+                        "disable": "Poista käytöstä"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Hyväksy kaikki",
+                        "save": "Tallenna asetukset",
+                        "reject": "Hylätä"
+                    }
+                },
+                "closeButton": "kiinni"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Pois jättäytymisen asetukset",
+                "description": "<p>Käytämme kolmansien osapuolien evästeitä, joita käytetään analysoimaan verkkosivun käyttöä, asetuksiesi muistamiseen ja tarjoamaan sinulle sopivia mainoksia. Voit kuitenkin jättää pois nämä evästeet valitsemalla “Henkilökohtaisia tietojani ei saa myydä tai jakaa eteenpäin” ja klikkaamalla “Tallenna asetukset” -nappia. Kun jättäydyt pois, voit kuitenkin ottaa evästeet käyttöön poistamalla valinnan kohdasta “Henkilökohtaisia tietojani ei saa myydä tai jakaa eteenpäin” ja klikkaamalla “Tallenna asetukset” -nappia.</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "Henkilökohtaisia tietojani ei saa myydä tai jakaa eteenpäin",
+                        "enable": "Ota käyttöön",
+                        "disable": "Poista käytöstä"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>Pois jättäytymisesi asetuksesi on pantu täytäntöön tällä sivustolla, sillä havaitsimme maailmanlaajuisen tietosuojan hallintasignaalin selaimeltasi, joten et voi muuttaa tätä asetusta.</p>"
+                    }
+                },
+                "showLess": "Näytä vähemmän",
+                "showMore": "Näytä lisää",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Peruuttaa",
+                        "confirm": "Tallenna asetukset"
+                    }
+                },
+                "closeButton": "kiinni"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Cookie-asetukset"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Eväste",
+                        "duration": "Kesto",
+                        "description": "Kuvaus"
+                    }
+                },
+                "message": "Ei näytettäviä evästeitä."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Hyväksy evästeen suostumus"
+            }
+        }
+    }
+}

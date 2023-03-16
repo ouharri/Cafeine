@@ -1,0 +1,2508 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: SKT Templates\n"
+"POT-Creation-Date: 2022-01-21 16:45+0530\n"
+"PO-Revision-Date: 2020-07-31 12:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: skt-templates.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: core/app/class-skt-templates-admin.php:123
+#: core/app/class-skt-templates-admin.php:124
+#: core/app/class-skt-templates-admin.php:172
+#: core/app/class-skt-templates-admin.php:173
+#: core/app/views/modules-page.php:16
+msgid "SKT Templates"
+msgstr ""
+
+#: core/app/class-skt-templates-admin.php:167
+#: core/app/class-skt-templates-admin.php:182
+msgid "SKT Templates General Options"
+msgstr ""
+
+#: core/app/class-skt-templates-admin.php:167
+msgid "About Templates"
+msgstr ""
+
+#: core/app/class-skt-templates-admin.php:182
+msgid "Import Templates"
+msgstr ""
+
+#: core/app/class-skt-templates-admin.php:208
+#, php-format
+msgid "You have activated SKT Templates plugin! Go to the %s to get started."
+msgstr ""
+
+#: core/app/class-skt-templates-admin.php:208
+msgid "Template Directory"
+msgstr ""
+
+#: core/app/helpers/class-skt-templates-render-helper.php:88
+msgid "No option found for provided type"
+msgstr ""
+
+#: core/app/views/modules-page.php:22
+msgid "How to use SKT Templates?"
+msgstr ""
+
+#: core/app/views/modules-page.php:24
+msgid ""
+"Ready to import WordPress websites all made up using Elementor page builder. "
+"Be ready to import those Elementor templates into your existing website or "
+"fresh installs. Use the template blocks with your favourite themes whereas "
+"if you want to take the full juice out of those templates try SKT free "
+"themes. SKT Themes houses more than 300+ exciting designs and have been "
+"doling out updates to existing themes as well as fresh designs each year "
+"from 2013 and has a customer base from all over the world."
+msgstr ""
+
+#: core/app/views/modules-page.php:25
+msgid "Check out our premium themes."
+msgstr ""
+
+#: mods/template-directory/init.php:30
+msgid "Template Directory Module"
+msgstr ""
+
+#: mods/template-directory/init.php:31
+msgid ""
+"The awesome template directory is aiming to provide a wide range of "
+"templates that you can import straight into your website."
+msgstr ""
+
+#: mods/template-directory/init.php:126
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:16
+msgid "SKT Templates Directory"
+msgstr ""
+
+#: vendor/websites/full-width-page-templates/class-full-width-templates.php:42
+msgid "Page Builder - Full Width - Blank"
+msgstr ""
+
+#: vendor/websites/full-width-page-templates/class-full-width-templates.php:43
+msgid "Page Builder - Full Width"
+msgstr ""
+
+#: vendor/websites/full-width-page-templates/class-full-width-templates.php:44
+msgid "Full Width Gutenberg"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:207
+#: vendor/websites/templates-directory/class-page-templates-directory.php:329
+msgid "A new SKT Templates"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:208
+#: vendor/websites/templates-directory/class-page-templates-directory.php:330
+msgid "Awesome SKT Templates"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:210
+msgid "SKT Blocks – Gutenberg based Page Builder"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:215
+msgid "GB SKT Doctor"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:216
+#: vendor/websites/templates-directory/class-page-templates-directory.php:225
+#: vendor/websites/templates-directory/class-page-templates-directory.php:234
+#: vendor/websites/templates-directory/class-page-templates-directory.php:243
+#: vendor/websites/templates-directory/class-page-templates-directory.php:252
+#: vendor/websites/templates-directory/class-page-templates-directory.php:261
+#: vendor/websites/templates-directory/class-page-templates-directory.php:270
+#: vendor/websites/templates-directory/class-page-templates-directory.php:279
+#: vendor/websites/templates-directory/class-page-templates-directory.php:288
+#: vendor/websites/templates-directory/class-page-templates-directory.php:297
+#: vendor/websites/templates-directory/class-page-templates-directory.php:306
+#: vendor/websites/templates-directory/class-page-templates-directory.php:337
+#: vendor/websites/templates-directory/class-page-templates-directory.php:346
+#: vendor/websites/templates-directory/class-page-templates-directory.php:355
+#: vendor/websites/templates-directory/class-page-templates-directory.php:364
+#: vendor/websites/templates-directory/class-page-templates-directory.php:373
+#: vendor/websites/templates-directory/class-page-templates-directory.php:382
+#: vendor/websites/templates-directory/class-page-templates-directory.php:391
+#: vendor/websites/templates-directory/class-page-templates-directory.php:400
+#: vendor/websites/templates-directory/class-page-templates-directory.php:409
+#: vendor/websites/templates-directory/class-page-templates-directory.php:418
+#: vendor/websites/templates-directory/class-page-templates-directory.php:427
+#: vendor/websites/templates-directory/class-page-templates-directory.php:436
+#: vendor/websites/templates-directory/class-page-templates-directory.php:445
+#: vendor/websites/templates-directory/class-page-templates-directory.php:454
+#: vendor/websites/templates-directory/class-page-templates-directory.php:463
+#: vendor/websites/templates-directory/class-page-templates-directory.php:472
+#: vendor/websites/templates-directory/class-page-templates-directory.php:481
+#: vendor/websites/templates-directory/class-page-templates-directory.php:490
+#: vendor/websites/templates-directory/class-page-templates-directory.php:499
+#: vendor/websites/templates-directory/class-page-templates-directory.php:508
+#: vendor/websites/templates-directory/class-page-templates-directory.php:517
+#: vendor/websites/templates-directory/class-page-templates-directory.php:526
+#: vendor/websites/templates-directory/class-page-templates-directory.php:535
+#: vendor/websites/templates-directory/class-page-templates-directory.php:544
+#: vendor/websites/templates-directory/class-page-templates-directory.php:553
+#: vendor/websites/templates-directory/class-page-templates-directory.php:562
+#: vendor/websites/templates-directory/class-page-templates-directory.php:571
+#: vendor/websites/templates-directory/class-page-templates-directory.php:580
+#: vendor/websites/templates-directory/class-page-templates-directory.php:589
+#: vendor/websites/templates-directory/class-page-templates-directory.php:598
+#: vendor/websites/templates-directory/class-page-templates-directory.php:607
+#: vendor/websites/templates-directory/class-page-templates-directory.php:616
+#: vendor/websites/templates-directory/class-page-templates-directory.php:625
+#: vendor/websites/templates-directory/class-page-templates-directory.php:634
+#: vendor/websites/templates-directory/class-page-templates-directory.php:643
+#: vendor/websites/templates-directory/class-page-templates-directory.php:652
+#: vendor/websites/templates-directory/class-page-templates-directory.php:661
+#: vendor/websites/templates-directory/class-page-templates-directory.php:670
+#: vendor/websites/templates-directory/class-page-templates-directory.php:679
+#: vendor/websites/templates-directory/class-page-templates-directory.php:688
+#: vendor/websites/templates-directory/class-page-templates-directory.php:697
+#: vendor/websites/templates-directory/class-page-templates-directory.php:706
+#: vendor/websites/templates-directory/class-page-templates-directory.php:715
+#: vendor/websites/templates-directory/class-page-templates-directory.php:724
+#: vendor/websites/templates-directory/class-page-templates-directory.php:733
+#: vendor/websites/templates-directory/class-page-templates-directory.php:742
+#: vendor/websites/templates-directory/class-page-templates-directory.php:751
+#: vendor/websites/templates-directory/class-page-templates-directory.php:760
+#: vendor/websites/templates-directory/class-page-templates-directory.php:769
+#: vendor/websites/templates-directory/class-page-templates-directory.php:778
+#: vendor/websites/templates-directory/class-page-templates-directory.php:787
+#: vendor/websites/templates-directory/class-page-templates-directory.php:796
+#: vendor/websites/templates-directory/class-page-templates-directory.php:805
+#: vendor/websites/templates-directory/class-page-templates-directory.php:814
+#: vendor/websites/templates-directory/class-page-templates-directory.php:823
+#: vendor/websites/templates-directory/class-page-templates-directory.php:832
+#: vendor/websites/templates-directory/class-page-templates-directory.php:841
+#: vendor/websites/templates-directory/class-page-templates-directory.php:850
+#: vendor/websites/templates-directory/class-page-templates-directory.php:859
+#: vendor/websites/templates-directory/class-page-templates-directory.php:868
+#: vendor/websites/templates-directory/class-page-templates-directory.php:877
+#: vendor/websites/templates-directory/class-page-templates-directory.php:886
+#: vendor/websites/templates-directory/class-page-templates-directory.php:895
+#: vendor/websites/templates-directory/class-page-templates-directory.php:904
+#: vendor/websites/templates-directory/class-page-templates-directory.php:913
+#: vendor/websites/templates-directory/class-page-templates-directory.php:922
+#: vendor/websites/templates-directory/class-page-templates-directory.php:931
+#: vendor/websites/templates-directory/class-page-templates-directory.php:940
+#: vendor/websites/templates-directory/class-page-templates-directory.php:949
+#: vendor/websites/templates-directory/class-page-templates-directory.php:958
+#: vendor/websites/templates-directory/class-page-templates-directory.php:967
+#: vendor/websites/templates-directory/class-page-templates-directory.php:976
+#: vendor/websites/templates-directory/class-page-templates-directory.php:985
+#: vendor/websites/templates-directory/class-page-templates-directory.php:994
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1003
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1012
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1021
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1030
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1039
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1048
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1057
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1066
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1075
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1084
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1093
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1102
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1111
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1120
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1129
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1138
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1147
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1156
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1165
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1174
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1183
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1192
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1201
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1210
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1219
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1228
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1237
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1246
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1255
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1264
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1273
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1282
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1291
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1300
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1309
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1318
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1327
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1336
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1345
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1354
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1363
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1372
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1381
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1390
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1399
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1408
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1417
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1426
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1435
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1444
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1453
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1462
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1471
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1480
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1489
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1498
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1507
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1516
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1525
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1534
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1543
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1552
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1561
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1570
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1579
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1588
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1597
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1606
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1615
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1624
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1633
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1642
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1651
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1660
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1669
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1678
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1687
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1696
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1705
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1714
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1723
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1732
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1741
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1750
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1759
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1768
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1777
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1786
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1795
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1804
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1813
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1822
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1831
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1840
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1849
+msgid ""
+"It downloads from our website sktthemes.org, once you do it you will get the "
+"exact preview like shown in the demo. Steps after downloading the theme: "
+"Upload it via appearance>themes>add new>upload theme zip file and activate "
+"the theme."
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:221
+msgid ""
+" Gutenberg, gutenberg, hospital, clinic, healthcare, pharmacy, medical "
+"store, science, lab, drug, medication, veterinary, maternity, healer, "
+"general physician, therapist, orthopaedic, eye clinic, pathology, "
+"dermatologist, gynecologist, ambulance, physiotherapy, health consultant, "
+"pediatrician, psychologist, dentist, nurse, weight loss, health care centre"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:224
+msgid "GB Renovate"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:230
+msgid ""
+" Gutenberg, gutenberg, renovate, interior designs, designs, kitchen "
+"appliances, Whole Home Makeovers, Crowdsourcing Platform, Furniture Re-"
+"Upholsterer, E-decorating Service, Home Window Dresser, Resale Sites, Home "
+"Accessories Decorator, Designer Rooms, Home Decor Services, Makers And "
+"Manufacturers, home decor, interior construction, home decorating, "
+"decoration, decor, furnishing articles, interior equipment, internal design, "
+"interior set-up, interior fit-out, remodeling, overhaul, improvement, "
+"reconstruction, betterment, modernization, redo, new look, refashion, "
+"redecoration, repair, revamp, restore, rehabilitation, retreading, "
+"refitting, renovation, retouch"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:233
+msgid "GB Extreme"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:239
+msgid ""
+" Gutenberg, gutenberg, adventure, mountain, biking, hiking, extreme sports, "
+"tours, travel, exploit, escapade, event, stunt, quest, happening, trip, "
+"venture"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:242
+msgid "GB Barter"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:248
+msgid ""
+" Gutenberg, gutenberg, barter, eCommerce, WooCommerce, shop, shopping, "
+"sales, selling, online store, digital payment, PayPal, storefront, b2b, b2c"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:251
+msgid "GB Posterity"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:257
+msgid ""
+" Gutenberg, gutenberg, posteriy, multipurpose, pet, dogs, chocolate, food, "
+"recipe, corporate, construction, real estate, charity, trust, car, "
+"automobile, hair, industry, factory, consulting, office, accounting, "
+"computers, cafe, fitness, gym, architect, interior"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:260
+msgid "GB Posterity Dark"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:266
+msgid ""
+" Gutenberg, gutenberg, posteriy, posteriydark, dark, multipurpose, pet, "
+"dogs, chocolate, food, recipe, corporate, construction, real estate, "
+"charity, trust, car, automobile, hair, industry, factory, consulting, "
+"office, accounting, computers, cafe, fitness, gym, architect, interior"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:269
+msgid "GB Nature"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:275
+msgid ""
+" Gutenberg, gutenberg, atmosphere, environmental, climate, nature, world, "
+"ecology, science, surrounding, natural world, surround, locality, "
+"neighborhood, psychology, scenery, sphere, scene, nature, spot, mother "
+"nature, wildlife, ecosystem, work, area, place, god gift, globe, "
+"environmental organizations, non profit, NGO, charity, donations, clean, "
+"fresh, good looking, greenery, green color, house, landscape, creation, "
+"flora, locus, air, planet, healing, circumambience"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:278
+msgid "GB Hotel"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:284
+msgid ""
+" Gutenberg, gutenberg, Motels, accommodation, Motel accommodation, Hostels, "
+"backpackers , Apartments, Bed & Breakfasts, Holiday Homes, Homestays, "
+"Holiday Parks, Campgrounds, Farmstays, Luxury Lodges, Boutiques, Lodges, "
+"houses, pavilions, stays, gatehouse, hall, club, reside, rent rooms, "
+"inhabits, cottage, retreat, main building, clubhouse, hostelry, stays, "
+"lodging, pubs, traveler, service, hospices, room, hoteles, guests, "
+"facilities, hotel staff, location, hospitality, hotel management, catering, "
+"hostelries, roadhouses, bars, resort, canal, innkeeper, hotel accommodation, "
+"reservations, hotel business, place, in hotels, settlements, schools, "
+"establishments, institutions, properties, farmhouses"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:287
+msgid "GB Charity"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:293
+msgid ""
+" Gutenberg, gutenberg, kindness, kindliness, compassion, feeling, goodwill, "
+"generosity, gentleness, charitableness, tolerance, mercy, humanitarianism, "
+"understanding, kindliness, liberality,nurture, relief, generosity, help, "
+"leniency, allowance, kindliness, favor, selflessness, unselfishness, love, "
+"kindheartedness, support, tenderness, goodness, donation, charitable "
+"foundation, offering, indulgence, kindliness, fund, assistance, benefaction, "
+"contribution, generosity, brotherly love, caring, clemency, concern, pity, "
+"sympathy, benignity, empathy, welfare, charities, gift, aid, help, grace"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:296
+msgid "GB Fitness"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:302
+msgid ""
+" Gutenberg, gutenberg, health, fitness, coach, well-being, good physical "
+"condition, healthiness, fitness, physical fitness, haleness, good trim, good "
+"shape, fine fettle, good kilter, robustness, strength, vigour, soundness, "
+"discipline, yoga, meditation, reiki, healing, weight loss, pilates, "
+"stretching, relaxation, workout, mental, gymnasium, theater, action, arena, "
+"gymnastics, exercise, health club, fitness room, health spa, work out, "
+"weight room, working out, sports hall, welfare centre, fitness club, "
+"wellness area, workout room, spa, high school, sport club, athletic club, "
+"fitness studio, health farm, establishment, gym membership, junior high, "
+"sports club, health-care centre, exercise room, training room, fitness "
+"suite, health centre, beauty centre, my gym, country club, fite, gym class, "
+"medical clinic, med centre, free clinic, medical facilities, dispensary, "
+"health posts, healing center, health care facility, medical station, health "
+"care establishment, health establishment, medical establishment, centre de "
+"santé, medical centres, medical, hospital, polyclinic, healthcare "
+"facilities, treatment centre, medical institutions, health care institution, "
+"health units"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:305
+msgid "GB Construction"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:311
+msgid ""
+" Gutenberg, gutenberg, inventor, originator, founder, maker, mastermind, "
+"engineer, builder, planner, designer, patron, originator, initiator, "
+"entrepreneur, deviser, author, director, manufacturer, designers, artificer, "
+"artist, person, agent, innovator, constructor, architecture, draftsman, "
+"planner, designer, progenitor, director, producer, planner, craftsmen, "
+"peacemaker, agent, artisan, producer, maker, generator, fabricator, "
+"craftsperson, structure, design, organizer, architectural, pioneer, founding "
+"father, author, brains, originators, instigators, implementer, contractor, "
+"contriver, real estate developer, building contractor, design engineer, "
+"property developer, brick layer, land developer, establisher, handyman, "
+"maintenance, decor, laborer, land consulting, roofing, artist, portfolio, "
+"profile, roofttop, repair, real estate, colorful, adornments, cenery, "
+"surroundings, home decor, color scheme, embellishment, garnish, furnishings, "
+"interior decorations, interiors, set design, scenography, flourish, design, "
+"redecorating, decorative style, ornaments, environments, designs, interior "
+"construction, painting, trimming, interior decorating, decoration, "
+"emblazonry, home decorating"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:332
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:336
+msgid "Wedding Cards Home"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:342
+#: vendor/websites/templates-directory/class-page-templates-directory.php:351
+#: vendor/websites/templates-directory/class-page-templates-directory.php:360
+#: vendor/websites/templates-directory/class-page-templates-directory.php:369
+msgid ""
+" wedding, invitation cards, wedding cards, birthday cards, celebration, "
+"solicitation, invite, wedding invitation, wedding planner, bride, groom, "
+"marriage, announcement, events, wedding venue, romantic cards, greeting "
+"cards, rustic card, floral canopy, customized cards"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:345
+msgid "Wedding Cards About"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:354
+msgid "Wedding Cards"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:363
+msgid "Wedding Cards Contact"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:372
+msgid "Mechanic Home"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:378
+msgid ""
+" repair, mechanic, auto repair, services, maintenance, wheels alignment, "
+"engine service, autocar, car wash, auto painting, tires shop, auto care, "
+"auto mechanic, serviceman, tire dealers, car garage, mechanic workshops, car "
+"service, inspection, truck owner, automobile garages, mechanic shop, "
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:381
+msgid "Mechanic About"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:387
+#: vendor/websites/templates-directory/class-page-templates-directory.php:396
+#: vendor/websites/templates-directory/class-page-templates-directory.php:405
+msgid ""
+" repair, mechanic, auto repair, services, maintenance, wheels alignment, "
+"engine service, autocar, car wash, auto painting, tires shop, auto care, "
+"auto mechanic, serviceman, tire dealers, car garage, mechanic workshops, car "
+"service, inspection, truck owner, automobile garages, mechanic shop"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:390
+msgid "Mechanic Services"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:399
+msgid "Mechanic Contact"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:408
+msgid "Extreme Sports Home"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:414
+#: vendor/websites/templates-directory/class-page-templates-directory.php:423
+#: vendor/websites/templates-directory/class-page-templates-directory.php:432
+#: vendor/websites/templates-directory/class-page-templates-directory.php:441
+msgid ""
+" sports, adventure, hiking, skiing, mountaineering, river rafting, trekking, "
+"fun, surfing, climbing, exciting, adrenalin rush, camping"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:417
+msgid "Extreme Sports About"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:426
+msgid "Extreme Sports Activities"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:435
+msgid "Extreme Sports Contact"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:444
+msgid "SKT Mosque"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:450
+msgid ""
+" mosque, masjid, prayers, offerings, donation, charity, NGO, kids learning "
+"centre, meditation, nonprofit, fundraising, foster home, caretaker, "
+"Humanitarian, food trust, welfare schemes, volunteer programs, relief fund, "
+"church, disaster, peace, amnesty, blood donation camps, child education"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:453
+msgid "Posterity"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:459
+msgid ""
+" posteriy, multipurpose, pet, dogs, chocolate, food, recipe, corporate, "
+"construction, real estate, charity, trust, car, automobile, hair, industry, "
+"factory, consulting, office, accounting, computers, cafe, fitness, gym, "
+"architect, interior"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:462
+msgid "Posterity Dark"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:468
+msgid ""
+" posteriy, posteriydark, dark, multipurpose, pet, dogs, chocolate, food, "
+"recipe, corporate, construction, real estate, charity, trust, car, "
+"automobile, hair, industry, factory, consulting, office, accounting, "
+"computers, cafe, fitness, gym, architect, interior"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:471
+msgid "Minimal"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:477
+msgid ""
+" minimal, minimalistic, eCommerce, store, shop, furniture, chair, ceramic "
+"materials, baked clay, equipment, tools, apparatus, utensils, electronic "
+"devices, home decor, lighting, gear, makeovers, decorating, decoration, "
+"consumer goods, crockery, stoneware, art, earthenware, ceramic, clay ware, "
+"ware, ceramic ware, potteries"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:480
+msgid "SaturnWP"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:486
+msgid ""
+" digital-agency, agency, online, digital, consulting, corporate, business, "
+"small business, b2b, b2c, financial, investment, portfolio, management, "
+"discussion, advice, solicitor, lawyer, attorney, legal, help, SEO, SMO, "
+"social"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:489
+msgid "SKT Green"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:495
+msgid ""
+" nature, green, conservation, solar, eco-friendly, renewable, biofuel "
+"electricity, recycle, natural resource, pollution free, water heating, sun, "
+"power, geothermal, hydro, wind energy, environment, earth, farm, agriculture"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:498
+msgid "Coming Soon One"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:504
+#: vendor/websites/templates-directory/class-page-templates-directory.php:513
+#: vendor/websites/templates-directory/class-page-templates-directory.php:522
+#: vendor/websites/templates-directory/class-page-templates-directory.php:531
+#: vendor/websites/templates-directory/class-page-templates-directory.php:540
+#: vendor/websites/templates-directory/class-page-templates-directory.php:549
+#: vendor/websites/templates-directory/class-page-templates-directory.php:558
+#: vendor/websites/templates-directory/class-page-templates-directory.php:567
+msgid ""
+" coming soon, coming soon page, under construction, holding page, "
+"maintenance mode, upcoming, arriving, getting ready, countdown, timer"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:507
+msgid "Coming Soon Two"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:516
+msgid "Coming Soon Three"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:525
+msgid "Coming Soon Four"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:534
+msgid "Coming Soon Five"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:543
+msgid "Coming Soon Six"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:552
+msgid "Coming Soon Seven"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:561
+msgid "Coming Soon Eight"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:570
+msgid "Blendit"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:576
+msgid ""
+" blendit, design agency, creative agency, branding company, design studio, "
+"development company, marketing agency, marketing services, promotional "
+"services, interior design, digital studio, corporate, consultancy, "
+"information technology services, IT services, maintenance services, duty, "
+"office, group of people, firm, instrument, business, agent, representation, "
+"department, office, authority, corporation, government agency, service "
+"provider, IT service providers, repairing services"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:579
+msgid "Night Club"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:585
+msgid ""
+" nightclub, parties, events, night clubs, music club, dancing club and nigh "
+"life, parties, music, dance, bands, disco, jockey, Trance and House Event, "
+"DJ, Trance Party, Musicians,Disc Jockey,groups, music, video gallery, "
+"Concert, cafes, restaurants, cafes, bars, bistros, bakeries, pubs, "
+"cafeteria, pizzerias"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:588
+msgid "Painting"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:594
+msgid ""
+" painting, art galleries, paintings, artwork, artist, exhibitions, white "
+"washing, rustproofing, wall papering, residential painting, face paint, "
+"startups, manufacturing factory, paint less dent removal, varnishes, "
+"lacquers, stains, putties, paint thinners, Graffiti business, spray "
+"painters, Graffiti Removal, Workshop, Drywall Contracting Company, wallpaper "
+"fixers, Polishing Services , Retailing Store, Interior Decoration, Art "
+"Studio, Materials, scraper, Triangular-load, wholesale Distribution company"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:597
+msgid "Finance"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:603
+msgid ""
+" finance, fund, funding, subsidize, back, support, financing, funds, money, "
+"bankroll, sponsor, underwrite, financial, capital, capitalize, endow, cash, "
+"funded, resources, assets, wherewithal, stake, investment, economics, "
+"wealth, maintain, guarantee, backing, cover, financed, finances, fiscal, "
+"means, promote, business, financial affairs, for financing, financially, "
+"patronize, for the financing, grubstake, revenue, for funding, financial "
+"resources, budget, help, money matters, term loan, assist, treasury, "
+"sponsored, banking, dough, regarding the financing, commerce, terms of "
+"financing, pay for, backed, keep, income, securities, provide funding, "
+"reserves, sponsoring, capitalized, fiscally, financial matters, provide "
+"financing, subsidy, financial means, sponsorship, grant, loan, as regards "
+"the financing, covered, financial backing, covering, fundraising, money "
+"management, lending, aid, invest, exchequer, sustain, bread, set up, "
+"advance, meet, provide, property, funding, internal revenue service, offset, "
+"foot the bill, invest in, support financially, nourish, stock, financials"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:606
+msgid "Air Conditioner"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:612
+msgid ""
+" airconditioner, heating and cooling services, AC Contractor, Air "
+"filtration, ventilating service provider, Air handler business, HVAC "
+"repairing center, factory, electronic gadgets, Air Condition, Air "
+"Conditioner, cooler, HVAC technician, HVAC Specialist, automobiles, Solar "
+"heating technician, Refrigeration Specialist, Equipment specialist, "
+"Mechanical Administrator, HVAC products, Solar Thermal, Chimney Repairs, "
+"Installation services, HVAC test tools, testing contractor"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:615
+msgid "Therapist"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:621
+msgid ""
+" therapist, analyst, healer, psychologist, psychotherapist, therapy, "
+"counselor, internist, taking care, medical doctor, psychiatry, doctor of "
+"psychology, headshrinker, general practitioner, sychiatric, nursemaid, grief "
+"counselor, chiropractor, medicine, medical,life coach, clinician, counselor, "
+"psychical, nurse"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:624
+msgid "Startup"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:630
+msgid ""
+" startup, small business, startup business, attractive, appealing, "
+"impressive, responsive, visually appealing, white color theme, corporate, "
+"businesses, multipurpose, ecommerce, consulting, black and white, white "
+"design, lightweighted template, clean, whitespaces, portfolio, profilt, "
+"resume, CV"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:633
+msgid "We Bake"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:639
+msgid ""
+" webake, cooking, baking, toast, bakers, cookies, roasting, fry, heat, "
+"microwave, oven-bake, barbecue, juice, pastry, food, cake, cuisine, snacks, "
+"cupcakes, muffins, pastries, pastry, cream"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:642
+msgid "Medical"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:648
+msgid ""
+" medical, health, remedial, doctor, treatment, medicine, medic, healing, "
+"medical exam, test, checking, physician, medical examination, medicinal, "
+"healthcare"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:651
+msgid "Nuptials"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:657
+msgid ""
+" nuptials, marriage, marry, joining, nuptials, match, marital, bridal, rite, "
+"wedlock, marital, union, wedlock, marriage ceremony, rite, wedding party, "
+"matrimony, bride and groom, coupling, alliance, occasion, meeting, "
+"gathering, wedding, bride, groom, invite, family, celebration, sangeet, "
+"reception, haldi, act, business, function, marriage, banquet, celebration, "
+"parties, entertainment, barbecue, bash, social, reception, engagement, bride "
+"and groom, matrimonial, coupling, merging, fun, social, nuptials, marry, "
+"anniversary, commitment ceremony, ceremony, wedding receptions, "
+"combinations, unions, intermarriage, wedlock, consortium, coupling, holy "
+"matrimony, mating, monogamy, pledging, match, spousal"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:660
+msgid "Gym Master"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:666
+msgid ""
+" gymmaster, health, fitness, coach, well-being, good physical condition, "
+"healthiness, fitness, physical fitness, haleness, good trim, good shape, "
+"fine fettle, good kilter, robustness, strength, vigour, soundness, "
+"discipline, yoga, meditation, reiki, healing, weight loss, pilates, "
+"stretching, relaxation, workout, mental"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:669
+msgid "Massage Center"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:675
+msgid ""
+" massagecenter, spa, saloon, salon, meditative practice, yogic, ideology, "
+"health, pilates, meditative exercise, yogism, setting-up exercises, "
+"relaxation, stretching, stretch, yodel, hot yoga chick, body-bending "
+"exercise, yogeeism, exercising, mystery, kundalini, yoga class, yogi, "
+"relaxing, yoga classes, eastern discipline, church, philosophical ascetic "
+"practice, type of exercise, health system, practice, workout, yoga teachers, "
+"physical education, fitness, yoga studio, teaching yoga, acupuncture, "
+"ayurveda, yogis, reiki, homeopathy, physical exercise, philosophy, body, "
+"exercise, spiritual discipline, ascetic discipline, hinduism, theism, mental "
+"exercises, fitness, shape, strength, fun, inspiration, pleasure, "
+"refreshment, rubbing, doctor, body massage, eye massage, facial, "
+"acupressure, massage therapist, reinstatement, curative, therapeutic, heal, "
+"remedial, soothing, medicinal, curing, restorative, sanative, alterative, "
+"ointment, get better, recovery, repair, remedy, be cured, cured, get well, "
+"overhaul, treat, healed, recover, health-giving, tonic, remedial, assuage, "
+"recuperation, recovery, return, salutary, getting well, rehabilitation, "
+"pharmaceutical, drug, remedial, calming, reconcile, improvement, organism, "
+"health, easing, relieve, treatment, recovery, aid, peace, convalescent"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:678
+msgid "Horoscope"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:684
+msgid ""
+" horoscope, figure, star sign, zodiac, symbolization, representation, "
+"astromancy, astrology, sign, birth chart, fortune cookie, stars, crystal "
+"gazing, constellations, prognostication, fortunate, omen, luck, horoscope, "
+"zodiac sign, capricorn, sign, horoscope, indicator, estimate, forecast, "
+"fortune telling, prediction, foretelling, projection, circumstance, "
+"predestination, future predict, fate, fortune, future, fate, spire, turret, "
+"bridge, price consultation, consultancy, guess, signal, astromancy, "
+"symbolization, birthstone, gem, astrological chart, astrophysicist, "
+"astrophysics, accessory, ring, trinket, zodiacal signs, non profit, NGO, "
+"charity"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:687
+msgid "Kitchen Design"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:693
+msgid ""
+" kitchendesign, interior designs, designs, kitchen appliances, Whole Home "
+"Makeovers, Crowdsourcing Platform, Furniture Re-Upholsterer, E-decorating "
+"Service, Home Window Dresser, Resale Sites, Home Accessories Decorator, "
+"Designer Rooms, Eco-Friendly Home Decor Services, Makers And Manufacturers, "
+"home decor, interior construction, home decorating, decoration, decor, "
+"furnishing articles, interior equipment, internal design, interior set-up, "
+"interior fit-out, remodeling, overhaul, improvement, reconstruction, "
+"betterment, modernization, redo, new look, refashion, redecoration, repair, "
+"revamp, restore, rehabilitation, retreading, refitting, renovation, retouch"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:696
+msgid "Windows And Doors"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:702
+msgid ""
+" windowsanddoors, window installations, Doors fixer, handyman, repair "
+"services, remodeling, window and door cleaning services, manufacturers, "
+"Aluminum Door manufacturing, Repair Business, UPVC Window, Suppliers, home "
+"improvement industry, strategic consultancy, local businesses, Sliding "
+"Windows installer"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:705
+msgid "Sanitization"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:711
+msgid ""
+" wash, health, fitness, stress, relief, disinfectant, depersonalization, "
+"refining, remediation, clean-up, dry cleaner, purifying, refinement, "
+"impersonalizing, clean, cleanse, wipe, sponge, scrub, mop, rinse, scour, "
+"swab, hose down, sanitize, sanitization, disinfect, disinfection, cleaning, "
+"decontaminate, antiseptic, sanitary, janitor, lean, freshen, purify, "
+"deodorize, deodrant, depurate, depollute, hygiene, residue, sterilise, "
+"sterilize, napkin"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:714
+msgid "Pin Minimal"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:720
+msgid " minimal, minimalistic, white, flat, material, simple, clean, natural"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:723
+msgid "Handy Man"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:729
+msgid ""
+" help, helper, helpmate, home security system, hot tub, spa, lamp repair, "
+"handyman, landscaping, lawncare, lockset adjustment, maid service, molding "
+"installation, moving, paint removal, painting, patio stone installation, "
+"pest control, plumbing repair, porch, remodeling basement, remodeling "
+"bathroom, remodeling kitchen, roofing, safety modification, sealing "
+"driveway, senior living modification, septic system repair, shelf "
+"installation, shelving, skylight installation, soundproofing, sprinkler "
+"repair, sprinkler system installation, stain removal, staining furniture, "
+"stone work, storage area construction, storage area repair, swapping a "
+"toilet, swimming pool maintenance, tiling, trash removal, wall building, "
+"water purification, water softening, window cleaning, welding, window "
+"installation, window repair, window screen, duty, work, waste removal, "
+"welder, repair, adjustment, improvment, overhaul, reconstruction, "
+"rehabilitation, maintenance, welding service, alteration, remaking, resetting"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:732
+msgid "CCTV"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:738
+msgid ""
+" home automation requirements, home protection systems, residential "
+"protection,, commercial protection, CCTV security systems, individuals "
+"security, Security guards,, watching crime, CCTV Cameras, Crime Check, "
+"safety equipment stores, spy camera espionage, surveillance systems bureaus, "
+"bar-code scanner manufacturers, DVR&#39;s, anti theft equipment, biometric "
+"system companies, parking management system, video door phone seller&#39;s, "
+"stun gun, dome cameras, IP camera, Bullet IR Night Vision Camera, Special "
+"purpose cameras, vision cameras, Dome IR Night vision cameras"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:741
+msgid "PVC Pipes"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:747
+msgid ""
+" fittings, PVC Pipes, maintenance, pipe cutter, office equipment, tap, "
+"maintenance, renovation, plumbing, electrician companies, home repair "
+"business, remodeling, plumbing firms, renovation, carpentry, construction "
+"businesses, building parts, bathroom accessories, plumbing parts, water "
+"pipes, showers, tools, kitchen hardware, bath equipment"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:750
+msgid "Home Theater"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:756
+msgid ""
+" hometheater, home theatre, sound equipments, equipment, tools, apparatus, "
+"devices, electronic devices, home decor, lighting, gear, devices, mobile "
+"phones, Home appliances, gadgets, Makeovers, decorating, decoration, "
+"remodel, refashion, mechanism, add-ons, consumer goods, Washing Machine, "
+"Bluetooth speakers, Audio Systems, manufacturer, music entertainment "
+"business, DSLR camera, electronics products"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:759
+msgid "Flowershop"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:765
+msgid ""
+" flowershop, market, shop, store, flower shop, food shop, snacks shop, "
+"bakery store, artificial flower shop, cake shop, grocery store, shopping, "
+"foodstuff, goods, groceries, food market, grocer, foodstore, mall, food "
+"retailing, supermarket, mart, greengrocery, edibles, emporium, food product, "
+"corner shop, storefront, greengrocer, trade, mart, delicatessen, groceteria, "
+"comestible, place, department store, superette, tent, convenience store, "
+"provision, vegetable store, eatables, provision shop, victuals, boutique, "
+"trade, markets, purchase, supermarket, stock market, bazaars, sales, bazaar, "
+"sells, exchanges, businesses, convenience store, auctions, trading, deal, "
+"bargain, merchandise, commerce, stock exchange"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:768
+msgid "Municipality"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:774
+msgid ""
+" municipality, community, urban community, urban area, foundation, "
+"establishment, local government, city government, town government, policy, "
+"municipal government, municipal executive, municipal elections, Municipal "
+"law, municipal reform, welfare, district, village, city, town, metropolis, "
+"burg, province, non profit organization, NGO, governmental organizations, "
+"political jurisdictions, community resources, administrative agency, city "
+"club, food inspection, transportation, fire departments"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:777
+msgid "Summer Camp"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:783
+msgid ""
+" summercamp, traveling, trek, happy movement, expedition, cruise, backpack, "
+"visit, trips, tour, vacationing, voyage, roaming, action, go, roll, move, "
+"journey, saffari, touring, journey, trip, go abroad, peregrinate, riding, "
+"journey, motion, movement, change, taking a trip, stay, holidaying, spring "
+"break, vacation, furlough, summer vacation, vacancies, vacation time, tour, "
+"travel, vacay, breaks, offseason, vacationing, resort, summer vacation, "
+"breakdown, weekends, recesses, rests, package, outings, staying, summer "
+"holiday, summer break, summer recess, major holidays, high holidays, big "
+"holiday, great holiday, long vacations, break, summering, long vacation, "
+"summer recreation, holiday, summer activities, summer enjoyment, summer "
+"entertainment, summer fun, summer gaiety, summer joviality, summer joy, "
+"summer merriment, summer pleasure, summer relax, summer relaxation, summer "
+"rest, summertime, entertainment, summertime fun, summertime joy, summertime "
+"pleasure, holiday period, summer leisure activities, summer camps, great "
+"festivals, large parties, summertime, major festivals, major feasts, spend "
+"the summer, festivals, main festivals, spring, midsummer, estate"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:786
+msgid "Association"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:792
+msgid ""
+" association, kindness, kindliness, compassion, feeling, goodwill, "
+"generosity, gentleness, charitableness, tolerance, mercy, humanitarianism, "
+"understanding, kindliness, liberality,nurture, relief, generosity, help, "
+"leniency, allowance, kindliness, favor, selflessness, unselfishness, love, "
+"kindheartedness, support, tenderness, goodness, donation, charitable "
+"foundation, offering, indulgence, kindliness, fund, assistance, benefaction, "
+"contribution, generosity, brotherly love, caring, clemency, concern, pity, "
+"sympathy, benignity, empathy, welfare, charities, gift, aid, help, grace"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:795
+msgid "Aquarium"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:801
+msgid ""
+" aquarium shops, decoration fish dealers, aquarium accessories service "
+"providers, public aquariums, fishbowl, aquatic museum, marine exhibit, "
+"vivarium, Aquarius, fishery, aquarium park, goldfish, aquapark, menagerie, "
+"pond, fish pond, dolphinarium, fish tanks, goldfish bowl, seaquarium, "
+"seaworld"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:804
+msgid "Swimming Pool"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:810
+msgid ""
+" swimmingpool, waterfront, seaside, seashore, coastal region, seaboard, "
+"foreshore, Swimming pools , Wellness, Vacation Rentals, Tour Guide, Welcome "
+"Center, Watersports Rentals, Travel, Consultant, massage services, facial "
+"treatments, Transportation, VIP Services, Personalized services, Car rental, "
+"restaurants and local event"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:813
+msgid "Event Planners"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:819
+msgid ""
+" event planners, act, business, function, marriage, banquet, celebration, "
+"parties, entertainment, barbecue, bash, social, reception, engagement, "
+"birthday, speaker session, Networking sessions, Conferences, seminar, half-"
+"day event, Workshops, classes, VIP experiences, Sponsorships,Trade shows, "
+"expos, Awards and competitions, Festivals and parties, event marketing, B2C, "
+"B2B marketing, meetups, wordcamps, education and training"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:822
+msgid "School Uniform"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:828
+msgid ""
+" uniform, clothing, fashion, apparel stores, luxurious undergarments, "
+"boutique, clothing, garments, dress, attire, wardrobe, outfit, apparel, "
+"nightgown, fashion boutique, appearance, looks, boutique, girlie, cloth "
+"store, fashion store, feminine, clothes, custom tailoring, alteration, "
+"handmade, cloths repair, clothier, fashion, custom wear, uniform, retail, "
+"store, wholesaler, shop, fashion industry, clothing repair centers, "
+"tailoring service companies, tailor house owner, stylist, fashion designer, "
+"model, professional tailor, or an online store manager, cutting approaches, "
+"stitching methods, boutique rules, bridal collections, formal dress "
+"collections, A-line designers, unstitch fabric"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:831
+msgid "Tailor"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:837
+msgid ""
+" tailor, clothing, fashion, apparel stores, luxurious undergarments, "
+"boutique, clothing, garments, dress, attire, wardrobe, outfit, apparel, "
+"nightgown, fashion boutique, appearance, looks, boutique, girlie, cloth "
+"store, fashion store, feminine, clothes, custom tailoring, alteration, "
+"handmade, cloths repair, clothier, fashion, custom wear, uniform, retail, "
+"store, wholesaler, shop, fashion industry, clothing repair centers, "
+"tailoring service companies, tailor house owner, stylist, fashion designer, "
+"model, professional tailor, or an online store manager, cutting approaches, "
+"stitching methods, boutique rules, bridal collections, formal dress "
+"collections, A-line designers, unstitch fabric"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:840
+msgid "Tatto"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:846
+msgid ""
+" tatto, body art, tattoo making, body art, tattoo lettering, body piercing, "
+"art, artist, creativity, tattoo shop, tattoo studio, tattoo parlous, salon, "
+"makeup artist"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:849
+msgid "Mountain Biking"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:855
+msgid ""
+" mountainbiking, traveling, trek, happy movement, expedition, cruise, "
+"backpack, visit, trips, tour, vacationing, voyage, roaming, action, go, "
+"roll, move, journey, saffari, touring, journey, trip, go abroad, "
+"peregrinate, riding, journey, motion, movement, change, taking a trip, stay, "
+"holidaying, spring break, vacation, furlough, summer vacation, vacancies, "
+"vacation time, tour, travel, vacay, breaks, offseason, vacationing, resort, "
+"summer vacation, breakdown, weekends, recesses, rests, package, outings, "
+"staying, summer holiday, summer break, summer recess, major holidays, high "
+"holidays, big holiday, great holiday, long vacations, break, summering, long "
+"vacation, summer recreation, holiday, summer activities, summer enjoyment, "
+"summer entertainment, summer fun, summer gaiety, summer joviality, summer "
+"joy, summer merriment, summer pleasure, summer relax, summer relaxation, "
+"summer rest, summertime, entertainment, summertime fun, summertime joy, "
+"summertime pleasure, holiday period, summer leisure activities, summer "
+"camps, great festivals, large parties, summertime, major festivals, major "
+"feasts, spend the summer, festivals, main festivals, spring, midsummer, "
+"estate"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:858
+msgid "Repairman"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:864
+msgid ""
+" repairman, window installations, Doors fixer, handyman, repair services, "
+"remodeling, window and door cleaning services, manufacturers, Aluminum Door "
+"manufacturing, Repair Business, UPVC Window, Suppliers, home improvement "
+"industry, strategic consultancy, local businesses, Sliding Windows installer"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:867
+msgid "Lights"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:873
+msgid ""
+" lights, lighting company, lighting shop, led lights, led shop, interior "
+"accessories, decor items, handmade, ceramics items, chandelier stores, light "
+"bulbs retailers, fixtures shops, lamp posts, lighting accessories, designer "
+"lamp studio"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:876
+msgid "Movie Maker"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:882
+msgid ""
+" moviemaker, film producer, stage director, cinematographer, movie director, "
+"moviemaker, head master, headteacher, filmmaking, directing, producer, film, "
+"moviegoer, cinema, headmaster, stage performer, stage manager, head, "
+"directorial, videographer, artistic director, movies, manager, editor, "
+"director, director-level, film-makers, casting director, camera operator, "
+"pictures, stock footage, achiever, line producer, implementor, scenario "
+"writer, superintendent, film fan, theater director, cameraman, movie fan, "
+"moving pictures, camera guy, filmmakers, realizer, photographer, "
+"cinematographers, camera man, movie theater, president, cinematography, "
+"video, moviemakers, film buff, cinema operator, theatrical producer, film "
+"set, executive, ribbons, actor, actress, model, modelling, cast, crew, "
+"photographer, makeup, artist, makeup artist, hair styler"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:885
+msgid "SKT Videography"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:891
+msgid ""
+" videography, wedding, engagement, nuptials, matrimony, ring, ceremony, "
+"ritual, vows, anniversary, celebration, photography, rites, union, big day, "
+"knot, aisle, wive, husband, wife, esposo, esposa, hitched, plunged, "
+"gatherings, events, video, reels, youtube, film"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:894
+msgid "Bicycleshop"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:900
+msgid ""
+" bicycleshop, woocommerce, ecommerce, shop, store, sales, shopping, commerce"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:903
+msgid "Barter"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:909
+msgid ""
+" barter, eCommerce, WooCommerce, shop, shopping, sales, selling, online "
+"store, digital payment, PayPal, storefront, b2b, b2c"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:912
+msgid "Software"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:918
+msgid ""
+" software, program, freeware, application, operating system, laptop, "
+"computer, courseware, productivity, file management"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:921
+msgid "Bathware"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:927
+msgid ""
+" bathware, bathroom fittings, bathroom stores, bathroom accessories, "
+"superior bathroom service providers, fashionable rest room designers, units, "
+"basins, tap, faucet, washbasin, baths, showers, tiles, bathroom, building "
+"interior design, furniture, shower screens, freestanding, bathroom vanity, "
+"marble, home improvement firms"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:930
+msgid "Zym"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:936
+msgid ""
+" zym, fitness, yoga, gym, crossfit, studio, health, wellness, wellbeing, "
+"care, giving, nursing, body, bodybuilding, sports, athletes, boxing, "
+"martial, karate, judo, taekwondo, personal trainer, guide, coach, life skills"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:939
+msgid "Pet Care"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:945
+msgid ""
+" pet-care, pets, animals, cats, dogs, vets, veterinary, caring, nursing, "
+"peta, charity, donation, fundraiser, pet, horse, equestrian, care, orphan, "
+"orphanage, clinic, dog walking, dog grooming, boarding, retreat, pet sitters"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:948
+msgid "Bony"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:954
+msgid ""
+" bony, orthopaedic, chriropractor, orthodontist, physiotherapy, therapy, "
+"clinic, doctor, nurse, nursing, care, caring, osteopathy, arthritis, body, "
+"pain, spine, bone, joint, knee, walk, low, back, posture"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:957
+msgid "Lawzo"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:963
+msgid ""
+" lawzo, lawyer, attorney, justice, law, solicitor, general, legal, "
+"consultation, advice, help, discussion, corporate, advocate, associate, "
+"divorce, civil, lawsuit, barrister, counsel, counsellor, canonist, firm"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:966
+msgid "Launch"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:972
+msgid ""
+" launch, folio, leaf sheet, side, recto verso, signature, surface, piece of "
+"paper, sheet of paper, flyleaf paper, eBook, book, journal, author, reading, "
+"sample, e-book, paperback, hardcover"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:975
+msgid "Shudh"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:981
+msgid ""
+" shudh, minimal, minimalism, minimalistic, clean, tidy, art, slight, tiny, "
+"little, limited, small, less, least, nominal, minimum, basal, token, lowest"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:984
+msgid "Resume"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:990
+msgid ""
+" resume, job, cv, curiculum vitae, online, portfolio, profile, digital, "
+"hired, hiring, seeker, candidate, interview, exam, experience, solutions, "
+"problems, skills, highlights, life, philosophy, manpower, template, format, "
+"word, document"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:993
+msgid "Fitt"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:999
+msgid ""
+" fitt, fitness, yoga, gym, crossfit, studio, health, wellness, wellbeing, "
+"care, giving, nursing, body, bodybuilding, sports, athletes, boxing, "
+"martial, karate, judo, taekwondo, personal trainer, guide, coach, life skills"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1002
+msgid "The Art"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1008
+msgid ""
+" theart, Crafts and Handmade Goods, beauty, Advertising, makeover, Graphic "
+"Artist, Tattoo Designs, Calligraphy Studio, artist, Art Dealer, Airbrush "
+"Artist, Antique"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1011
+msgid "Photodock"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1017
+msgid ""
+" photodock, portfolio, creative, report, document, paper, information, "
+"details, essay, sketch, figure, portrait, painting, image, descriptive, "
+"study, description, depiction, source, account, biography, draft, picture, "
+"registry, book, profile, record, communication, register, mark, post, "
+"report, file, mark, certificate, journalism, papers, contract, note, "
+"catalog, form, text, instructions"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1020
+msgid "Cats"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1026
+msgid ""
+" cat, pets, animals, cats, dogs, vets, veterinary, caring, nursing, peta, "
+"charity, donation, fundraiser, pet, horse, equestrian, care, orphan, "
+"orphanage, clinic, dog walking, dog grooming, boarding, retreat, pet sitters"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1029
+msgid "Events"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1035
+msgid ""
+" events, event, management, celebration, ceremony, appearance, holiday, "
+"occasion, situation, affair, function, proceeding, meeting, lunch, dinner, "
+"meetup, game, match, tournament, bout, contest, result, aftermath, "
+"happening, party, DJ, dance"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1038
+msgid "Beauty Cuts"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1044
+msgid ""
+" beautycuts, beautiful, artistry, hair,cut, hairscut, hairstyle, wig, "
+"elegance, good looks, grace, refinement, style, bloom, exquisiteness, "
+"fairness, fascination, glamor, loveliness, polish"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1047
+msgid "Library"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1053
+msgid ""
+" library, librarian, book, room, bibliotheca, reference, media, center, "
+"excellence, ebook, elearning, learn, magazine, fiction, album, essay, "
+"edition, brochure, copy, booklet, pamphlet, paper, paperback, kindle, "
+"writing, write, novel, atlas, manual, textbook, bestseller, encyclopedia, "
+"opus, periodical, portfolio, reprint, preprint, thesaurus, scroll, record, "
+"diary, notebook, notepad, bill"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1056
+msgid "Tutor"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1062
+msgid ""
+" educate, tutor, learning, guide, guidance, coach, help, advice, "
+"counselling, counsel, lecturer, instruct, instruction, discipline, disciple, "
+"direct, mentor, private, tutorial, professor, preceptor, teach, teaching, "
+"student, class, classroom, e learning, ebook, student"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1065
+msgid "Welder"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1071
+msgid ""
+" welder, repair, adjustment, improvment, overhaul, reconstruction, "
+"rehabilitation, maintenance, welding service, alteration, remaking, resetting"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1074
+msgid "Legal Expert"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1080
+msgid ""
+" lawyer, attorney, justice, law, solicitor, general, legal, consultation, "
+"advice, help, discussion, corporate, advocate, associate, divorce, civil, "
+"lawsuit, barrister, counsel, counsellor, canonist, firm"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1083
+msgid "Dairy Farm"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1089
+msgid ""
+" bakery, cultivate, raise, grow, farmer, farmhouse, work, agriculture, "
+"breeding, cattle, nature, natural, culture, farmland, raising, simple, "
+"clean, garden, dairy products, dairy farm, cream, plantation, cheese "
+"factory, estate, cowshed, cattle farm"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1092
+msgid "Tea"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1098
+msgid ""
+" tea house, cafe, teashop, tearooms, dining, cafeteria, establishment , "
+"luncheonette, small restaurant, tea parlor, lunchroom, tea parlour, "
+"restaurant, pavilion tea, drink, teatime, brunch, beverage, party, meal, "
+"snacks, chocolate, sweet, latte, food, cafe, espresso, decaf, mocha, "
+"coffeehouse, diner, burnt umber, joe, brew, caffeine, tawny, cup of coffee, "
+"sepia, coffee bean, bean, chestnut, coffee berry, cafés, cappuccino, hazel, "
+"cafeteria, deep brown, beverage, beer, coffees, hot, slang, rink, water, "
+"high tea, white coffee, coffee shop, coffee bar, restaurant, snack bar, "
+"refreshment, relief, stress free, coffee lounge, fresh pot, milk, cafe bar, "
+"coffee milk, cheesecake factory, bistro, brasserie, meal, eatery"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1101
+msgid "Grocery"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1107
+msgid ""
+" grocery, kirana, store, ecommerce, woocommerce, online, supermarket, "
+"market, groceries, food, shopping, buy, discount, coupons, online, basket, "
+"cart, groceries, mall"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1110
+msgid "Herbal"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1116
+msgid ""
+" nourishment, victuals, nutrient, nutriment, foodstuffs, goodness, "
+"beneficial, nurtures, edibles, eatables, vitamins, minerals, food products, "
+"chow, feed, grub, food items, mends, nutritional value, nutrimental, "
+"wholesomenes, nourishment, diet, groceries, conditioners, nutriments, drugs, "
+"solids, agri-foodstuffs, homemade, good stuff, herbs, plant, vegetable, "
+"plant-based, herb tea, vegetable, crop, grassy, botanical, floral, herbal "
+"medicine, medicinal herbs, grass, verdant, herbaceous, grass up, botanic, "
+"medicinal plants, weed, herbage, plant origin, flavorer, herbarium, mossy, "
+"grasses, flavourer, garden, vegetative, Phyto therapeutic, fruity, vegetal, "
+"planting, medicinal herb, herbal remedies, vegetable origin, flavoring, "
+"seasoner, herbal medicinal products, harvest, cultivate, agriculture, "
+"agriculture products, Ayurveda, unani, ayurvedic, ayus, acupuncture, "
+"homeopathy, naturopathy, yoga, reiki, meditation, chiropractic, allopathic, "
+"homeopathic, metaphysical concept, healing method, therapeutic touch, "
+"relaxation technique, spiritual healing, medical treatment, artificial "
+"insemination, anaesthesia, aromatherapy, Artificial Feeding, acupressure, "
+"analgesia"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1119
+msgid "Nutristore"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1125
+msgid ""
+" nutristore, nourishment, victuals, nutrient, nutriment, foodstuffs, "
+"goodness, beneficial, nurtures, edibles, eatables, vitamins, minerals, food "
+"products, chow, feed, grub, food items, mends, nutritional value, "
+"nutrimental, wholesomenes, fuel, meat, feeding, keep, nourishment, finger "
+"food, nosh, comestible, cuisine, diet, groceries, conditioners, nutriments, "
+"drugs, solids, agri-foodstuffs, health, fitness, herbal,"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1128
+msgid "Shopzee"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1134
+msgid ""
+" eye wear, specs, goggles, bifocals, shades, exhibition, vision, opera "
+"glasses, online store, handcrafted glasses, sun glasses, online optical "
+"business, fashion, fancy frames, dealers, lenskart, online eyeglasses, "
+"eyewear manufacturers, Traditional Ecommerce Business, B2C, B2B, C2B, C2C, "
+"D2C, Business to consumer, Business to business, Consumer to business, "
+"Consumer to consumer, Direct to consumer, Wholesaling, Dropshipping, "
+"Subscription service, distributing services, delivery services, shippings "
+"services, millennial generation, discount shop, discount store, convenience "
+"store, corner store, disposals store, grocery store, retail store, thrift "
+"store, store detective, liquor store, app store, jewelry store, shoe store, "
+"hobby store, cold store, backing store, store card, multiple store, lays "
+"store on, army navy store, gun store, cigar store, e store, music store, "
+"convenience store, drug store, general store, variety store, dime store, "
+"hobby shop, buffer store, big-box store, second-hand store, building supply "
+"store, anchor store, computer store, country store, mens store, army-navy "
+"store, bags, handbags, ecommerce, e-commerce, shopping, coupon"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1137
+msgid "Beach"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1143
+msgid ""
+" waterfront, seaside, seashore, coastal region, seaboard, foreshore, "
+"Swimming pools , Wellness, Vacation Rentals, Tour Guide, Welcome Center, "
+"Watersports Rentals, Travel, Consultant, massage services, facial "
+"treatments, Transportation, VIP Services, Personalized services, Car rental, "
+"restaurants and local event"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1146
+msgid "Activism"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1152
+msgid ""
+" ngo, non profit, citizen, old age, senior living, kids, children, red "
+"cross, wwf, social, human rights, activists, donation, fundraiser, donate, "
+"help, campaign, activism"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1155
+msgid "Fundraiser"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1161
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1170
+msgid ""
+" charity, fundraiser, church, donation, donate, fund, trust, association, "
+"foundation, cause, aid, welfare, relief, funding, handouts, gifts, presents, "
+"largesse, lease, donations, contributions, grants, endowments, ngo, non "
+"profit, organization, non-profit, voluntary, humanitarian, humanity, social, "
+"generosity, generous, philanthropy, scholarships, subsidies, subsidy"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1164
+msgid "Charity"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1173
+msgid "My Dog"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1179
+msgid ""
+" pet, dog, veterinary, animal, husbandry, livestock, aquarium, cat, fish, "
+"mammal, bat, horse, equestrian, friend"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1182
+msgid "FilmMaker"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1188
+msgid ""
+" wedding, engagement, nuptials, matrimony, ring, ceremony, ritual, vows, "
+"anniversary, celebration, videography, photography, rites, union, big day, "
+"knot, aisle, wive, husband, wife, esposo, esposa, hitched, plunged, "
+"gatherings, events, video, reels, youtube, film"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1191
+msgid "Martial Arts"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1197
+msgid ""
+" kungfu, fitness, sportsman, running, sports, trainer, yoga, meditation, "
+"running, crossfit, taekwondo, karate, boxing, kickboxing, yoga"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1200
+msgid "BabySitter"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1206
+msgid ""
+" kids, chools, nursery, kids fashion store, kindergarten, daycare, baby "
+"care, nursery, nanny, grandma, babysitting, nursing, toddler"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1209
+msgid "Winery"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1215
+msgid ""
+" wine, champagne, alcohol, beverage, drink, liquor, spirits, booze, "
+"cocktail, beer, nectar, honey, brewery"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1218
+msgid "Industrial"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1224
+msgid ""
+" industry, factory, manufacturing, production, worker, construction, "
+"fabrication, welder, smithy, automation, machine, mechanized, mechanic, "
+"business, commerce, trade, union"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1227
+msgid "Coffee"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1233
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1350
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1656
+msgid ""
+" coffee, caffeine, tea, drink, milk, hot, brewery, cappuccino, espresso, "
+"brew, java, mocha, decaf, juice, shakes"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1236
+msgid "CutsnStyle"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1242
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1575
+msgid ""
+" salon, beauty, nails, manicure, pedicure, parlor, spa, hairdresser, barber, "
+"soap, glamour, fashion, grace, charm, looks, style, mud bath, oxygen "
+"therapy, aromatherapy, facial, foot, skin care, hair coloring, shampoo, "
+"razors, grooming, beard, cosmetology"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1245
+msgid "Butcher"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1251
+msgid " butcher, meat, steakhouse, boner, mutton, chicken, fish, slaughter"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1254
+msgid "Architect"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1260
+msgid ""
+" architect, interior, construction, contractor, architecture, draughtsman, "
+"planner, builder, consultant, fabricator, creator, maker, engineer, mason, "
+"craftsman, erector"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1263
+msgid "Auto Car"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1269
+msgid ""
+" transport, lorry, truck, tow, bus, movers, packers, courier, garage, "
+"mechanic, car, automobile"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1272
+msgid "Movers and Packers"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1278
+msgid ""
+" transport, lorry, truck, tow, bus, movers, packers, courier, garage, "
+"mechanic, car, automobile, shifting"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1281
+msgid "Modeling"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1287
+msgid ""
+" model, fashion, style, glamour, mannequin, manikin, mannikin, manakin, "
+"clothing, photography, photograph, instagram"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1290
+msgid "Exceptiona"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1296
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1413
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1422
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1431
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1440
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1449
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1467
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1476
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1566
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1620
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1638
+msgid ""
+" corporate, business, consulting, agency, people, meeting, communal, "
+"working, workforce, office, accounting, lawyer, coaching, advocate, advice, "
+"suggestion, therapy, mental wellness"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1299
+msgid "Parallax Me"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1305
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1386
+msgid ""
+" corporate, business, consulting, agency, people, meeting, communal, "
+"working, workforce, office"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1308
+msgid "Build"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1314
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1395
+msgid ""
+" construction, contractor, concrete, cement, fabricator, steel, roofing, "
+"flooring, industry, factory, manufacturing, production, worker, fabrication, "
+"welder, smithy, automation, machine, mechanized, mechanic, business, "
+"commerce, trade, union"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1317
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1533
+msgid "Fitness"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1323
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1377
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1539
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1548
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1629
+msgid ""
+" fitness, trainer, gym, crossfit, health, strength, abs, six pack, wellness, "
+"meditation, reiki, mental, physical, bodybuilding, kickboxing, sports, "
+"running, kungfu, karate, taekwondo, yoga"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1326
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1506
+msgid "Restaurant"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1332
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1368
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1512
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1674
+msgid ""
+" restaurant, bistro, eatery, food, joint, street café, café, coffee, burger, "
+"fast food, junk food, noodle, chinese, chef, cook, kitchen, cuisine, "
+"cooking, baking, bread, cake, chocolate, nourishment, diet, dishes, waiter, "
+"eatables, meal"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1335
+msgid "Flat"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1341
+msgid ""
+" corporate, business, consulting, agency, people, meeting, communal, "
+"working, workforce, office, material design"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1344
+msgid "Juice and Shakes"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1353
+msgid "Organic"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1359
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1602
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1611
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1692
+msgid ""
+" organic, farm fresh, vegetables, garden, nature, agriculture, agro food, "
+"spices, nutrition, herbal, greenery, environment, ecology, green, eco "
+"friendly, conservation, natural, gardening, landscaping, horticulture"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1362
+msgid "Bistro"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1371
+msgid "Yogi"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1380
+msgid "Design Agency"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1389
+msgid "Construction"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1398
+msgid "Toothy"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1404
+msgid ""
+" medical, dentist, hospital, ward, nurse, doctor, physician, health, mental, "
+"physical, dispensary, physiotheraphy, care, nursing, old age, senior living, "
+"dental, cardio, orthopaedic, bones, chiropractor"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1407
+msgid "IT Consultant"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1416
+msgid "Online Coach"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1425
+msgid "Pathway"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1434
+msgid "Black"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1443
+msgid "White"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1452
+msgid "Interior"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1458
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1701
+msgid ""
+" interior design, furnishing, cushions, flooring, roofing, house works, "
+"vase, flower, curtains, furniture, wallpaper, renovation, framing, modular, "
+"kitchen, wardrobe, cupboard, unit, TV, fridge, washing machine, home "
+"appliances, bedroom, sofa, couch, living room"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1461
+msgid "Simple"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1470
+msgid "Condimentum"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1479
+msgid "Makeup"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1485
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1494
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1557
+msgid ""
+" corporate, business, consulting, agency, people, meeting, communal, "
+"working, workforce, office, accounting, lawyer, coaching, advocate, advice, "
+"suggestion, therapy, mental wellness, attorney"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1488
+msgid "Attorney"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1497
+msgid "Poultry Farm"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1503
+msgid ""
+" organic, farm fresh, vegetables, garden, nature, agriculture, agro food, "
+"spices, nutrition, herbal, greenery, environment, ecology, green, eco "
+"friendly, conservation, natural, gardening, landscaping, horticulture, "
+"livestock, eggs, chicken, mutton, goat, sheep"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1515
+msgid "Luxury Hotel"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1521
+msgid ""
+" hotel, motel, oyo, resort, vacation, family, trip, travel, b&b, holiday, "
+"lodge, accommodation, inn, guest house, hostel, boarding, service apartment, "
+"auberge, boatel, pension, bed and breakfast, tavern, dump, lodging, "
+"hospitality"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1524
+msgid "Wedding"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1530
+msgid ""
+" wedding, engagement, nuptials, matrimony, ring, ceremony, ritual, vows, "
+"anniversary, celebration, videography, photography, rites, union, big day, "
+"knot, aisle, wive, husband, wife, esposo, esposa, hitched, plunged"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1542
+msgid "Nature"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1551
+msgid "eBook"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1560
+msgid "Product Launch"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1569
+msgid "Spa"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1578
+msgid "Store"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1584
+msgid ""
+" corporate, business, consulting, agency, people, meeting, communal, "
+"working, workforce, office, accounting, lawyer, coaching, advocate, advice, "
+"suggestion, therapy, mental wellness, store, shop"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1587
+msgid "High Tech"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1593
+msgid ""
+" technology, computer, repair, laptop, mobile, phone, digital, online "
+"services, help, desktop, mac, windows, apple, iPhone, android, electronic, "
+"tablet, maintenance, software, antivirus, IT solutions, training, consulting"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1596
+msgid "Junk Removal"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1605
+msgid "Pet"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1614
+msgid "Agency"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1623
+msgid "Yoga"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1632
+msgid "Local Business"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1641
+msgid "Fashion"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1647
+msgid ""
+" corporate, business, consulting, agency, people, meeting, communal, "
+"working, workforce, office, accounting, lawyer, coaching, advocate, advice, "
+"suggestion, therapy, mental wellness, fashion, model, modelling"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1650
+msgid "Chocolate"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1659
+msgid "IceCream"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1665
+msgid ""
+" coffee, caffeine, tea, drink, milk, hot, brewery, cappuccino, espresso, "
+"brew, java, mocha, decaf, juice, shakes, ice cream, yogurt"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1668
+msgid "Catering"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1677
+msgid "Plumbing"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1683
+msgid ""
+" plumber, electrician, carpenter, craftsman, workshop, garage, painter, "
+"renovation, decoration, maid service, cleaning, mechanic, construction, "
+"installation, contractor, home remodeling, building, plastering, "
+"partitioning, celings, roofing, architecture, interior work, engineering, "
+"welding, refurbishment, spare parts, manufacturing, plumbing, fabrication, "
+"handyman, painting, production, worker, fabrication, welder, smithy, "
+"automation, machine, mechanized"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1686
+msgid "Recycle"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1695
+msgid "Pottery"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1704
+msgid "Actor"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1710
+msgid ""
+" actor, movie, tv shows, actress, model, instagram, fan, following, shows, "
+"events, singing, dancing, birthdays, personal, online presence, resume, "
+"profile, portfolio"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1713
+msgid "Marketing Agency"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1719
+msgid ""
+" marketing-agency, agency, online, digital, consulting, corporate, business, "
+"small business, b2b, b2c, financial, investment, portfolio, management, "
+"discussion, advice, solicitor, lawyer, attorney, legal, help, SEO, SMO, "
+"social"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1722
+msgid "Befit"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1728
+msgid ""
+" befit, health, fitness, coach, well-being, good physical condition, "
+"healthiness, fitness, physical fitness, haleness, good trim, good shape, "
+"fine fettle, good kilter, robustness, strength, vigour, soundness, "
+"discipline, yoga, meditation, reiki, healing, weight loss, pilates, "
+"stretching, relaxation, workout, mental, gymnasium, theater, action, arena, "
+"gymnastics, exercise, health club, fitness room, health spa, work out, "
+"weight room, working out, sports hall, welfare centre, fitness club, "
+"wellness area, workout room, spa, high school, sport club, athletic club, "
+"fitness studio, health farm, establishment, gym membership, junior high, "
+"sports club, health-care centre, exercise room, training room, fitness "
+"suite, health centre, beauty centre, my gym, country club, fite, gym class, "
+"medical clinic, med centre, free clinic, medical facilities, dispensary, "
+"health posts, healing center, health care facility, medical station, health "
+"care establishment, health establishment, medical establishment, centre de "
+"santé, medical centres, medical, hospital, polyclinic, healthcare "
+"facilities, treatment centre, medical institutions, health care institution, "
+"health units"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1731
+msgid "Cyber Security"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1737
+msgid ""
+" cybersecurity, safety, security, biosafety, information security, computer "
+"based, computer security, biosecurity, information technology, it security, "
+"safety-related, electronic security, ict security, internet safety, cyber-"
+"safety, security concerns, logical security, information safety, data "
+"security, security information, cyber security task force, security matters, "
+"safety issues, electronic information security, firewall, defending data, "
+"electronic systems, mobile devices, defending networks, defending servers, "
+"security, cyber risk, preventative methods, protection, cyber attack, "
+"safety, cyber crime, informatics, consulting, safety measures"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1740
+msgid "Marathon"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1746
+msgid ""
+" marathon, athletic, sporting, sportswomen, gymnastics, sportsmen, physical "
+"activity, enjoyment, games, disport, entertainment, physical exercise, "
+"working out, amusement, sport, fun, sports news, fitness, sporting events, "
+"workout, physical training, physical education, pastimes, plays, amusements, "
+"athletes, sportspeople, competitive game, sports wear, sporty, exercising, "
+"races, cycling, golf, hobbies, track pants, sports activities, outdoor "
+"sport, fairground, sporting activity, sports news, sports update, sporting "
+"events, gymnastic exercises, physical recreation, aerobics, workout, "
+"football, physical jerks, informal, active lifestyle"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1749
+msgid "Healing Touch"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1755
+msgid ""
+" healing touch, healingtouch, meditative practice, yogic, ideology, health, "
+"pilates, meditative exercise, yogism, setting-up exercises, relaxation, "
+"stretching, stretch, yodel, hot yoga chick, body-bending exercise, yogeeism, "
+"exercising, mystery, kundalini, yoga class, yogi, relaxing, yoga classes, "
+"eastern discipline, church, philosophical ascetic practice, type of "
+"exercise, health system, practice, workout, yoga teachers, physical "
+"education, fitness, yoga studio, teaching yoga, acupuncture, ayurveda, "
+"yogis, reiki, homeopathy, physical exercise, philosophy, body, exercise, "
+"spiritual discipline, ascetic discipline, hinduism, theism, mental "
+"exercises, fitness, shape, strength, fun, inspiration, pleasure, "
+"refreshment, rubbing, doctor, body massage, eye massage, facial, "
+"acupressure, massage therapist, reinstatement, curative, therapeutic, heal, "
+"remedial, soothing, medicinal, curing, restorative, sanative, alterative, "
+"ointment, get better, recovery, repair, remedy, be cured, cured, get well, "
+"overhaul, treat, healed, recover, health-giving, tonic, remedial, assuage, "
+"recuperation, recovery, return, salutary, getting well, rehabilitation, "
+"pharmaceutical, drug, remedial, calming, reconcile, improvement, organism, "
+"health, easing, relieve, treatment, recovery, aid, peace, convalescent"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1758
+msgid "Secure"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1764
+msgid ""
+" secure, safety, security, biosafety, information security, computer based, "
+"computer security, biosecurity, information technology, it security, safety-"
+"related, electronic security, ict security, internet safety, cyber-safety, "
+"security concerns, logical security, information safety, data security, "
+"security information, cyber security task force, security matters, safety "
+"issues, electronic information security, firewall, defending data, "
+"electronic systems, mobile devices, defending networks, defending servers, "
+"security, cyber risk, preventative methods, protection, cyber attack, "
+"safety, cyber crime, informatics, consulting, safety measures, insurance, "
+"protection, certainty, confidence, welfare, safeguards, safeguarding, "
+"protected, safety, spread, ensure security, defence, secured, preservation, "
+"protection, bodyguard, guard"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1767
+msgid "Home Decor"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1773
+msgid ""
+" homedecor, interior designs, designs, kitchen appliances, Whole Home "
+"Makeovers, Crowdsourcing Platform, Furniture Re-Upholsterer, E-decorating "
+"Service, Home Window Dresser, Resale Sites, Home Accessories Decorator, "
+"Designer Rooms, Eco-Friendly Home Decor Services, Makers And Manufacturers, "
+"home decor, interior construction, home decorating, decoration, decor, "
+"furnishing articles, interior equipment, internal design, interior set-up, "
+"interior fit-out, remodeling, overhaul, improvement, reconstruction, "
+"betterment, modernization, redo, new look, refashion, redecoration, repair, "
+"revamp, restore, rehabilitation, retreading, refitting, renovation, retouch"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1776
+msgid "Laptop Repair"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1782
+msgid ""
+" laptop-repair, laptoprepair, help, helper, helpmate, home security system, "
+"hot tub, spa, lamp repair, handyman, landscaping, lawncare, lockset "
+"adjustment, maid service, molding installation, moving, paint removal, "
+"painting, patio stone installation, pest control, plumbing repair, porch, "
+"remodeling basement, remodeling bathroom, remodeling kitchen, roofing, "
+"safety modification, sealing driveway, senior living modification, septic "
+"system repair, shelf installation, shelving, skylight installation, "
+"soundproofing, sprinkler repair, sprinkler system installation, stain "
+"removal, staining furniture, stone work, storage area construction, storage "
+"area repair, swapping a toilet, swimming pool maintenance, tiling, trash "
+"removal, wall building, water purification, water softening, window "
+"cleaning, welding, window installation, window repair, window screen, duty, "
+"work, waste removal, welder, repair, adjustment, improvment, overhaul, "
+"reconstruction, rehabilitation, maintenance, welding service, alteration, "
+"remaking, resetting"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1785
+msgid "Maintenance Services"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1791
+msgid ""
+" maintenance services, support, sustenance, retention, servicing, service, "
+"maintained, allowance, repair, nourishment, preserving, control, updating, "
+"perpetuation, spread, care, storage, existence, care, keep a record, "
+"retirement, up keep, updated, superannuation, maintainance, pensionable, "
+"holding, industries, commercial, trade union, Clothing, Textiles, Petroleum, "
+"Chemicals, plastics, Computers, Transportation, Food Production, Metal "
+"Manufacturing, Wood, Leather, Paper, municipal, industrially, industrialist, "
+"metropolitan, employment, occupational, fabric, mechanical, trade, "
+"urbanized, heavy-duty, manufacturing, trades union, industry-wide, sectoral, "
+"mining, work-related, engineering industry, citywide, workplace, "
+"industrialization, gene industry, mining, capital goods industry, genetic "
+"engineering industry, manufacturing, electrical industries, electronics "
+"industry, electrical engineering industry, electrical industry, machine "
+"industry, mechanical design, construction of machines, manufacture of "
+"machinery, machinery building, vending machines, engineered, machine "
+"engineering, mechanical engineer, construction, earth-moving machinery"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1794
+msgid "Hvac"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1800
+msgid ""
+" clean, wash, cleanse, wipe, sponge, scrub, mop, rinse, scour, swab, hose "
+"down, sanitize, sanitization, disinfect, disinfection, cleaning, "
+"decontaminate, antiseptic, sanitary, janitor, lean, wipe, freshen, purify, "
+"cleanse, deodorize, deodrant, depurate, wash, depollute, hygiene, residue, "
+"sterilise, sterilize, napkin"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1803
+msgid "Teethy"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1809
+msgid ""
+" teeth, tooth, mouth, denticulation, health, wellness, dental, fangs, "
+"toothed, gear, bite, jaws, power, clout, set of teeth, denture, fang, "
+"biting, toothing, toothache, prongs, tusk, braces, jaw bone, armed to the "
+"teeth, tooth arrangement, orthodontist, dental surgeon, tooth doctor, "
+"hygienist, dental practitioner, periodontist, dentistry, medical doctor, "
+"dental clinic, stomatologist, exodontist, odontologist, root canal, dental "
+"hygienist, dental practice, oral surgeon, dental work, medical officer, "
+"dental school, scientist, prosthodontics, appointment, pediatrician, dentist "
+"appointment, therapist, psychiatrist, teeth cleaning, toothache, dental "
+"records, dental office, dental care, dental implants, root canal treatment"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1812
+msgid "Clean"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1818
+msgid ""
+" neat, fair, easy, simple, one page, fresh, tidy, purify, minimum "
+"functionality, minimalist, good, straight forward, wholesome, good looking, "
+"trendy"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1821
+msgid "Donation"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1827
+msgid ""
+" contribution, fund, grant, gift, reward, prize, offering, endowment, "
+"charity, payment, handout, subsidy, favor, funding, giving, show, donate, "
+"allowance, award, arrangement, gratuity, lump, largesse, generosity, "
+"presentation, donating, aid, liberality, bestowal, provision, grant, "
+"bequest, boon, donorship, donate, pledge, subscription, donations, "
+"philanthropy, subsidies, help, beneficence, increase, relief, investment, "
+"delivery, show, assistance, supply, support, non-profit organization, NGOs, "
+"charity, perquisite, concession, endowment, boon, allotment, scholarship"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1830
+msgid "Laundry"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1836
+msgid ""
+" laundry, ironing, shower, laundromat, washhouse, furnace, laundrette, "
+"clean, clothes, costume, attire, wear, garment, laundering, washer, "
+"laundress, cleanness, dirty linen, brush, dress, launderer, washing machine, "
+"washing powder, outfit, utility room, rinse, wash up, drycleaner, laundry "
+"soap, filthy clothes, lavage, soaking, bath, dry-cleaned, wash clothes, "
+"dirty laundry, washables"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1839
+msgid "Funeral"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1845
+msgid ""
+" funeral, entombment, inhumation, sepulture, cremation, memorial service, "
+"committal, funeral service, exequies, mortuary, mournful, memorial, funeral "
+"procession, funeral arrangements, last rites, funeral rites, rite, dismal, "
+"sad, mournful, funeral rite, burial service, grave, vigil, burried, "
+"ceremony, worry, concern, funeral parlor, sepulchral, mortician, ceremonial "
+"occasion, eulogy, being buried, mourners, wakes, observance, landfill, "
+"undertaker, underground, last offices"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1848
+msgid "Yacht And Cruise"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1854
+msgid ""
+" sail, boat, sailing, cruiser, boating, ship, voyage, coast, sails, go "
+"sailing, ferry, cruise ship, navigate, sailed, traverse, travel, tour, "
+"drift, trip, boat trip, traveling, drive, trip, voyage, roam, journey, "
+"wander, explore, hiking, road, walking, roadshow, watershow, bookings, "
+"reservations, hotels, real estate"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1900
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:38
+msgid "Elementor Templates"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:1905
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:39
+msgid "Gutenberg Templates"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:2047
+msgid "Install and activate"
+msgstr ""
+
+#: vendor/websites/templates-directory/class-page-templates-directory.php:2058
+msgid "Activate"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:67
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:89
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:111
+msgid "More Details"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:77
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:99
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:122
+msgid "Preview"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:141
+msgid "Close"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:144
+msgid "Previous"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:146
+msgid "Next"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:151
+msgid "Import"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:154
+msgid "Gutenberg Import"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:189
+msgid ""
+"Use this layout for your business or personal website. Just click on the "
+"import to start using this template for your next website. All the blocks as "
+"shown with images will appear on your edit area."
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:190
+msgid "Buy All Themes"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:190
+msgid ""
+" (300+ templates) for just $99. Features include inner pages, page/post "
+"layouts, header/footer layouts, site layout, color/font options and 1 year "
+"unlimited support."
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:195
+msgid "Required Plugins"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:225
+msgid "Collapse"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:230
+msgid "Enter desktop preview mode"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:233
+msgid "Enter tablet preview mode"
+msgstr ""
+
+#: vendor/websites/templates-directory/views/template-directory-page-tpl.php:236
+msgid "Enter mobile preview mode"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.sktthemes.org/shop/ready-to-import-wordpress-sites/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"SKT Templates is an Elementor and Gutenberg themes library and allows you to "
+"select from over 100s of designs to choose from. All you need to do is view "
+"the demo and then select import and install. It takes care of the importing "
+"and allows you to edit the template from within your dashboard. It works "
+"with any popular theme or you can choose to use any theme from our <a href="
+"\"https://www.sktthemes.org/product-category/free-wordpress-themes/\" rel="
+"\"nofollow ugc\">SKT Themes free.</a> These templates allow you to import "
+"them into your existing website and edit them and use them to build "
+"professional websites. Importing a single page template is very easy and you "
+"can do it on your existing WordPress website as well."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SKT Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.sktthemes.org"
+msgstr ""

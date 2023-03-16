@@ -1,0 +1,8 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">blossom-portfolio</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">blossom_portfolio_categories</taxonomy>
+  </taxonomies>
+</wpml-config>

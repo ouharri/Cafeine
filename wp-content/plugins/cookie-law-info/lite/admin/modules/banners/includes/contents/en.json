@@ -1,0 +1,202 @@
+{
+    "gdpr": {
+        "notice": {
+            "elements": {
+                "title": "We value your privacy",
+                "description": "<p>We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.</p>",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Accept All",
+                        "reject": "Reject All",
+                        "settings": "Customize",
+                        "readMore": "Cookie Policy",
+                        "donotSell": "Do Not Sell or Share My Personal Information"
+                    }
+                },
+                "closeButton": "Close"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Save My Preferences"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Customize Consent Preferences",
+                "description": "<p>We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.</p><p>The cookies that are categorized as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. </p><p>We also use third-party cookies that help us analyze how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent.</p><p>You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.</p>",
+                "showMore": "Show more",
+                "showLess": "Show less",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Always Active",
+                        "enable": "Enable",
+                        "disable": "Disable"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Accept All",
+                        "save": "Save My Preferences",
+                        "reject": "Reject All"
+                    }
+                },
+                "closeButton": "Close"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Opt-out Preferences",
+                "description": "<p>We use third-party cookies that help us analyze how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. However, you can opt out of these cookies by checking \"Do Not Sell or Share My Personal Information\" and clicking the \"Save My Preferences\" button. Once you opt out, you can opt in again at any time by unchecking \"Do Not Sell or Share My Personal Information\" and clicking the \"Save My Preferences\" button.</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "Do Not Sell or Share My Personal Information",
+                        "enable": "Enable",
+                        "disable": "Disable"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>Your opt-out settings for this website have been respected since we deteted a <b>Gobal Privacy Control</b> signal from your browser and, therefore, you cannot change this setting.</p>"
+                    }
+                },
+                "showLess": "Show less",
+                "showMore": "Show more",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Cancel",
+                        "confirm": "Save My Preferences"
+                    }
+                },
+                "closeButton": "Close"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Cookie Settings"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Cookie",
+                        "duration": "Duration",
+                        "description": "Description"
+                    }
+                },
+                "message": "No cookies to display."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Please accept cookies to access this content"
+            }
+        }
+    },
+    "ccpa": {
+        "notice": {
+            "elements": {
+                "title": "We value your privacy",
+                "description": "This website or its third-party tools process personal data. You can opt out of the sale of your personal information by clicking on the \"Do Not Sell or Share My Personal Information\" link.",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Accept All",
+                        "reject": "Reject All",
+                        "settings": "Customize",
+                        "readMore": "Cookie Policy",
+                        "donotSell": "Do Not Sell or Share My Personal Information"
+                    }
+                },
+                "closeButton": "Close"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Save My Preferences"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Customize Consent Preferences",
+                "description": "<p>We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.</p><p>The cookies that are categorized as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. </p><p>We also use third-party cookies that help us analyze how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent.</p><p>You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.</p>",
+                "showMore": "Show more",
+                "showLess": "Show less",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Always Active",
+                        "enable": "Enable",
+                        "disable": "Disable"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Accept All",
+                        "save": "Save My Preferences",
+                        "reject": "Reject All"
+                    }
+                },
+                "closeButton": "Close"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Opt-out Preferences",
+                "description": "<p>We use third-party cookies that help us analyze how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. However, you can opt out of these cookies by checking \"Do Not Sell or Share My Personal Information\" and clicking the \"Save My Preferences\" button. Once you opt out, you can opt in again at any time by unchecking \"Do Not Sell or Share My Personal Information\" and clicking the \"Save My Preferences\" button.</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "Do Not Sell or Share My Personal Information",
+                        "enable": "Enable",
+                        "disable": "Disable"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>Your opt-out settings for this website have been respected since we deteted a <b>Gobal Privacy Control</b> signal from your browser and, therefore, you cannot change this setting.</p>"
+                    }
+                },
+                "showLess": "Show less",
+                "showMore": "Show more",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Cancel",
+                        "confirm": "Save My Preferences"
+                    }
+                },
+                "closeButton": "Close"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Cookie Settings"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Cookie",
+                        "duration": "Duration",
+                        "description": "Description"
+                    }
+                },
+                "message": "No cookies to display."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Please accept cookies to access this content"
+            }
+        }
+    }
+}

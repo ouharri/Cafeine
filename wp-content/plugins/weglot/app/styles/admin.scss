@@ -1,0 +1,510 @@
+@import "_colors.scss";
+@import "selectize.css";
+
+$wp-color-red: #dc3232; // RGB(220,50,50)
+$wp-color-green: #46b450; // RGB(70, 180, 80)
+
+#custom_flag_tips{
+	font-size: 12px;
+}
+
+#weglot-url-translate,
+#wrap-weglot {
+	/* Code Editor */
+	.CodeMirror-placeholder {
+		color: #c0c0c0;
+	}
+
+	.CodeMirror-wrap {
+		border-radius: 4px;
+		border: 1px solid #c0c0c0;
+		width: 100%;
+		max-width: 550px;
+		height: 200px;
+	}
+	/* End Code Editor */
+
+	.weglot__choice__language {
+		border-bottom: 1px solid #eee;
+		margin: 5px 0;
+
+		&--local {
+			border-width: 50px;
+			color: #a6a6a6;
+			display: block;
+		}
+	}
+
+	p.weglot-keyres {
+		font-style: italic;
+		color: #ff6464;
+	}
+
+	.weglot_text_error {
+		color: $wp-color-red;
+	}
+
+	.weglot_reset {
+		text-decoration: underline;
+		font-style: italic;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	.btn {
+		background: $primary;
+		display: inline-block;
+		padding: 8px 10px;
+		border-radius: 4px;
+		transition: 0.2s background linear, 0.2s color linear,
+			0.2s border linear, 0.2s text-shadow linear;
+		outline: 0;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+		font-weight: 700;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		box-shadow: none;
+		white-space: nowrap;
+		color: white;
+		border: 1px solid $primary;
+
+		&.btn-soft {
+			background-color: #fff;
+			color: $textColor;
+			border-radius: 4px;
+			border: 1px solid #7e8993;
+			line-height: 1.4em;
+
+			&.disable-btn{
+				background: #eaeaea;
+				opacity: 0.8;
+			}
+		}
+
+		&.btn-primary {
+			&:active,
+			&:focus,
+			&:hover {
+				border-color: $primaryHover;
+				background-color: $primaryHover;
+			}
+		}
+	}
+
+	.js-btn-remove {
+		border: none;
+		background-color: #e35b5b;
+		color: #fff;
+		display: inline-block;
+		width: 22px;
+		height: 22px;
+		border-radius: 50%;
+		cursor: pointer;
+		transform: translateY(-5%);
+		transition: opacity 175ms linear;
+		outline: 0;
+		padding: 0;
+		margin: 4px 0;
+		vertical-align: middle;
+
+		&:hover {
+			background-color: #c62d2d;
+		}
+	}
+
+	.item-exclude {
+		position: relative;
+		margin-bottom: 10px;
+	}
+
+	&::-webkit-input-placeholder,
+	&:-moz-placeholder,
+	&::-moz-placeholder,
+	&:-ms-input-placeholder {
+		color: #c0c0c0;
+	}
+
+	.sub-label {
+		font-size: 13px;
+		font-weight: normal;
+		margin: 2px 0 0;
+		color: #444;
+		opacity: 0.8;
+	}
+
+	.weglot-select-original {
+		height: 36px !important;
+		margin: 0;
+	}
+
+	.original-select,
+	#type_flags {
+		padding: 8px;
+		height: 36px !important;
+		width: 300px;
+	}
+
+	#type_flags {
+		width: 150px;
+	}
+
+	.selectize-control.multi .selectize-input {
+		border: 1px solid #7e8993;
+		border-radius: 4px;
+		box-shadow: unset;
+
+		& > div {
+			background-color: #eff0ff;
+			border: 1px solid #7e8993;
+			border-radius: 2px;
+
+			.remove {
+				border-left-color: #7e8993;
+			}
+		}
+	}
+
+	.wg-input-textarea {
+		padding: 8px;
+
+		&::placeholder {
+			color: #c0c0c0;
+		}
+	}
+
+	.weglot-select.weglot-select-original,
+	input[type="text"],
+	textarea,
+	select,
+	#type_flags {
+		padding: 0 8px;
+		border-radius: 4px;
+		border: 1px solid #7e8993;
+
+		&:focus {
+			border-color: $primaryHover !important;
+			box-shadow: none !important;
+		}
+	}
+
+	.weglot-info {
+		position: relative;
+		color: #3741cc;
+		font-weight: bold;
+
+		&:hover {
+			.wg-tooltip {
+				line-height: 1.4;
+				position: absolute;
+				top: 27px;
+				display: block !important;
+				background-color: #24292d;
+				width: 160px;
+				padding: 10px;
+				color: white;
+				font-weight: normal;
+				border: 1px solid #e0e0e0;
+				font-size: 12px;
+			}
+		}
+	}
+
+	.weglot-box-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: flex;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.85);
+		z-index: 9999;
+		justify-content: center;
+		align-items: center;
+
+		.weglot-box {
+			background-color: #fff;
+			padding: 25px;
+			text-align: center;
+			-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+			-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+			box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+			&--title {
+				font-size: 24px;
+				line-height: 1.3;
+			}
+
+			&--text {
+				font-size: 18px;
+			}
+
+			&--subtext {
+				font-size: 12px;
+				font-style: italic;
+			}
+		}
+
+		.weglot-btn-close {
+			float: right;
+			cursor: pointer;
+		}
+	}
+
+	.flag-style-openclose {
+		display: inline-block;
+		font-size: 12px;
+		text-decoration: underline;
+		cursor: default;
+		margin: 12px 15px 0 10px;
+		color: $wp-color-green;
+
+		&:hover {
+			color: #399648;
+			cursor: pointer;
+		}
+	}
+
+	.flag-style-wrapper {
+		padding: 15px 0px;
+
+		p {
+			font-size: 12px !important;
+		}
+
+		select {
+			font-size: 12px;
+			margin: 0 2px 6px 0;
+			padding: 0 26px 0 8px;
+		}
+	}
+
+	#private_mode {
+		+ p + div {
+			display: none;
+		}
+
+		&:checked + p + div {
+			display: block;
+		}
+	}
+
+	#private-mode-detail {
+		margin-top: 20px;
+
+		.private-mode-detail-lang {
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+			margin-left: 25px;
+
+			input[type="checkbox"] {
+				margin-top: -1px;
+			}
+		}
+	}
+}
+
+#wrap-weglot {
+	display: flex;
+	margin-left: 15px;
+
+	.wrap {
+		flex: 4;
+	}
+
+	input[type="text"]:not(#destination_language-selectized),
+	input[type="url"] {
+		padding: 0 8px;
+		height: 36px;
+	}
+
+	select {
+		height: 36px;
+		vertical-align: top;
+		border-radius: 4px;
+		padding: 0 26px 0 8px;
+	}
+
+	input[type="checkbox"] {
+		margin-top: -4px;
+	}
+
+	.weglot-ckeckkey:before {
+		content: "↻";
+		display: inline-block;
+		color: #666;
+		padding: 0 6px 0 0;
+		font-size: 16px;
+		padding: 0 10px;
+		line-height: 1em;
+		-webkit-animation: spin 2s infinite linear;
+	}
+	@-webkit-keyframes spin {
+		0%  {-webkit-transform: rotate(0deg);}
+		100% {-webkit-transform: rotate(360deg);}
+	}
+
+	.weglot-nokkey:before {
+		content: "\274C";
+		display: inline-block;
+		color: $wp-color-red;
+		padding: 0 6px 0 0;
+		font-size: 15px;
+		padding: 0 10px;
+	}
+
+	.weglot-okkey:before {
+		content: "\2713";
+		display: inline-block;
+		color: $wp-color-green;
+		padding: 0 10px;
+		font-size: 20px;
+		font-weight: bold;
+		padding: 0 10px;
+	}
+
+	.weglot-infobox {
+		flex: 2;
+		align-self: start;
+		margin: 10px 20px 0 2px;
+		background-color: white;
+		border: 1px solid #e0e0e0;
+		border-radius: 12px;
+		overflow: hidden;
+
+		h3 {
+			color: rgb(24, 22, 76);
+			background-color: white;
+			padding: 30px 30px 0 30px;
+			margin: 0px;
+			font-size: 23px;
+			line-height: 1.3;
+		}
+
+		div {
+			padding: 15px 30px 30px 30px;
+		}
+
+		.weglot-editbtn {
+			box-shadow: 0 2px 4px 0 rgba(1, 1, 2, 0.05);
+			background-color: rgb(61, 70, 251);
+			color: #fff;
+			height: 45px;
+			border-radius: 23px;
+			line-height: 45px;
+			font-size: 14px !important;
+			text-decoration: none;
+			padding: 0 30px;
+			display: inline-block;
+			transition: all 0.2s ease-in;
+
+			&:hover {
+				color: white;
+				background: rgb(37, 46, 215);
+			}
+		}
+	}
+
+	input[type="text"],
+	.selectize-control,
+	.wg-input-textarea,
+	.weglot-select-original {
+		width: 100%;
+		max-width: 320px;
+	}
+
+	#submit {
+		height: 50px;
+		padding: 0 30px !important;
+		font-size: 16px;
+	}
+
+	.description {
+		display: inline;
+	}
+
+	.wg-tooltip {
+		position: absolute;
+		display: none;
+	}
+
+	#mainform {
+		margin-bottom: 50px;
+	}
+	.arrow-up {
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid #24292d;
+		position: absolute;
+		top: -10px;
+		left: 36px;
+	}
+
+	.question-icon {
+		font-size: 17px;
+	}
+
+	.form-table {
+		margin-bottom: 50px;
+	}
+
+	.country-selector {
+		z-index: 1 !important;
+	}
+}
+
+#weglot-url-translate {
+	.weglot_custom_url {
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+
+		a {
+			margin: 5px 0px;
+			display: inline-block;
+		}
+
+		&--text_link {
+			margin-bottom: 4px;
+		}
+
+		.weglot_custom_url--text_link {
+			input[type="text"] {
+				min-height: 24px !important;
+				height: 24px;
+			}
+
+			button {
+				margin-top: -2px;
+				font-size: 11px;
+				padding: 0 8px;
+
+				&.button-weglot-lang {
+					.dashicons {
+						font-size: 14px;
+						line-height: 21px;
+						margin-right: -3px;
+						margin-left: -4px;
+					}
+				}
+			}
+		}
+
+		a.weglot_reset {
+			text-decoration: none;
+
+			&:link,
+			&:visited,
+			&:hover,
+			&:active {
+				text-decoration: none;
+			}
+		}
+	}
+}

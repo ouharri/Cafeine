@@ -1,0 +1,20 @@
+{
+  "name": "weglot/translation-definitions",
+  "type": "library",
+  "description": "Weglot's shared definitions",
+  "license": "MIT",
+  "require": {
+    "php": ">=5"
+  },
+  "authors": [
+    {
+      "name": "Mehdi Rejraji",
+      "email": "mehdi@weglot.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "index.php"
+    ]
+  }
+}

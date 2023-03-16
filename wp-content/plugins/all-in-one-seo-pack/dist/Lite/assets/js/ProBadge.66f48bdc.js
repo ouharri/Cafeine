@@ -1,0 +1,1 @@
+import{n as r}from"./_plugin-vue2_normalizer.61652a7c.js";const o={};var e=function(){var n=this,t=n._self._c;return t("div",{staticClass:"aioseo-pro-badge"},[n._t("default",function(){return[n._v(" PRO ")]})],2)},s=[],a=r(o,e,s,!1,null,null,null,null);const c=a.exports;export{c as C};

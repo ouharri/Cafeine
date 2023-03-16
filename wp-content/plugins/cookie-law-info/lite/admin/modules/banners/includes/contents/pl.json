@@ -1,0 +1,202 @@
+{
+    "gdpr": {
+        "notice": {
+            "elements": {
+                "title": "Cenimy prywatność użytkowników",
+                "description": "<p>Używamy plików cookie, aby poprawić jakość przeglądania, wyświetlać reklamy lub treści dostosowane do indywidualnych potrzeb użytkowników oraz analizować ruch na stronie. Kliknięcie przycisku „Akceptuj wszystkie” oznacza zgodę na wykorzystywanie przez nas plików cookie.</p>",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Akceptuj wszystko",
+                        "reject": "Odrzucać",
+                        "settings": "Dostosuj",
+                        "readMore": "Polityka Cookie",
+                        "donotSell": "Nie sprzedawaj i nie udostępniaj moich danych osobowych"
+                    }
+                },
+                "closeButton": "Blisko"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Zapisz moje preferencje"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Dostosuj preferencje dotyczące zgody",
+                "description": "<p>Używamy plików cookie, aby pomóc użytkownikom w sprawnej nawigacji i wykonywaniu określonych funkcji. Szczegółowe informacje na temat wszystkich plików cookie odpowiadających poszczególnym kategoriom zgody znajdują się poniżej.</p><p>Pliki cookie sklasyfikowane jako „niezbędne” są przechowywane w przeglądarce użytkownika, ponieważ są niezbędne do włączenia podstawowych funkcji witryny.</p><p>Korzystamy również z plików cookie innych firm, które pomagają nam analizować sposób korzystania ze strony przez użytkowników, a także przechowywać preferencje użytkownika oraz dostarczać mu istotnych dla niego treści i reklam. Tego typu pliki cookie będą przechowywane w przeglądarce tylko za uprzednią zgodą użytkownika.</p><p>Można włączyć lub wyłączyć niektóre lub wszystkie te pliki cookie, ale wyłączenie niektórych z nich może wpłynąć na jakość przeglądania.</p>",
+                "showMore": "Pokaż więcej",
+                "showLess": "Pokaż mniej",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Zawsze aktywne",
+                        "enable": "Włączyć",
+                        "disable": "Wyłączyć"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Akceptuj wszystko",
+                        "save": "Zapisz moje preferencje",
+                        "reject": "Odrzucać"
+                    }
+                },
+                "closeButton": "Blisko"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Preferencje rezygnacji",
+                "description": "<p>Korzystamy z plików typu „cookie” osób trzecich. Pomagają nam one w korzystaniu z tej witryny internetowej, przechowywaniu preferencji użytkownika i dostarczaniu mu odpowiednich treści oraz reklam. Z plików tych można jednak zrezygnować, zaznaczając opcję „Nie sprzedawaj i nie udostępniaj moich danych osobowych” oraz naciskając przycisk „Zapisz moje preferencje”. Po rezygnacji można ponownie włączyć pliki typu „cookie”, odznaczając opcję „Nie sprzedawaj i nie udostępniaj moich danych osobowych” oraz naciskając przycisk „Zapisz moje preferencje”.</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "Nie sprzedawaj i nie udostępniaj moich danych osobowych",
+                        "enable": "Włączyć",
+                        "disable": "Wyłączyć"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>Ustawienia rezygnacji użytkownika dla niniejszej witryny internetowej zostały zastosowane, ponieważ wykryliśmy sygnał globalnej kontroli prywatności z przeglądarki użytkownika. Z tego powodu użytkownik nie może zmienić przedmiotowego ustawienia.</p>"
+                    }
+                },
+                "showLess": "Pokaż mniej",
+                "showMore": "Pokaż więcej",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Anuluj",
+                        "confirm": "Zapisz moje preferencje"
+                    }
+                },
+                "closeButton": "Blisko"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Ustawienia plików cookie"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Plik cookie",
+                        "duration": "Czas trwania",
+                        "description": "Opis"
+                    }
+                },
+                "message": "Brak plików cookie do wyświetlenia."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Prosimy o zaakceptowanie zgody na pliki cookie"
+            }
+        }
+    },
+    "ccpa": {
+        "notice": {
+            "elements": {
+                "title": "Cenimy prywatność użytkowników",
+                "description": "Ta strona internetowa lub jej narzędzia stron trzecich przetwarzają dane osobowe. Możesz zrezygnować ze sprzedaży swoich danych osobowych, klikając łącze „Nie sprzedawaj i nie udostępniaj moich danych osobowych”.",
+                "privacyLink": "",
+                "buttons": {
+                    "elements": {
+                        "accept": "Akceptuj wszystko",
+                        "reject": "Odrzucać",
+                        "settings": "Dostosuj",
+                        "readMore": "Polityka Cookie",
+                        "donotSell": "Nie sprzedawaj i nie udostępniaj moich danych osobowych"
+                    }
+                },
+                "closeButton": "Blisko"
+            }
+        },
+        "categoryPreview": {
+            "elements": {
+                "buttons": {
+                    "elements": {
+                        "save": "Zapisz moje preferencje"
+                    }
+                }
+            }
+        },
+        "preferenceCenter": {
+            "elements": {
+                "title": "Dostosuj preferencje dotyczące zgody",
+                "description": "<p>Używamy plików cookie, aby pomóc użytkownikom w sprawnej nawigacji i wykonywaniu określonych funkcji. Szczegółowe informacje na temat wszystkich plików cookie odpowiadających poszczególnym kategoriom zgody znajdują się poniżej.</p><p>Pliki cookie sklasyfikowane jako „niezbędne” są przechowywane w przeglądarce użytkownika, ponieważ są niezbędne do włączenia podstawowych funkcji witryny.</p><p>Korzystamy również z plików cookie innych firm, które pomagają nam analizować sposób korzystania ze strony przez użytkowników, a także przechowywać preferencje użytkownika oraz dostarczać mu istotnych dla niego treści i reklam. Tego typu pliki cookie będą przechowywane w przeglądarce tylko za uprzednią zgodą użytkownika.</p><p>Można włączyć lub wyłączyć niektóre lub wszystkie te pliki cookie, ale wyłączenie niektórych z nich może wpłynąć na jakość przeglądania.</p>",
+                "showMore": "Pokaż więcej",
+                "showLess": "Pokaż mniej",
+                "category": {
+                    "elements": {
+                        "alwaysEnabled": "Zawsze aktywne",
+                        "enable": "Włączyć",
+                        "disable": "Wyłączyć"
+                    }
+                },
+                "buttons": {
+                    "elements": {
+                        "accept": "Akceptuj wszystko",
+                        "save": "Zapisz moje preferencje",
+                        "reject": "Odrzucać"
+                    }
+                },
+                "closeButton": "Blisko"
+            }
+        },
+        "optoutPopup": {
+            "elements": {
+                "title": "Preferencje rezygnacji",
+                "description": "<p>Korzystamy z plików typu „cookie” osób trzecich. Pomagają nam one w korzystaniu z tej witryny internetowej, przechowywaniu preferencji użytkownika i dostarczaniu mu odpowiednich treści oraz reklam. Z plików tych można jednak zrezygnować, zaznaczając opcję „Nie sprzedawaj i nie udostępniaj moich danych osobowych” oraz naciskając przycisk „Zapisz moje preferencje”. Po rezygnacji można ponownie włączyć pliki typu „cookie”, odznaczając opcję „Nie sprzedawaj i nie udostępniaj moich danych osobowych” oraz naciskając przycisk „Zapisz moje preferencje”.</p>",
+                "optOption": {
+                    "elements": {
+                        "title": "Nie sprzedawaj i nie udostępniaj moich danych osobowych",
+                        "enable": "Włączyć",
+                        "disable": "Wyłączyć"
+                    }
+                },
+                "gpcOption": {
+                    "elements": {
+                        "description": "<p>Ustawienia rezygnacji użytkownika dla niniejszej witryny internetowej zostały zastosowane, ponieważ wykryliśmy sygnał globalnej kontroli prywatności z przeglądarki użytkownika. Z tego powodu użytkownik nie może zmienić przedmiotowego ustawienia.</p>"
+                    }
+                },
+                "showLess": "Pokaż mniej",
+                "showMore": "Pokaż więcej",
+                "buttons": {
+                    "elements": {
+                        "cancel": "Anuluj",
+                        "confirm": "Zapisz moje preferencje"
+                    }
+                },
+                "closeButton": "Blisko"
+            }
+        },
+        "revisitConsent": {
+            "elements": {
+                "title": "Ustawienia plików cookie"
+            }
+        },
+        "auditTable": {
+            "elements": {
+                "headers": {
+                    "elements": {
+                        "id": "Plik cookie",
+                        "duration": "Czas trwania",
+                        "description": "Opis"
+                    }
+                },
+                "message": "Brak plików cookie do wyświetlenia."
+            }
+        },
+        "videoPlaceholder": {
+            "elements": {
+                "title": "Prosimy o zaakceptowanie zgody na pliki cookie"
+            }
+        }
+    }
+}
